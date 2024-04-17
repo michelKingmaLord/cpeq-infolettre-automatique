@@ -81,3 +81,4 @@ repos:
         entry: mypy
         language: system
         types: [python]
+exclude: 'tests/tests_data/.*'
