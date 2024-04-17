@@ -5,7 +5,7 @@
   "context": {
     "cookiecutter": {
       "package_name": "cpeq-infolettre-automatique",
-      "package_description": "Génération automatique d'infolettres<",
+      "package_description": "GÃ©nÃ©ration automatique d'infolettres<",
       "package_url": "https://github.com/Baseline-quebec/cpeq-infolettre-automatique",
       "author_name": "Jean-Samuel Leboeuf",
       "author_email": "jean-samuel.leboeuf@baseline.quebec",
