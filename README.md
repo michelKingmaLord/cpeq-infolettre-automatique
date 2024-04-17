@@ -82,4 +82,4 @@ The following development environments are supported:
 </details>
 
 
-Salut
+Pas Salut
