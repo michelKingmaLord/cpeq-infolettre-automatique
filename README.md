@@ -1,40 +1,47 @@
 [![Open in Dev Containers](https://img.shields.io/static/v1?label=Dev%20Containers&message=Open&color=blue&logo=visualstudiocode)](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Baseline-quebec/cpeq-infolettre-automatique)
 
-# cpeq-infolettre-automatique
+# Automatic newsletter generation
 
-Génération automatique d'infolettres<
+## Description
 
-## Using
+## Requirements
 
-_Python package_: to add and install this package as a dependency of your project, run `poetry add cpeq-infolettre-automatique`.
+This project requires Python, [Poetry](https://python-poetry.org/docs/#installing-with-the-official-installer) and/or Docker ([Docker Desktop](https://www.docker.com/products/docker-desktop/) for Windows users) to be installed.
 
-_Python application_: to serve this REST API, run `docker compose up app` and open [localhost:8000](http://localhost:8000) in your browser. Within the Dev Container, this is equivalent to running `poe api`.
+## Usage
+
+### Container app
+
+To use the application as a container app, run `docker compose up app` and open [localhost:8000](http://localhost:8000) in your browser.
+
+### Bare metal app
+
+If not already done, install the package by running in the terminal `poetry install`.
+
+Then run `poe api` in the terminal. The API will be available at [localhost:8000](http://localhost:8000).
+
 
 ## Contributing
 
-<details>
-<summary>Prerequisites</summary>
+### Prerequisites
 
 <details>
 <summary>1. Set up Git to use SSH</summary>
 
 1. [Generate an SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent#generating-a-new-ssh-key) and [add the SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
-1. Configure SSH to automatically load your SSH keys:
-    ```sh
-    cat << EOF >> ~/.ssh/config
-    Host *
-      AddKeysToAgent yes
-      IgnoreUnknown UseKeychain
-      UseKeychain yes
-    EOF
-    ```
-
+1. Configure SSH to automatically load your SSH keys. Add the following at the end of your `.ssh/config` file:
+```
+Host *
+    AddKeysToAgent yes
+    IgnoreUnknown UseKeychain
+    UseKeychain yes
+```
 </details>
 
 <details>
 <summary>2. Install Docker</summary>
 
-1. [Install Docker Desktop](https://www.docker.com/get-started).
+[Install Docker Desktop](https://www.docker.com/get-started).
     - Enable _Use Docker Compose V2_ in Docker Desktop's preferences window.
     - _Linux only_:
         - Export your user's user id and group id so that [files created in the Dev Container are owned by your user](https://github.com/moby/moby/issues/3206):
@@ -48,19 +55,18 @@ _Python application_: to serve this REST API, run `docker compose up app` and op
 </details>
 
 <details>
-<summary>3. Install VS Code or PyCharm</summary>
+<summary>3. Install VS Code</summary>
 
-1. [Install VS Code](https://code.visualstudio.com/) and [VS Code's Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers). Alternatively, install [PyCharm](https://www.jetbrains.com/pycharm/download/).
-2. _Optional:_ install a [Nerd Font](https://www.nerdfonts.com/font-downloads) such as [FiraCode Nerd Font](https://github.com/ryanoasis/nerd-fonts/tree/master/patched-fonts/FiraCode) and [configure VS Code](https://github.com/tonsky/FiraCode/wiki/VS-Code-Instructions) or [configure PyCharm](https://github.com/tonsky/FiraCode/wiki/Intellij-products-instructions) to use it.
-
+[Install VS Code](https://code.visualstudio.com/) and [VS Code's Dev Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers).
 </details>
 
-</details>
 
-<details open>
-<summary>Development environments</summary>
+### Development environments
 
-The following development environments are supported:
+<details>
+<summary>Dev container environments</summary>
+
+You can develop "remotely" inside a container using one of the following development environments:
 
 1. ⭐️ _GitHub Codespaces_: click on _Code_ and select _Create codespace_ to start a Dev Container with [GitHub Codespaces](https://github.com/features/codespaces).
 1. ⭐️ _Dev Container (with container volume)_: click on [Open in Dev Containers](https://vscode.dev/redirect?url=vscode://ms-vscode-remote.remote-containers/cloneInVolume?url=https://github.com/Baseline-quebec/cpeq-infolettre-automatique) to clone this repository in a container volume and create a Dev Container with VS Code.
@@ -71,15 +77,70 @@ The following development environments are supported:
 </details>
 
 <details>
-<summary>Developing</summary>
+<summary>Local development</summary>
 
-- This project follows the [Conventional Commits](https://www.conventionalcommits.org/) standard to automate [Semantic Versioning](https://semver.org/) and [Keep A Changelog](https://keepachangelog.com/) with [Commitizen](https://github.com/commitizen-tools/commitizen).
-- Run `poe` from within the development environment to print a list of [Poe the Poet](https://github.com/nat-n/poethepoet) tasks available to run on this project.
-- Run `poetry add {package}` from within the development environment to install a run time dependency and add it to `pyproject.toml` and `poetry.lock`. Add `--group test` or `--group dev` to install a CI or development dependency, respectively.
-- Run `poetry update` from within the development environment to upgrade all dependencies to the latest versions allowed by `pyproject.toml`.
-- Run `cz bump` to bump the package's version, update the `CHANGELOG.md`, and create a git tag.
+To develop locally, you'll have to install manually some tools.
+First, initialize a virtual environment for the project with
+```poetry shell```
+and then install the dependencies and the project with
+```poetry install```
 
 </details>
 
 
-Pas Salut
+### Development tools
+
+- _commitizen_: This project follows the [Conventional Commits](https://www.conventionalcommits.org/) standard to automate [Semantic Versioning](https://semver.org/) and [Keep A Changelog](https://keepachangelog.com/) with [Commitizen](https://github.com/commitizen-tools/commitizen).
+
+- _pre-commit_: This project uses pre-commit hooks that enforces the submitted code to respect conventions and high quality standards.
+
+- _pytest_: This project uses the `pytest` framework for unit testing.
+
+- _ruff_: This project uses `ruff` to lint and automatically format code in order to maintain consistent code across all project and developpers.
+
+- _mypy_: This project uses the static type checker `mypy` to enforce type annotation and spot bugs before they can happen.
+
+- _github actions_: This project uses GitHub actions to execute verifications in the cloud before allowing to merge with the main branch.
+
+
+### Development workflow
+
+1. Open new branch.
+1. Write code.
+1. Write tests.
+1. Run tests, linter with `poe test`, `poe lint` and `poe format`.
+1. Commit code with `cz commit` and follow the instructions.
+    1. Retry failed commit (after fixing) with `cz commit --retry`.
+    1. *Only in emergencies*, commit with `git commit --no-verify`.
+1. Push commits with `git push`.
+1. When branch is fully functional, open a pull requests on GitHub and ask for a review.
+    1. When approved, bump the versions with `cz bump`.
+    1. Build the doc with `poe doc`.
+    1. Push to GitHub one last time before merging.
+1. Repeat.
+
+
+### Good developing practices
+
+- Most if not all functions and methods should be tested.
+
+- All functions, methods, modules and classes should have proper documentation.
+
+- All functions and methods should be properly annotated.
+
+- Commits should be atomic.
+
+- Dependency injection should be favorized, and objects instantiation should be made at the latest possible moment.
+
+- Always keep Separation of Concerns in mind.
+
+
+### Developing tips and tricks
+
+- Run `poe` from within the development environment to print a list of [Poe the Poet](https://github.com/nat-n/poethepoet) tasks available to run on this project.
+
+- Run `poetry add {package}` from within the development environment to install a run time dependency and add it to `pyproject.toml` and `poetry.lock`. Add `--group test` or `--group dev` to install a CI or development dependency, respectively.
+
+- Run `poetry update` from within the development environment to upgrade all dependencies to the latest versions allowed by `pyproject.toml`.
+
+- Run `cz bump` to bump the package's version, update the `CHANGELOG.md`, and create a git tag.
