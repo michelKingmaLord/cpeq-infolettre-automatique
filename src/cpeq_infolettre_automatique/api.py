@@ -5,6 +5,7 @@ import logging
 import coloredlogs
 from fastapi import FastAPI
 
+
 app = FastAPI()
 
 
