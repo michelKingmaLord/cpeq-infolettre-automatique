@@ -5,6 +5,7 @@ from fastapi.testclient import TestClient
 
 from cpeq_infolettre_automatique.api import app
 
+
 client = TestClient(app)
 
 
