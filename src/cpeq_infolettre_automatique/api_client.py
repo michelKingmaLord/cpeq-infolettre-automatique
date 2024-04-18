@@ -50,15 +50,21 @@ multiple_job_ids = ['21417285', '21416924', '21398005']   # multiple scraping jo
 processed_scraping_job_id = 21398005  # unique scraping job test
 processed_scraping_jobs_ids = ['21417285', '21416924', '21398005']  # multiple scraping job test
 
+
 # Classes
 class WebScraperIOClient:
+    """A client for interacting with the WebScraper.io API.
+
+    This class provides methods to create scraping jobs,
+    retrieve job details, and download job data.
+    """
     def __init__(self, api_token):
         self.api_token = api_token
         self.base_url = "https://api.webscraper.io/api/v1"
         self.headers = {'Content-Type': 'application/json'}
 
     def create_scraping_jobs(self, sitemap_ids):
-        """Starts scraping jobs for multiple sitemap IDs and returns their job IDs."""
+        """Starts scraping jobs for multiple sitemap IDs and returns their scraping job IDs."""
         job_ids = []
         for sitemap_id in sitemap_ids:
             url = f"{self.base_url}/scraping-job"
@@ -83,7 +89,7 @@ class WebScraperIOClient:
                 else:
                     print(f"No job ID received for sitemap {sitemap_id}")
             except Exception as e:
-                print(f"Error starting job for sitemap {sitemap_id}: {str(e)}")
+                print(f"Error starting scraping job for sitemap {sitemap_id}: {str(e)}")
         return job_ids
 
     def get_scraping_job_details(self, scraping_job_id):
@@ -147,3 +153,12 @@ def save_data_to_json(data, file_path='output.json'):
         return f"Data successfully saved to {file_path}"
     except IOError as error:
         return {"error": "Failed to write to file", "details": str(error)}
+
+# Chat GPT m'a suggéré de mettre ce code snippet, mais je suis incertain de le comprendre
+# if __name__ == "__main__":
+#     client = WebScraperIOClient(API_TOKEN)
+#     job_ids = client.create_scraping_jobs(SITEMAP_IDS)
+#     for job_id in job_ids:
+#         data = client.download_scraping_job_data(job_id)
+#         if data:
+#             save_data_to_json(data, f"{job_id}_output.json")
