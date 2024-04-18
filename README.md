@@ -90,6 +90,8 @@ and then install the dependencies and the project with
 
 ### Development tools
 
+The following tools will be automatically installed by poetry to support development:
+
 - _commitizen_: This project follows the [Conventional Commits](https://www.conventionalcommits.org/) standard to automate [Semantic Versioning](https://semver.org/) and [Keep A Changelog](https://keepachangelog.com/) with [Commitizen](https://github.com/commitizen-tools/commitizen).
 
 - _pre-commit_: This project uses pre-commit hooks that enforces the submitted code to respect conventions and high quality standards.
@@ -100,6 +102,8 @@ and then install the dependencies and the project with
 
 - _mypy_: This project uses the static type checker `mypy` to enforce type annotation and spot bugs before they can happen.
 
+We use the following integration tools:
+
 - _github actions_: This project uses GitHub actions to execute verifications in the cloud before allowing to merge with the main branch.
 
 
@@ -108,7 +112,7 @@ and then install the dependencies and the project with
 1. Open new branch.
 1. Write code.
 1. Write tests.
-1. Run tests, linter with `poe test`, `poe lint` and `poe format`.
+1. Run tests and linter with `poe test` and `poe lint`.
 1. Commit code with `cz commit` and follow the instructions.
     1. Retry failed commit (after fixing) with `cz commit --retry`.
     1. *Only in emergencies*, commit with `git commit --no-verify`.
@@ -120,7 +124,7 @@ and then install the dependencies and the project with
 1. Repeat.
 
 
-### Good developing practices
+### Good development practices
 
 - Most if not all functions and methods should be tested.
 
@@ -144,3 +148,11 @@ and then install the dependencies and the project with
 - Run `poetry update` from within the development environment to upgrade all dependencies to the latest versions allowed by `pyproject.toml`.
 
 - Run `cz bump` to bump the package's version, update the `CHANGELOG.md`, and create a git tag.
+
+- Many VSCode extensions exists to help you code better and faster. We recommend the following ones:
+    - The "Python" extension and its suite ("Python", "Pylance", "Python Debugger")
+    - The "ruff" extension: Automatically shows which linting and formatting rules are failing directly into the code. Tips: bind keyboard shortcuts to format and fix linting errors easily and quickly.
+    - The "mypy" extension: Automatically shows which type annotation are invalid directly into the code. N.B.: the extension is fairly slow, at least on Windows.
+    - The "Docker" extension.
+    - The "DevContainer" extension.
+    - The "Jupyter" extension: Allows you to edit and run notebooks directly in VS Code
