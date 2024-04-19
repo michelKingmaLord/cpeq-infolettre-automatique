@@ -1,17 +1,16 @@
+"""Client module for WebScraper.io API interaction."""
 import httpx
+from config import API_TOKEN, sitemaps
+from utils import process_raw_response
 
 
-class WebscraperIoClient:
+class WebscraperIoClientTest:
     def get_endpoint(self, url: str) -> dict:
         response = httpx.get(url)
         return self._handle_response(response)
 
     def _handle_response(self, response):
         pass
-"""Client module for WebScraper.io API interaction."""
-import httpx
-from config import API_TOKEN, sitemaps
-from utils import process_raw_response
 
 
 class WebScraperIOClient:
