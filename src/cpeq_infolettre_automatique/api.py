@@ -3,8 +3,11 @@
 import logging
 
 import coloredlogs
+from decouple import config
 from fastapi import FastAPI
 
+
+webscraper_io_api_token = config("WEBSCRAPER_IO_API_KEY", default="")
 
 app = FastAPI()
 
