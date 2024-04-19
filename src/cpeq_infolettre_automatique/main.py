@@ -1,13 +1,13 @@
 """Main script for initiating web scraping jobs and processing their data."""
 
-from config import sitemaps
-from utils import process_raw_response, save_data_to_json
-from webscraper_io_client import WebScraperIOClient
+from cpeq_infolettre_automatique.config import sitemaps
+from cpeq_infolettre_automatique.utils import process_raw_response, save_data_to_json
+from cpeq_infolettre_automatique.webscraper_io_client import WebScraperIoClient
 
 
 # Incertitude car le test devrait utiliser download multiple scraping_job data.
 if __name__ == "__main__":
-    client = WebScraperIOClient()
+    client = WebScraperIoClient()
     sitemap_ids = [sitemap["sitemap_id"] for sitemap in sitemaps]
     job_ids = client.create_scraping_jobs(sitemap_ids)
     for job_id in job_ids:

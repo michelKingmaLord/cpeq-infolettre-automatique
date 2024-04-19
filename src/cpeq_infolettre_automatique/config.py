@@ -1,6 +1,4 @@
 """Configuration and constants for the web scraping client."""
-API_TOKEN = "insert Token here"  # noqa: S105
-
 sitemaps: list[dict[str, str, str]] = [
     {
         "name": "Ciraig",
@@ -25,8 +23,8 @@ sitemaps: list[dict[str, str, str]] = [
 ]
 
 # Sitemaps tests
-# sitemap_ids = ['1127309', '1120854', '1125386']  # List of sitemap IDs, FAQDD ne se trouvait rien et bloquait!
-sitemap_ids = ["1125386"]
+sitemap_ids = ['1127309', '1120854', '1125386']  # List of sitemap IDs, FAQDD ne se trouvait rien et bloquait!
+#sitemap_ids = ["1125386"]
 
 # Start Scraping job tests
 new_scraping_job = 21417285  # unique scraping job test

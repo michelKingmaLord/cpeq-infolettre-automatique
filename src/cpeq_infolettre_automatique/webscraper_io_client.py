@@ -1,10 +1,14 @@
 """Client module for WebScraper.io API interaction."""
 import httpx
-from config import API_TOKEN, sitemaps
-from utils import process_raw_response
+from decouple import config
+
+from cpeq_infolettre_automatique.config import sitemaps
+from cpeq_infolettre_automatique.utils import process_raw_response
 
 
 class WebscraperIoClientTest:
+    """A client example for interacting with the WebScraper.io API."""
+
     def get_endpoint(self, url: str) -> dict:
         response = httpx.get(url)
         return self._handle_response(response)
@@ -13,7 +17,7 @@ class WebscraperIoClientTest:
         pass
 
 
-class WebScraperIOClient:
+class WebScraperIoClient:
     """A client for interacting with the WebScraper.io API.
 
     This class provides methods to create scraping jobs,
@@ -22,11 +26,11 @@ class WebScraperIOClient:
 
     def __init__(self, api_token: str):
         """Initialize the WebScraperIOClient with the provided API token."""
-        self.api_token = API_TOKEN
+        self.api_token = config("WEBSCRAPER_IO_API_KEY")
         self.base_url: str = "https://api.webscraper.io/api/v1"
         self.headers: dict[str, str] = {"Content-Type": "application/json"}
 
-    def create_scraping_jobs(self, sitemap_ids: list[dict[str, str, str]]):
+    def create_scraping_jobs(self, sitemap_ids: list[dict[str, str, str]]) -> list[str]:
         """Starts scraping jobs for multiple sitemap IDs and returns their scraping job IDs."""
         job_ids = []
         for sitemap_id in sitemap_ids:
