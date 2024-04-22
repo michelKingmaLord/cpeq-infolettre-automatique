@@ -63,18 +63,19 @@ class TestWebscraperIoClient:
         """Fixture to initialize WebScraperIoClient with API key from environment."""
         return WebScraperIoClient(api_token=config("WEBSCRAPER_IO_API_KEY"))
 
-    # @pytest.mark.skip("reason here")
-    # @staticmethod
-    # def test_create_scraping_jobs(client) -> None:
-    #     """Test creating scraping jobs using WebScraperIOClient.
+    @pytest.skip("Not mocked yet")
+    @staticmethod
+    def test_create_scraping_jobs(client) -> None:
+        """Test creating scraping jobs using WebScraperIOClient.
 
-    #     Ensures that the create_scraping_jobs method returns a list of job IDs.
-    #     """
-    #     job_ids = client.create_scraping_jobs(sitemaps)
-    #     assert isinstance(job_ids, list), "Expected job_ids to be a list"
-    #     assert all(isinstance(id, str) for id in job_ids), "All job IDs should be strings"
-    #     print("test_create_scraping_jobs passed")
+        Ensures that the create_scraping_jobs method returns a list of job IDs.
+        """
+        job_ids = client.create_scraping_jobs(sitemaps)
+        assert isinstance(job_ids, list), "Expected job_ids to be a list"
+        assert all(isinstance(id, str) for id in job_ids), "All job IDs should be strings"
+        print("test_create_scraping_jobs passed")
 
+    @pytest.skip("Not mocked yet")
     @staticmethod
     def test_get_scraping_job_details_sucess(client):
         """Test retrieving details of a scraping job."""
@@ -84,6 +85,7 @@ class TestWebscraperIoClient:
         assert isinstance(details, dict), "Job details should be a dictionary."
         print("Job details retrieved successfully:", details)
 
+    @pytest.skip("Not mocked yet")
     @staticmethod
     def test_create_scraping_jobs_failure(client, mocker):
         """Test failure in creating scraping jobs due to API errors."""
@@ -93,6 +95,7 @@ class TestWebscraperIoClient:
         with pytest.raises(HTTPStatusError):
             client.create_scraping_jobs(sitemaps)
 
+    @pytest.skip("Not mocked yet")
     @staticmethod
     def test_get_scraping_job_details_failure(client):
         """Test retrieval of details for a non-existent job to simulate failure."""
@@ -101,6 +104,7 @@ class TestWebscraperIoClient:
         assert "error" in result, "Expected an error for non-existent job"
         print("test_get_scraping_job_details for non-existent job passed")
 
+    @pytest.skip("Not mocked yet")
     @staticmethod
     def test_download_scraping_job_data_sucess(client):
         """Test downloading and processing data from a scraping job."""
@@ -108,6 +112,7 @@ class TestWebscraperIoClient:
         assert isinstance(data, list), "Expected the data to be a list."
         print("Data downloaded and processed successfully:", data)
 
+    @pytest.skip("Not mocked yet")
     @staticmethod
     def test_download_scraping_job_data_failure(client):
         """Testing with an invalid job ID."""
@@ -117,6 +122,7 @@ class TestWebscraperIoClient:
         ), "Expected an error message in the result when using an invalid job ID."
         print("Handled invalid job ID correctly with error message:", result)
 
+    @pytest.skip("Not mocked yet")
     @staticmethod
     def test_download_and_process_multiple_jobs_success(client):
         """Test downloading and processing multiple scraping jobs successfully."""
@@ -128,6 +134,7 @@ class TestWebscraperIoClient:
         ), "Each item in combined data should be a dictionary."
         print("Data from multiple jobs downloaded and processed successfully:", combined_data)
 
+    @pytest.skip("Not mocked yet")
     @staticmethod
     @pytest.mark.parametrize("invalid_id", ["invalid_id1", "invalid_id2", "invalid_id3"])
     def test_download_and_process_multiple_jobs_failure(client, invalid_id):
