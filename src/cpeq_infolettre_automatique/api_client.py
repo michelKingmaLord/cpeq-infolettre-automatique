@@ -93,7 +93,7 @@ class WebScraperIOClient:
                 else:
                     print(f"No job ID received for sitemap {sitemap_id}")
             except Exception as e:
-                print(f"Error starting scraping job for sitemap {sitemap_id}: {e!s}")
+                print(f"Error starting scraping job for sitemap {sitemap_id}: {str(e)}")
         return job_ids
 
     def get_scraping_job_details(self, scraping_job_id):
@@ -137,9 +137,8 @@ class WebScraperIOClient:
 
         return combined_data
 
+
 # Initialisation du client
-
-
 client = WebScraperIOClient(API_TOKEN)
 
 
@@ -160,7 +159,7 @@ def save_data_to_json(data, file_path="output.json"):
         with open(file_path, "w", encoding="utf-8") as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
         return f"Data successfully saved to {file_path}"
-    except OSError as error:
+    except IOError as error:
         return {"error": "Failed to write to file", "details": str(error)}
 
 
