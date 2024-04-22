@@ -25,6 +25,7 @@ poethepoet = ">=0.20.0"
 python = ">=3.12,<4.0"
 uvicorn = { extras = ["standard"], version = ">=0.20.0" }
 python-decouple = "^3.8"
+openai = "^1.23.2"
 
 [tool.poetry.group.test.dependencies]  # https://python-poetry.org/docs/master/managing-dependencies/
 commitizen = ">=3.2.1"
