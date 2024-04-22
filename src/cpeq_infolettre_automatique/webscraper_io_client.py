@@ -2,7 +2,7 @@
 import httpx
 from decouple import config
 
-from cpeq_infolettre_automatique.config import sitemaps
+# from cpeq_infolettre_automatique.config import sitemaps
 from cpeq_infolettre_automatique.utils import process_raw_response
 
 
@@ -30,10 +30,11 @@ class WebScraperIoClient:
         self.base_url: str = "https://api.webscraper.io/api/v1"
         self.headers: dict[str, str] = {"Content-Type": "application/json"}
 
-    def create_scraping_jobs(self, sitemap_ids: list[dict[str, str, str]]) -> list[str]:
-        """Starts scraping jobs for multiple sitemap IDs and returns their scraping job IDs."""
+    def create_scraping_jobs(self, sitemaps):
+        """Starts scraping jobs for multiple sitemap IDs and returns their job IDs."""
         job_ids = []
-        for sitemap_id in sitemap_ids:
+        for sitemap in sitemaps:
+            sitemap_id = sitemap['sitemap_id']
             url = f"{self.base_url}/scraping-job"
             data = {
                 "sitemap_id": sitemap_id,
@@ -41,22 +42,19 @@ class WebScraperIoClient:
                 "page_load_delay": 3000,
                 "request_interval": 3000,
             }
-            try:
-                response = httpx.post(
-                    url,
-                    json=data,
-                    headers=self.headers,
-                    params={"api_token": self.api_token},
-                )
-                response.raise_for_status()
-                job_id = response.json().get("data", {}).get("id")
-                if job_id:
-                    job_ids.append(job_id)
-                    print(f"Job {job_id} started for sitemap {sitemap_id}")
-                else:
-                    print(f"No job ID received for sitemap {sitemap_id}")
-            except Exception as e:
-                print(f"Error starting scraping job for sitemap {sitemap_id}: {str(e)}")
+            response = httpx.post(
+                url,
+                json=data,
+                headers=self.headers,
+                params={"api_token": self.api_token},
+            )
+            response.raise_for_status()
+            job_id = response.json().get("data", {}).get("id")
+            if job_id:
+                job_ids.append(str(job_id))  # Convert job ID to string
+                print(f"Job {job_id} started for sitemap {sitemap_id}")
+            else:
+                print(f"No job ID received for sitemap {sitemap_id}")
         return job_ids
 
     def get_scraping_job_details(self, scraping_job_id):
