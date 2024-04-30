@@ -9,10 +9,11 @@ from decouple import config
 
 
 class VectorStore:
-    def __init__(self):
+    def __init__(self, client):
         """Initializes the VectorStore with an OpenAI client using an API key from the environment."""
-        self.client = openai.OpenAI(api_key=config("OPENAI_API_KEY"))
-        self.model = "text-embedding-3-small"
+        self.client = client
+        self.model = "text-embedding-3-large"
+        # avoir un paramètre openAI client déjà instancié (On créer le client à l'extérieur et on l'injecte (injection de dépendances))
 
     def load_json_data(self, filepath):
         """Loads JSON data from a specified file path.
@@ -26,12 +27,18 @@ class VectorStore:
         try:
             with open(filepath, "r", encoding="utf-8") as file:
                 return json.load(file)
+        except FileNotFoundError:
+            print(f"Error: The file at {filepath} was not found.")
+            return None
+        except json.JSONDecodeError:
+            print(f"Error: The file at {filepath} could not be decoded.")
+            return None
         except Exception as e:
-            print(f"Failed to load data from {filepath}: {e}")
+            print(f"An unexpected error occurred: {e}")
             return None
 
     def save_json_data(self, data, filepath):
-        """Saves a dictionary to a JSON file at the specified path.
+        """Save a given dictionary to a JSON file at a specified path. This function writes a Python dictionary to a JSON file, using UTF-8 encoding and formatting the output with indents for readability.
 
         Args:
             data (dict): The data to save.
@@ -47,7 +54,7 @@ class VectorStore:
         except Exception as e:
             print(f"Failed to save data to {filepath}: {e}")
 
-    def get_average_embeddings(self, rubrics_data):
+    def get_average_embeddings(self, model, rubrics_data):
         """Calculates average embeddings for each rubric using provided examples.
 
         Args:
@@ -57,16 +64,32 @@ class VectorStore:
             dict: A dictionary of rubric names mapped to their average embedding vectors.
         """
         rubric_embeddings = {}
+
         for rubric_section in rubrics_data:
             rubric_name = rubric_section["rubric"]
+            articles = rubric_section["examples"]
             all_embeddings = []
-            for article in rubric_section["examples"]:
-                embedding = self.get_embedding(f"{article['title']} {article['summary']}")
-                if embedding is not None:
-                    all_embeddings.append(embedding)
+
+            for article in articles:
+                input_text = f"{article["title"]} {article["summary"]}"  # Combine title and summary for embedding
+                try:
+                    response = openai.embeddings.create(input=input_text, model=model)
+                    embedding_vector = response.data[0].embedding
+                    all_embeddings.append(embedding_vector)
+                    print(
+                        f"Embedding retrieved for: {article["title"]} (Vector length: {len(embedding_vector)})"
+                    )
+                except Exception as e:
+                    print(f"Failed to retrieve embeddings for {article["title"]}: {str(e)}")
+
+            # Calculate the average embedding if any embeddings were successfully retrieved
             if all_embeddings:
                 average_embedding = np.mean(all_embeddings, axis=0)
-                rubric_embeddings[rubric_name] = average_embedding.tolist()
+                rubric_embeddings[rubric_name] = (
+                    average_embedding.tolist()
+                )  # Convert numpy array to list for JSON compatibility
+                print(f"Average embedding calculated for rubric: {rubric_name}")
+
         return rubric_embeddings
 
     def get_embedding(self, text, max_tokens=8000):
