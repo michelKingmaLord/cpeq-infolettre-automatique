@@ -57,6 +57,8 @@ class WebScraperIoClient:
                 print(f"No job ID received for sitemap {sitemap_id}")
         return job_ids
 
+    def get_scraping_jobs(self) -> NotImplemented: return NotImplemented
+
     def get_scraping_job_details(self, scraping_job_id):
         """Retrieves details of a specific scraping job."""
         url = f"{self.base_url}/scraping-job/{scraping_job_id}?api_token={self.api_token}"
