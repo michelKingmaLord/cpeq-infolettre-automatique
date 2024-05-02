@@ -1,59 +1,5 @@
 [
     {
-      "rubric": "Politiques publiques et gouvernementales",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Publication de deux projets de règlement visant à modifier le Code de construction",
-          "content": "",
-          "summary": "Le gouvernement du Québec a publié deux projets de règlement visant à modifier le Code de construction pour améliorer l'efficacité énergétique des bâtiments et adapter le code de plomberie aux besoins spécifiques du Québec. Des modifications sont proposées pour reconduire les exigences existantes sans imposer de coûts supplémentaires de construction. Les commentaires peuvent être soumis jusqu'au 23 février 2024.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tBqYKuYKyCnOhJ3cfSyHYDaF/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": "https://newsletters.yapla.com/stats/tracker/t/tVX1IOUkiMXi3LsAwNBfcw7/c/memFnkYymoVCRjX622rMfFAB"
-            }
-          ],
-          "date": "27 décembre 2023"
-        },
-        {
-          "title": "Appel de commentaires – Processus de consultation pré-budgétaires",
-          "content": "",
-          "summary": "Le gouvernement du Québec invite les parties prenantes à soumettre des commentaires dans le cadre des consultations pré-budgétaires provinciales. Les consultations fédérales sont également ouvertes. Les commentaires doivent être envoyés au plus tard le 22 janvier.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/teLMPgmwHXUyrSIeF040fICw/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": "https://newsletters.yapla.com/stats/tracker/t/tSUVyclRdATBwSsLwffbdtgp/c/memFnkYymoVCRjX622rMfFAB"
-            }
-          ],
-          "date": "11 janvier 2024"
-        },
-        {
-          "title": "Publication d'une note portant sur l'évaluation des coûts liés au projet de loi C-358",
-          "content": "",
-          "summary": "Le Directeur Parlementaire du budget (DPB) a publié, le 23 janvier dernier, une note portant sur l'évaluation des coûts liés au projet de loi C-358, lequel propose de modifier la Loi sur la taxe d'accise afin d'éliminer la taxe sur les produits et services (TPS) relativement à la tarification du carbone.\nPlus précisément, la loi abolirait la TPS à payer sur :\no\tLes frais, droits ou taxes imposés en application de la Loi sur la tarification de la pollution causée par les gaz à effet de serre, tels que la redevance sur les combustibles et le système de tarification fondé sur le rendement (STFR);\no\tTout prélèvement provincial imposé relativement au carbone, comme le système de plafonnement et d'échange de droits d'émission au Québec ou la taxe sur le carbone en Colombie-Britannique.\nLe DPB estime que cette mesure réduirait les recettes fédérales provenant de la TPS de 486 millions de dollars en 2023-2024, montant qui passerait à 1,015 milliard de dollars en 2030-2031, tel que le démontre la tableau suivant :\n \nCoût détaillé du projet de loi C-358 (Millions de dollars)\nJuridiction\t2023¬-2024\t2024¬-2025\t2025¬-2026\t2026¬-2027\t2027¬-2028\t2028¬-2029\t2029¬-2030\t2030¬-2031\t \nTerre-Neuve\t6\t10\t12\t13\t15\t17\t18\t19\t \nI-P-É\t1\t2\t2\t2\t4\t4\t4\t4\t \nNouvelle-Écosse\t10\t17\t20\t23\t30\t30\t29\t30\t \nNouveau-Brunswick\t7\t11\t12\t13\t15\t16\t18\t18\t \nQuébec\t77\t93\t108\t121\t133\t143\t152\t160\t \nOntario\t182\t220\t250\t280\t313\t338\t367\t389\t \nManitoba\t18\t21\t24\t27\t30\t31\t34\t36\t \nSaskatchewan\t29\t34\t38\t42\t46\t48\t52\t52\t \nAlberta\t96\t113\t128\t142\t152\t164\t178\t187\t \nColombie-Britannique\t58\t70\t79\t88\t95\t102\t108\t114\t \nYukon\t1\t1\t1\t1\t2\t2\t2\t2\t \nT.N.O\t1\t1\t1\t2\t2\t2\t2\t2\t \nNunavut\t0\t1\t1\t1\t1\t1\t1\t1\t \nTotal\t486\t595\t677\t755\t836\t897\t965\t1 015\t \n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tJh0rMT4jJVTYuNcTvSPOQlS/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "23 janvier 2024"
-        },
-        {
-          "title": "Publication d'une note sur l'évaluation des coûts liés au Projet de loi C-234 visant à élargir l'exemption qui s'applique au combustible agricole admissible pour inclure le gaz naturel commercialisable et le propane",
-          "content": "",
-          "summary": "Le Directeur Parlementaire du Budget (DPB) a publié, le 13 février dernier, une note portant sur l'évaluation des coûts liés au Projet de loi C-234 – Loi modifiant la Loi sur la tarification de la pollution causée par les gaz à effet de serre et dont l'objectif consiste à ajouter le gaz naturel commercialisable et le propane à l'exemption qui s'applique au combustible agricole admissible.\nPlus précisément, le Projet de loi C-234 éliminerait la redevance sur les combustibles sur le gaz naturel ou le propane lorsque ceux-ci sont utilisés pour :\n•\tChauffer ou refroidir un bâtiment ou une structure semblable utilisé pour l'élevage ou le logement d'animaux de ferme ou pour la culture de végétaux;\n•\tFaire fonctionner une machine industrielle ou un moteur stationnaire ou portable utilisé pour sécher le grain.\nSelon le DPB, le Projet de loi C-234 aurait pour effet de réduire les revenus provenant de la redevance sur les combustibles de 19 millions de dollars en 2023-2024, puis de 27 millions de dollars en 2025-2026. Le DPB suppose, dans sa note, que le gouvernement réduira en conséquence le remboursement de cette redevance, de sorte que cette mesure n'aurait pas d'incidence budgétaire au cours de cette période.\nLes estimations du DPB se résument ainsi (les montants sont en millions de dollars) :\nExercice financier\t2023 2024\t2024 2025\t2025 2026\nÎle-du-Prince-Édouard\t0\t0\t0\nNouvelle-Écosse\t0\t0\t0\nNouveau-Brunswick\t0\t0\t0\nOntario\t7\t9\t10\nManitoba\t1\t2\t2\nSaskatchewan\t5\t6\t7\nAlberta\t5\t7\t7\nProduits issus de la redevance sur les combustibles\t19\t23\t27\nProduits remboursés\t-19\t-23\t-27\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/t50MF8SFF5N3jMi4mCY33fV/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "13 février 2024"
-        }
-      ]
-    },
-    {
       "rubric": "Changements climatiques et énergie",
       "definition": "",
       "examples": [
@@ -105,203 +51,58 @@
             }
           ],
           "date": "24 janvier 2024"
+        },
+        {
+          "title": "Adoption d'un règlement de la CMM portant sur la réduction des émissions de GES des bâtiments résidentiels, commerciaux et institutionnels",
+          "content": "RÈGLEMENT NUMÉRO 2024-111 SUR LES ÉMISSIONS DE GAZ À EFFET DE SERRE DES BÂTIMENTS RÉSIDENTIELS, COMMERCIAUX ET INSTITUTIONNELS NON EN VIGUEUR CE RÈGLEMENT A ÉTÉ ADOPTÉ LE 25 AVRIL 2024 ET EST EN ATTENTE DE L’APPROBATION DU MINISTRE DE L'ENVIRONNEMENT, DE LA LUTTE CONTRE LES CHANGEMENTS CLIMATIQUES, DE LA FAUNE ET DES PARCS.  Avril 2024 Adopté – Non en vigueur _______________________________________________________________________________ RÈGLEMENT NUMÉRO 2024-111 SUR LES ÉMISSIONS DE GAZ À EFFET DE SERRE DES BÂTIMENTS RÉSIDENTIELS, COMMERCIAUX ET INSTITUTIONNELS CONSIDÉRANT QUE le paragraphe 7 de l’article 119 de la Loi sur la Communauté métropolitaine de Montréal (chapitre C-37.01) établit la compétence de cette dernière pour agir dans le domaine de l’assainissement de l’atmosphère;  CONSIDÉRANT QUE l’alinéa 1 de l’article 159.1 de la Loi sur la Communauté métropolitaine de Montréal (chapitre C-37.01) autorise cette dernière à régir ou prohiber, par règlement, l’émission dans l’atmosphère de substances susceptibles de constituer un polluant et, notamment, déterminer pour toute catégorie de telles substances la quantité ou la concentration maximale dont l’émission dans l’atmosphère est permise; CONSIDÉRANT QUE le Plan pour une économie verte adopté par le gouvernement du Québec (ci-après appelé le « Plan ») établit une cible de réduction des émissions de gaz à effet de serre de 37,5 % d’ici 2030 par rapport au niveau de 1990; CONSIDÉRANT QUE le secteur du bâtiment résidentiel, commercial et institutionnel est responsable de 10 % des émissions de gaz à effet de serre au Québec; CONSIDÉRANT QUE le Plan a également pour objectif de réduire de 50 % les émissions de gaz à effet de serre issues du chauffage des bâtiments à l’horizon 2030; CONSIDÉRANT QUE pour atteindre cet objectif, le gouvernement a notamment édicté le Règlement sur les appareils de chauffage au mazout, (chapitre Q-2, r. 1.1); CONSIDÉRANT QUE l’alinéa 2 de l’article 6 du Règlement sur les appareils de chauffage au mazout prévoit qu’il est interdit depuis le 31 décembre 2023, dans un bâtiment résidentiel existant, d’installer ou de faire installer un appareil de chauffage de l’espace ou de l’eau fonctionnant en tout ou en partie au moyen d’un combustible fossile si cet appareil a pour but de remplacer un appareil fonctionnant en tout ou en partie au mazout; CONSIDÉRANT QUE cette seule restriction n’est pas suffisante pour atteindre nos cibles de décarbonation dans le secteur du bâtiment et effectuer la transition énergétique nécessaire. SECTION I OBJET  1. Le présent règlement a pour objet de limiter les émissions de gaz à effet de serre d’origine anthropique attribuables au chauffage des nouveaux bâtiments. SECTION II DÉFINITIONS 2. Pour l’application de ce présent règlement, les mots et expressions qui suivent signifient ou désignent : _______________________________________________________________________________ 2 Adopté – Non en vigueur _______________________________________________________________________________ a) « autorité compétente » : tout fonctionnaire ou employé des 82 municipalités du territoire de la Communauté désigné par leur conseil municipal respectif;  b) « Communauté » : Communauté métropolitaine de Montréal; c) « GES attribuables à la combustion » : un des gaz à effet de serre suivants, dans la mesure où ce gaz est produit par une réaction exothermique d’un combustible : dioxyde de carbone (CO2), méthane (CH4), oxyde nitreux (N2O) ainsi que tout autre gaz déterminé par règlement du ministre de l’Environnement, de la Lutte contre les changements climatiques, de la Faune et des Parcs ; d) « nouveau bâtiment » : toute structure physique fermée par un toit et des murs, dans la mesure où de l’énergie est consommée par celle-ci, soit principale ou secondaire, destinée à un usage résidentiel, commercial ou institutionnel et  pour lequel une demande de permis de construction complète et conforme est déposée à la municipalité locale compétente sur le territoire visé par la construction à compter du 1er janvier 2025; e) « petit bâtiment » : bâtiment d'une hauteur d'au plus 3 étages et d'une aire de bâtiment d'au plus 600 m²; correspondant à la plus grande surface horizontale du bâtiment au-dessus du niveau moyen du sol, calculée entre les faces externes des murs extérieurs ou à partir de la face externe des murs extérieurs jusqu’à l’axe des murs coupe-feu. f) « réseau thermique urbain » : système de distribution d’énergie thermique produite de façon centralisée, permettant de desservir plusieurs propriétaires et qui comprend : 1) au moins une centrale thermique; 2) un réseau de distribution primaire dans lequel la chaleur est transportée par un fluide caloporteur; 3) un ensemble de sous-stations d’échange, à partir desquelles les bâtiments sont desservis par un réseau de distribution secondaire. SECTION III APPLICATION 3. Le présent règlement s’applique aux 82 municipalités faisant partie du territoire de la Communauté et concerne : a) tout nouveau bâtiment; b) tout type d’installation utilisé à des fins récréatives comme un spa ou une piscine. _______________________________________________________________________________ 3 Adopté – Non en vigueur _______________________________________________________________________________ 4. 5. 6. Le présent règlement ne s’applique pas : a) aux bâtiments des municipalités ayant adopté un règlement visant la décarbonation ou la réduction des émissions de gaz à effet de serre des bâtiments avant le 1er janvier 2025; b) à un bâtiment connecté à un réseau thermique urbain; c) à un bâtiment dispensé par l’article 76 de la Loi sur la Régie de l’énergie (RLRQ, chapitre R-6.01). La Communauté délègue l’application du présent règlement aux 82 municipalités qui la composent. Chaque municipalité délégataire met en œuvre le règlement sur son territoire. La Communauté délègue aux 82 municipalités qui la composent les pouvoirs règlementaires prévus aux articles 159.3, 159.4 et 224.1 de la Loi sur la Communauté métropolitaine de Montréal (chapitre c. C-37.01) en vertu de l’article 159.1 de cette loi. SECTION IV INTERDICTIONS  7. Il est interdit d’installer, de faire installer ou de permettre que soit installé, dans un bâtiment visé à l’article 3, un appareil de chauffage d’espace ou d’eau, incluant l’eau des accessoires tels une piscine et un spa, émettant des GES attribuables à la combustion. SECTION V EXCEPTIONS 8. 9. Malgré l'article 7, lorsque le propriétaire d’un petit bâtiment démontre à l’autorité compétente que le délai de branchement de l’alimentation électrique d’HydroQuébec sera de plus de 12 mois après la délivrance du permis de construction, l’installation d’un appareil de chauffage d'espace ou d'eau émettant des GES attribuables à la combustion est autorisée dans la mesure où ces émissions proviennent uniquement de gaz de source renouvelable. Dans le cas mentionné au premier alinéa, une communication d’Hydro-Québec adressée au propriétaire du bâtiment doit être fournie à l’autorité compétente pour confirmer le délai de branchement. Ce document doit être conservé et fourni à l’autorité compétente sur demande. Malgré l’article 7, l’installation d’un appareil de chauffage d'espace ou d'eau émettant des GES attribuables à la combustion est autorisée dans un nouveau bâtiment autre qu’un petit bâtiment dans la mesure où ces émissions proviennent uniquement de gaz de source renouvelable. _______________________________________________________________________________ 4 Adopté – Non en vigueur _______________________________________________________________________________ Aux fins du premier alinéa, le propriétaire doit fournir à l’autorité compétente une copie du contrat d’approvisionnement en gaz de source renouvelable pour toute la consommation énergétique du ou des appareils à combustion du bâtiment dans les 6 mois suivant la conclusion de ce contrat et, ensuite, sur demande de l’autorité compétente. 10. Les appareils suivants ne sont pas visés par le présent règlement : a) les appareils mobiles à combustion utilisés de façon intermittente à l'extérieur de l'enveloppe du bâtiment, tel un barbecue; b) les installations d'alimentation électrique de secours; c) les appareils utilisés pour la cuisson des aliments; d) les appareils de chauffage temporaire utilisés durant des travaux de construction; e) les appareils et foyers permettant l’utilisation d’un combustible solide; f) les appareils assujettis au Règlement sur les appareils de chauffage au mazout (RLRQ chapitre Q-2, r. 1.1). SECTION VI DÉCLARATION DES INFORMATIONS SUR LES SOURCES D’ÉNERGIE UTILISÉES 11. Toute personne doit, au moment du dépôt de la demande de permis de construction visant un nouveau bâtiment, divulguer à l’autorité compétente via le formulaire fourni par celle-ci les renseignements sur les sources d’énergie utilisées à des fins de chauffage d'espace et d'eau, incluant l’eau des accessoires comme une piscine ou un spa. SECTION VII VÉRIFICATION DES RENSEIGNEMENTS 12. L’autorité compétente peut, aux fins de l’application de toute disposition du présent règlement, exiger par un avis écrit tout document lui permettant de vérifier l’exactitude des renseignements fournis par le propriétaire. Tout document mentionné dans l’avis transmis par l’autorité compétente doit être fourni dans les 60 jours suivant la date de transmission de cet avis. SECTION VIII DISPOSITIONS PÉNALES 13. Contrevient au présent règlement et commet une infraction quiconque : a) ne respecte pas une interdiction prévue au présent règlement; _______________________________________________________________________________ 5 Adopté – Non en vigueur _______________________________________________________________________________ b) fait une fausse déclaration dans un document prescrit par le présent règlement ou utilise un document sachant qu’il est faux ou qu’il contient une information fausse; c) fait de fausses représentations à l’autorité compétente; d) fait défaut de fournir l’information requise par l’autorité compétente dans le délai spécifié par celle-ci; e) empêche de quelque façon que ce soit la réalisation d’une inspection. 14. Quiconque contrevient au présent règlement et commet une infraction est passible : 1) s’il s’agit d’une personne physique : a) pour une première infraction, d’une amende de 100 $ à 500  $; b) pour une première récidive, d’une amende de 500 $ à 1 000 $; c) pour toute récidive additionnelle, d’une amende de 1 000 $ à 2 000$ $; 2) s’il s’agit d’une personne morale : a) pour une première infraction, d’une amende de 200 $ à 1 000 $; b) pour une première récidive, d’une amende de 1 000 $ à 2 000 $; c) pour toute récidive additionnelle, d’une amende de 2 000 $ à 4 000 $. SECTION IX ENTRÉE EN VIGUEUR Le présent règlement entre en vigueur le 1er janvier 2025.",
+          "summary": "La Communauté métropolitaine de Montréal (CMM) a adopté, le 25 avril dernier, un règlement visant à encadrer les émissions de GES associées au chauffage des nouveaux bâtiments résidentiels, commerciaux et institutionnels du Grand Montréal. L'adoption du règlement représenterait la première d'une série de huit actions que la CMM s'est engagée à mettre en œuvre dans le cadre de son Plan climat métropolitain 2023-2025. Le règlement permettrait, selon la CMM, d'éviter l'émission de 500 000 tonnes de GES sur le territoire métropolitain d'ici 2035. Le règlement s'appliquerait aux 79 municipalités de la CMM qui n'ont pas de règlement municipal portant sur les GES des bâtiments. Le règlement prévoit l'interdiction d'installer un appareil de chauffage d'espace ou d'eau alimenté par un combustible fossile dans tous les nouveaux bâtiments résidentiels, commerciaux et institutionnels. L'usage de gaz de source renouvelable sera toutefois permis dans les plus grands bâtiments (600 m2 ou plus de 3 étages). L'entrée en vigueur du règlement est prévue au 1er janvier 2025. Elle est cependant conditionnelle à son approbation par le MELCCFP. Pour en connaître davantage, nous vous invitons à consulter cet hyperlien.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tVhS2qnVd4XjHIQhHOUno0yG/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "25 avril 2024"
         }
       ]
     },
     {
-      "rubric": "Développement durable, RSE et critères ESG",
+      "rubric": "Acceptabilité sociale, bruit et troubles de voisinage",
+      "definition": "",
+      "examples": []
+    },
+    {
+      "rubric": "Aménagement du territoire et urbanisme",
       "definition": "",
       "examples": [
         {
-          "title": "Bilan des activités d'accompagnement d'investisseurs étrangers par Montréal International",
+          "title": "Octroi d'une somme de près d'un million de dollars afin d'améliorer la résilience de la Ville de Sainte-Marie face aux inondations",
           "content": "",
-          "summary": "Montréal International a publié, le 28 février dernier, un bilan des investissements étrangers visant, notamment, à favoriser la transition écologique de l'économie dans le Grand Montréal au cours de l'année 2023. Voici quelques faits saillants de ce bilan : En 2023, Montréal International a accompagné un total de 87 projets d'investissements directs étrangers d'une valeur de 2,735 milliards de dollars, menant à la création de 5 983 emplois dont le salaire annuel moyen atteint un sommet à 97 500 dollars; Montréal International compte huit grands projets dans le secteur des technologies propres, totalisant des investissements de 643 millions de dollars et représentant 24 % des investissements ; Parmi les projets majeurs, Montréal International note que l'entreprise allemande DHL, a choisi Montréal pour lancer l'électrification de son parc de véhicules à l'échelle nationale",
+          "summary": "Le gouvernement du Québec a annoncé, le 12 février dernier, l'octroi d'une somme de 975 000 dollars à la Ville de Sainte-Marie afin de favoriser la réalisation d'un projet d'acquisition des connaissances nécessaires à la mise en place de projets de réaménagement résilients.\nLes sommes sont versées dans le cadre du « Plan de protection du territoire face aux inondations : des solutions durables pour mieux protéger nos milieux de vie » et permettraient à la Ville d'identifier et de planifier les interventions les plus porteuses pour protéger son noyau urbain des effets des inondations.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
           "urls": [
             {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/ti6ieDX3Dga2oYKFgVhpBmjn/c/memFnkYymoVCRjX622rMfFAB",
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tivaD7EOrU0KibEXAEnqUUmn/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "12 février 2024"
+        },
+        {
+          "title": "Octroi d'une somme de plus de 400 000 dollars afin de favoriser la réalisation d'un projet visant à améliorer la connaissance du risque d'inondation sur le territoire de trois MRC",
+          "content": "",
+          "summary": "Le gouvernement du Québec a annoncé, le 28 février dernier, l'octroi d'une somme de 400 742 dollars aux MRC de Vaudreuil-Soulanges, d'Argenteuil et de Deux-Montagnes, afin de favoriser la réalisation d'un projet visant à améliorer leur connaissance du risque d'inondation sur leurs territoires.\nLes sommes sont versées dans le cadre du « Plan de protection du territoire face aux inondations : des solutions durables pour mieux protéger nos milieux de vie » et permettraient aux MRC de réaliser un projet d'analyse et d'évaluation des risques ainsi que des dommages liés aux inondations sur plusieurs territoires prioritaires de leurs municipalités.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tmFIpsFE6G1tFjWfVdSCppRa/c/memFnkYymoVCRjX622rMfFAB",
               "url2": ""
             }
           ],
           "date": "28 février 2024"
-        },
-        {
-          "title": "Entrée en vigueur de deux nouvelles normes de la GRI",
-          "content": "",
-          "summary": "Le 1er janvier 2024 marquait l'entrée en vigueur de deux normes sectorielles de la GRI, soit :\nA.\tLa GRI 12 : Secteur du charbon 2022\nCette norme définit les attentes par rapport aux organisations charbonnières en matière de divulgation de la manière dont elles répondent au besoin pressant de transition vers une économie à faible émission de carbone, permettant ainsi la production de rapports comparables et complets sur des questions telles que :\no\tLa gestion efficace des impacts de l'organisation sur l'environnement, la biodiversité et le changement climatique ;\no\tLa sauvegarde de la sécurité et du bien-être des employés et des communautés dans le plein respect des droits de l'homme ;\no\tLes mesures de lutte contre la corruption, la transparence des paiements et des contrats.\nB.\tLa GRI 13 : Secteurs de l'agriculture, de l'aquaculture et de la pêche 2022.\nCette norme vise à améliorer l'exhaustivité et la comparabilité des informations relatives au développement durable pour les organisations impliquées dans la culture, la production animale, l'aquaculture ou la pêche. La norme aborde les points suivants :\no\tLes principaux sujets matériels et les informations à fournir par les organisations en fonction de leur impact sur les dimensions économiques, environnementales et sociales, notamment sur la biodiversité, la sécurité alimentaire, l'engagement des communautés, le bien-être des animaux, la santé des sols et l'utilisation des pesticides ;\no\tLes liens existants entre les secteurs et les Objectifs de développement durable (ODD) ;\no\tLes implications politiques pour les entreprises responsables basées sur des cadres internationaux, tels que ceux établis par l'Organisation des Nations unies pour l'alimentation et l'agriculture (FAO) et l'Organisation internationale du travail (OIT).\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/t8vkduPxJrxI8cEsJMXg1SU8/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "1 janvier 2024"
-        },
-        {
-          "title": "Plus de 320 organisations s'engagent à utiliser les recommandations du TNFD",
-          "content": "",
-          "summary": "Le Groupe de travail sur les informations financières relatives à la nature (TNFD) a récemment annoncé que 320 organisations de plus de 46 pays se sont engagées à commencer à publier des informations relatives à la nature sur la base des recommandations TNFD publiées en septembre de l'année dernière.\nCette première cohorte d'organisations ayant choisi d'appliquer le cadre du TNFD comprend :\n•\tDes sociétés cotées en bourse dans différents pays et dont la capitalisation boursière atteint 4 000 milliards de dollars;\n•\tPlus de 100 institutions financières représentant 14 000 milliards de dollars d'actifs sous gestion;\n•\tDes assureurs, des bourses et des cabinets d'audit et de comptabilité.\nCes organisations publieront des informations alignées sur la TNFD dans le cadre de leurs rapports d'entreprise annuels pour les exercices 2023, 2024 ou 2025.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tJkIm2m6vc4cq6MErxRCm7wC/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": ""
-        },
-        {
-          "title": "Lancement d'un appel à projets dans le cadre du Programme de contributions financières pour la transition écologique",
-          "content": "",
-          "summary": "La Ville de Montréal a annoncé, le 19 janvier dernier, le lancement d'un appel à projets dans le cadre du Programme de contributions financières pour la transition écologique (PCFTE). \nL'appel à projets, doté d'une enveloppe de 600 000 dollars, vise à favoriser la réalisation d'initiatives permettant de réduire les émissions de GES et de production de matières résiduelles par les OBNL, les coopératives et les écoles.\nL'appel à projets se divise en deux volets, soit :\nA.\tVolet 1 : réduction des GES et des matières résiduelles, adaptation aux changements climatiques et résilience des communautés \nLes projets inclus dans ce premier volet pourront bénéficier d'une aide financière de 500 000 dollars et devront viser les objectifs suivants : \no\tLa réduction des émissions de GES et des matières résiduelles : projets visant la diminution de l'utilisation des transports motorisés, la mobilité active, la réduction à la source des matières résiduelles, etc. ; \no\tL'adaptation aux changements climatiques : l'adaptation du territoire, des infrastructures, des aménagements, des équipements et des communautés montréalaises aux aléas climatiques ; \no\tLa résilience des communautés : projets qui appuient la capacité d'agir de la population face aux aléas climatiques, l'équité territoriale et le sentiment de sécurité dans les quartiers. \no\tL'aide financière disponible sera partagée entre les organismes et les coopératives à but non lucratif sélectionnés pour l'année 2024. L'aide financière demandée ne devra pas excéder 75 % des coûts totaux du projet soumis et 50 % des revenus moyens de l'organisme. Celle-ci pourra faire l'objet de dépenses prévues sur une durée d'un à trois ans. \nB.\tVolet 2 : jardins pédagogiques \nLes projets soumis dans le cadre de ce second volet s'inscrivent dans la Stratégie d'agriculture urbaine 2021-2026 de la Ville de Montréal, lancée en septembre 2021. Ce volet du programme s'adresse aux écoles et aux OBNL qui souhaitent réaliser des jardins pédagogiques dans les établissements scolaires en lien avec les orientations suivantes :  \no\tL'éducation : soutenir les organismes dans la mise en œuvre de projets d'agriculture urbaine dans les écoles montréalaises ; \no\tLa sensibilisation : encourager et promouvoir le jardinage dans les cours d'école ; \no\tL'encouragement de la pratique de l'agriculture urbaine : contribuer à l'atteinte des cibles du Plan climat et de la Stratégie d'agriculture urbaine, notamment le déploiement de 50 nouveaux projets de jardins pédagogiques dans les écoles d'ici 2026. \n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tA80QwArNrTkPqWETByil60v/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": "https://newsletters.yapla.com/stats/tracker/t/tB5iR8UFaSQXiLyLGwxYuGJo/c/memFnkYymoVCRjX622rMfFAB"
-            }
-          ],
-          "date": "19 janvier 2024"
         }
       ]
     },
     {
-      "rubric": "Eau et domaine maritime",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Octroi d'une somme de 5,59 millions de dollars afin d'améliorer les infrastructures municipales d'eau de Beauceville",
-          "content": "",
-          "summary": "Le gouvernement du Québec a annoncé, le 27 février dernier, l'octroi d'une somme de 5,59 millions de dollars à la municipalité de Beauceville afin d'améliorer ses infrastructures municipales d'eau.\n Les sommes versées permettraient de renouveler 1 720 mètres de tronçons de conduites d'eau potable, d'eaux usées et d'eaux pluviales sous la 9e, la 17e, la 21e et la 40e Avenues, ainsi que sous la 84e Rue.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tOIr6LtIS22Ee6TdQbSgbyE/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "27 février 2024"
-        },
-        {
-          "title": "Résultats des inspections portant sur la présence de moules zébrées dans différents plans d'eau",
-          "content": "",
-          "summary": "Le gouvernement du Québec a publié, le 9 janvier dernier, les résultats de son inspection d'une vingtaine de plans d'eau à la suite à la suite de la découverte de moules zébrées au lac Témiscouata à la fin de l'été 2022.\nDans la plupart des plans d'eau, l'évaluation comprenait une inspection visuelle en apnée ou en plongée, ainsi qu'une collecte environnementale d'échantillons d'ADN. Pour le moment, aucun spécimen de moule zébrée n'a été trouvé lors de l'inspection visuelle des plans d'eau évalués. Toutefois, de l'ADN de moule zébrée a été détecté dans les lacs suivants :\n•\tLac des Aigles\n•\tLac Jerry\n•\tLac Matapédia\n•\tLac Mitis\n•\tLac Saint-Jean\n•\tPetit lac Saint-Mathieu\n•\tGrand lac Squatec\n•\tPetit lac Touladi\nLe gouvernement rappelle qu'une détection d'ADN n'implique pas nécessairement la présence d'individus vivants, puisque l'ADN peut être transporté de différentes manières.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tTWaPE7Jo4kHh6qVWSXQF6hE/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "9 janvier 2024"
-        },
-        {
-          "title": "Octroi de fonds pour le développement de moteurs électriques pour bateaux",
-          "content": "",
-          "summary": "Le gouvernement du Québec a annoncé, le 10 janvier dernier, l'octroi d'une somme maximale de 3 millions de dollars américains, sous forme d'une souscription à des actions privilégiées de l'entreprise Vision marine Technologies, située à Boisbriand, dans la région des Laurentides.\nLes sommes sont versées par l'entremise d'Investissement Québec et permettraient de favoriser la réalisation d'un projet visant à développer et à commercialiser un système à propulsion électrique pour hors-bord et bateaux.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tx4mhkCNpkrru08PPx5R8q14/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "10 janvier 2024"
-        },
-        {
-          "title": "Mise à jour du Guide pour l'étude des technologies conventionnelles de traitement des eaux usées d'origine domestique",
-          "content": "",
-          "summary": "Le MELCCFP a publié, le 25 janvier dernier, une mise à jour de son Guide pour l'étude des technologies conventionnelles de traitement des eaux usées d'origine domestique, laquelle remplace celle publiée en 2001 ainsi que ses mises à jour ponctuelles. La nouvelle version du guide peut être utilisée dès maintenant dans le cadre des demandes d'autorisation faites en vertu du paragraphe 3, 1er alinéa, de l'article 22 de la Loi sur la qualité de l'environnement portant sur les installations de traitement des eaux usées d'origine domestique.\nLe Guide vise à répondre à ces besoins en présentant, entre autres, les technologies conventionnelles en tant qu'équipements de procédé plutôt que de présenter des filières de traitement complètes, utiles uniquement pour les projets de nouvelles stations.\nIl traite, de façon plus spécifique, des performances des technologies par rapport aux nouvelles exigences de la réglementation (par exemple la nitrification pour assurer l'enlèvement de l'azote ammoniacal qui peut causer de la toxicité aiguë à l'effluent) et aussi de la réduction d'autres contaminants qui pourraient faire l'objet de normes supplémentaires dans les autorisations ou les attestations d'assainissement municipales (par exemple la réduction des micropolluants et de l'azote total).\nLe Guide aborde de manière globale les installations de traitement des eaux en discutant d'éléments comme la gestion des risques associés aux infrastructures (analyse de fiabilité), la santé et la sécurité, la réduction à la source, la réutilisation des eaux et les émissions de gaz à effet de serre.\nLa structure des chapitres du Guide vise à couvrir, pour l'ensemble des technologies abordées, les éléments nécessaires à la conception des systèmes de traitement des eaux, mais également les éléments concernant leur aménagement, leur performances épuratoires, leur installation et leur exploitation.\nLe Guide peut être consulté en accédant à cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tbYPOueT2u1HE4cdB1jKxBIg/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "25 janvier 2024"
-        }
-      ]
-    },
-    {
-      "rubric": "Matières dangereuses et pesticides",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Publication du Code de pratique pour la gestion écologiquement rationnelle des substances chimiques dans les secteurs des produits chimiques, des plastiques et du caoutchouc",
-          "content": "",
-          "summary": "Le gouvernement du Canada a publié, le 23 février dernier, le Code de pratique pour la gestion écologiquement rationnelle des substances chimiques dans les secteurs des produits chimiques, des plastiques et du caoutchouc.          L'objectif du code de pratique consiste à identifier et à promouvoir les meilleures pratiques en matière de gestion et de manipulation des substances chimiques lors de la production de produits chimiques, de matières plastiques et de produits en caoutchouc, afin de prévenir les rejets de ces substances dans l'environnement.          De plus, le code peut être utilisé pour appuyer les instruments de gestion des risques ciblant des substances chimiques spécifiques utilisées dans les secteurs des produits chimiques, des plastiques et du caoutchouc.          Le code est destiné à s'appliquer aux fabricants, formulateurs et distributeurs des secteurs des produits chimiques, du plastique et du caoutchouc qui relèvent, entre autres, des codes suivants du système de classification des industries de l'Amérique du Nord (SCIAN) :          3251 – Fabrication de produits chimiques de base          3252 – Fabrication de résines, de caoutchouc synthétique et de fibres et de filaments artificiels et synthétiques          325991 – Compoundage sur commande de résines achetées          3261 – Fabrication de produits en plastique          3262 – Fabrication de produits en caoutchouc          Les meilleures pratiques identifiées dans le code devraient être appliquées en fonction des activités entreprises par rapport à toutes les substances chimiques utilisées dans chaque installation. Les activités ou opérations particulières d'une installation détermineront quelles pratiques sont pertinentes et applicables.          Les meilleures pratiques identifiées dans le code ne sont pas prescriptives et l'utilisation d'autres technologies et pratiques permettant d'atteindre un niveau équivalent ou supérieur de protection de l'environnement est encouragée.          Le code n'a pas force de loi et, par conséquent, il ne remplace pas les exigences réglementaires existantes des autorités municipales, provinciales, territoriales ou fédérales. L'engagement des entreprises à se conformer aux recommandations du code n'élimine pas les obligations de se conformer à toutes les exigences légales et réglementaires applicables.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tDusgxnyj4Fjn4aia3JYwhj/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "23 février 2024"
-        },
-        {
-          "title": "Publication du Projet de règlement modifiant le Règlement sur les BPC et le Règlement sur les dispositions réglementaires désignées aux fins de contrôle d'application — Loi canadienne sur la protection de l'environnement (1999)",
-          "content": "",
-          "summary": "Le gouvernement du Canada a publié, dans la Gazette du Canada du 23 décembre 2023, le texte du Projet de règlement modifiant le Règlement sur les BPC et le Règlement sur les dispositions réglementaires désignées aux fins de contrôle d'application — Loi canadienne sur la protection de l'environnement (1999). L'objectif du projet de règlement consiste à assouplir le Règlement pour l'utilisation et la conservation de l'équipement contenant des BPC dans des situations particulières qui n'étaient pas prévues lors de l'entrée en vigueur du Règlement. Plus précisément, les modifications proposées permettraient :\n- De prolonger l'utilisation et la conservation de l'équipement contenant des BPC radioactifs. Les centrales nucléaires seraient obligées de retirer et de détruire leur équipement contenant des BPC, alors qu'elles pourraient le faire en toute sécurité;\n- Aux centrales électriques, dont la mise hors service est prévue d'ici le 31 décembre 2029, de continuer à utiliser certains types d'équipement contenant des BPC jusqu'à ce moment-là, sous réserve de l'approbation du ministre de l'Environnement;\n- De prolonger l'utilisation et la conservation de l'équipement militaire contenant des BPC, dans les cas où il n'existerait aucune solution de rechange aux BPC;\n- Aux musées de conserver dans leurs collections les objets à valeur historique qui contiennent des BPC. Actuellement, l'utilisation de tels objets n'est pas une activité permise par le Règlement et ces objets doivent être mis hors service avant l'échéance;\n- De préciser qu'il n'est pas permis d'ajouter de l'huile sans BPC à de l'huile qui en contient, dans le but de réduire la concentration de BPC, et qu'aucune analyse en laboratoire n'est exigée si la concentration de BPC est déterminée par d'autres moyens. Il est possible de transmettre des commentaires portant sur ce projet de règlement au plus tard le 21 février 2024 en utilisant l'outil de transmission prévu à cet effet.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tDusgxnyj4Fjn4aia3JYwhj/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "23 décembre 2023"
-        }
-      ]
-    },
-    {
-      "rubric": "Transport et mobilité durable",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Lancement d'un appel à projet dans le cadre du Programme d'aide financière aux activités de sensibilisation à la mobilité durable",
-          "content": "",
-          "summary": "Le gouvernement du Québec a annoncé, le 3 janvier dernier, le lancement d'un appel à projet dans le cadre du « Programme d'aide financière aux activités de sensibilisation à la mobilité durable (MobilisActions) ».\nL'objectif du programme MobilisActions consiste à accroître, chez les citoyens et les entreprises, les connaissances portant sur les thèmes suivants :\no\tLes solutions en mobilité des personnes et des marchandises, afin que les habitudes des citoyens et des entreprises deviennent plus durables;\no\tLes nouvelles mobilités, qui sont basées sur le partage, la mutualisation, l'autonomie des véhicules et les avancées technologiques, ainsi que les avantages que ces solutions peuvent apporter aux citoyens et aux entreprises;\no\tLe rôle des déplacements en transport actif et collectif comme mesures de prévention en santé.\nLes organismes suivants sont admissibles à ce programme :\no\tUne municipalité locale, une municipalité régionale de comté (MRC) ou une communauté métropolitaine, de même qu'un organisme municipal ou intermunicipal relevant de celles-ci;\no\tUn organisme à but non lucratif (OBNL) régi par la partie 3 de la Loi sur les compagnies ou par la Loi canadienne sur les organisations à but non lucratif, à condition que son siège soit situé au Québec et qu'il soit légalement constitué depuis un minimum de deux ans;\no\tUne coopérative régie par la Loi sur les coopératives ou par la Loi canadienne sur les coopératives;\no\tUne communauté autochtone représentée par son conseil de bande au sens de la Loi sur les Indiens ou de la Loi sur les Naskapis et la Commission crie-naskapie, de même qu'un organisme relevant de celle-ci;\no\tUn regroupement d'organismes mentionnés ci-dessus.\nPour être admissibles au programme, les projets présentés doivent comporter l'élaboration, la réalisation et la diffusion d'activités parmi les suivantes :\no\tCapsules vidéo;\no\tAnimations;\no\tCampagnes de publicité dans les journaux, à la radio, à la télévision ou dans les médias sociaux;\no\tPlateformes d'apprentissage en ligne;\no\tAteliers;\no\tTrousses pédagogiques;\no\tPrésentations;\no\tPromotion ou mise en place de programmes de certification et d'émulation de la mobilité durable;\no\tMise en place des programmes employeurs visant à favoriser la mobilité durable de leurs employés;\no\tToute autre activité de communication.\nLa date limite pour soumettre un projet a été fixée au 30 avril 2024.\nPour en connaître davantage et pour soumettre un projet, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/t3jnvg7aTOTmwNGJ08yHlGRo/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "3 janvier 2024"
-        },
-        {
-          "title": "Octroi d'une somme de 2 millions de dollars afin de favoriser le développement de la chaîne d'approvisionnement de la production automobile",
-          "content": "",
-          "summary": "Le gouvernement du Canada a annoncé, le 11 janvier dernier, l'octroi d'une somme de 2 millions de dollars à une entreprise de l'Ontario afin de favoriser la production canadienne de pièces automobiles. Les sommes versées permettraient à l'entreprise d'ajouter une nouvelle chaîne de fabrication de pièces pour véhicules automobiles utilisant des procédés de pointe. Cette chaîne devrait aider l'entreprise pendant qu'elle procède à la diversification de ses produits automobiles fabriqués au Canada, notamment ses compartiments de batterie pour le marché des véhicules électriques.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/txAs1dIkAC66r1PLu8CrYW0B/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "11 janvier 2024"
-        },
-        {
-          "title": "Renouvellement du financement de la Chaire de recherche du Canada en optimisation stochastique des systèmes de transport et de logistique de l'UQAM",
-          "content": "",
-          "summary": "La Chaire de recherche du Canada en optimisation stochastique des systèmes de transport et de logistique de l'Université du Québec à Montréal (UAQM) a annoncé, le 24 janvier dernier, le renouvellement du financement du Conseil de recherche en sciences naturelles et en génie (CRSNG) et ce, pour une période de cinq ans.\nL'objectif de la Chaire consiste à concevoir de nouvelles méthodologies efficaces pour la résolution de problèmes de planification et de gestion des systèmes de transport et de logistique.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tu8Kgaj72No1gHKwXt2AIAH/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "24 janvier 2024"
-        },
-        {
-          "title": "Mise à jour de la liste des véhicules automobiles neufs ou remis en état admissibles à des crédits",
-          "content": "",
-          "summary": "Dans le cadre de l'application de Loi visant l'augmentation du nombre de véhicules automobiles zéro émission au Québec afin de réduire les émissions de gaz à effet de serre et autres polluant, le MELCCFP a publié, le 22 janvier dernier, une mise à jour de la liste des véhicules automobiles neufs ou remis en état dont la vente ou la location permet d'accumuler des crédits.\nLa liste des véhicules automobiles permettant d'accumuler des crédits dans le cadre de la norme VZE, peut être consultée en accédant à cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tQYTeYkbfPWbRHdggEJdrekp/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "22 janvier 2024"
-        }
-      ]
-    },
-    {
-      "rubric": "Affaires juridiques",
+      "rubric": "Application de la loi et affaires juridiques",
       "definition": "",
       "examples": [
         {
@@ -351,175 +152,6 @@
             }
           ],
           "date": "12 février 2024"
-        }
-      ]
-    },
-    {
-      "rubric": "Aménagement du territoire et urbanisme",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Octroi d'une somme de près d'un million de dollars afin d'améliorer la résilience de la Ville de Sainte-Marie face aux inondations",
-          "content": "",
-          "summary": "Le gouvernement du Québec a annoncé, le 12 février dernier, l'octroi d'une somme de 975 000 dollars à la Ville de Sainte-Marie afin de favoriser la réalisation d'un projet d'acquisition des connaissances nécessaires à la mise en place de projets de réaménagement résilients.\nLes sommes sont versées dans le cadre du « Plan de protection du territoire face aux inondations : des solutions durables pour mieux protéger nos milieux de vie » et permettraient à la Ville d'identifier et de planifier les interventions les plus porteuses pour protéger son noyau urbain des effets des inondations.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tivaD7EOrU0KibEXAEnqUUmn/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "12 février 2024"
-        },
-        {
-          "title": "Octroi d'une somme de plus de 400 000 dollars afin de favoriser la réalisation d'un projet visant à améliorer la connaissance du risque d'inondation sur le territoire de trois MRC",
-          "content": "",
-          "summary": "Le gouvernement du Québec a annoncé, le 28 février dernier, l'octroi d'une somme de 400 742 dollars aux MRC de Vaudreuil-Soulanges, d'Argenteuil et de Deux-Montagnes, afin de favoriser la réalisation d'un projet visant à améliorer leur connaissance du risque d'inondation sur leurs territoires.\nLes sommes sont versées dans le cadre du « Plan de protection du territoire face aux inondations : des solutions durables pour mieux protéger nos milieux de vie » et permettraient aux MRC de réaliser un projet d'analyse et d'évaluation des risques ainsi que des dommages liés aux inondations sur plusieurs territoires prioritaires de leurs municipalités.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tmFIpsFE6G1tFjWfVdSCppRa/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "28 février 2024"
-        }
-      ]
-    },
-    {
-      "rubric": "Secteur manufacturier et PME",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Octroi d'une somme de près de 170 000 dollars afin de favoriser l'intégration en emploi de plus de femmes dans les secteurs de la métallurgie et de l'aluminium",
-          "content": "",
-          "summary": "Le gouvernement du Québec a annoncé, le 9 février dernier, l'octroi d'une somme de 169 348 dollars afin de favoriser la réalisation d'un projet pilote visant à intégrer en emploi de plus de femmes dans les secteurs de la métallurgie et de l'aluminium au Saguenay-Lac-Saint-Jean.\nL'objectif du projet pilote consisterait à intégrer jusqu'à 20 femmes dans ces emplois d'opératrices dans le traitement des métaux et de manœuvres en métallurgie.\nLes entreprises suivantes participeront au projet pilote :\no\tFonderie Saguenay;\no\tFjordtech;\no\tPrysmian Group and General Cable;\no\tRio Tinto.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tA0OyFmixkggbc6icalAAFYX/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "9 février 2024"
-        },
-        {
-          "title": "Lancement d'un Programme de recherche destiné à la zone d'innovation Québec de la Vallée de la transition énergétique",
-          "content": "",
-          "summary": "Le Fonds de recherche du Québec – Nature et technologies (FRQNT) a annoncé, le 28 février dernier, le lancement du  Programme de recherche en partenariat – Zone d'innovation, lequel s'inscrit dans le déploiement de la troisième Zone d'innovation Québec (ZI) – la Vallée de la transition énergétique (VTE).Ce programme vise principalement à soutenir des approches de recherche collaboratives, interordres et intersectorielles répondant aux besoins d'innovation technologique et sociale inhérents au déploiement de la ZI-VTE. Il vise également à soutenir le partenariat durable entre des organisations du secteur privé et les établissements postsecondaires, ainsi que la formation d'une nouvelle génération de personnes hautement qualifiées, afin de générer des retombées économiques significatives pour le Québec.Les équipes participantes devront être de nature interordre et intersectorielle.Pour en connaître davantage, nous vous invitons à consulter cet hyperlien.          ",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tbF8L0tUgv0apWHjNg427sG/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "28 février 2024"
-        },
-        {
-          "title": "Mise à jour du « Code canadien de l'électricité, Première partie »",
-          "content": "",
-          "summary": "Le Groupe CSA a publié, le 4 mars dernier, le Code canadien de l'électricité 2024, Première partie (Code CE, Première partie).Le Code CE, Première partie, établit des lignes directrices et des exigences nécessaires pour réduire les risques de choc électrique, d'incendie et d'autres dangers électriques. Le Code est mis à jour à tous les trois ans. L'édition 2024 comprend des modifications aux exigences d'installation nécessaires pour que les professionnels de l'électricité puissent utiliser efficacement les nouvelles technologies tout en assurant la sécurité.Les changements et mises à jour comprennent, notamment:-Des précisions et des clarifications quant aux exigences pour les systèmes de stockage d'énergie et d'énergie renouvelables ;-La clarification des exigences du système de gestion de l'énergie des véhicules électriques, pour aider à préparer les bâtiments à une augmentation du nombre de véhicules électriques ;-Des révisions visant à accroître la sécurité électrique des occupants et du personnel des établissements de santé ;-L'ajout de nouvelles règles augmentant la sécurité des utilisateurs et du personnel d'entretien autour des piscines et des spas ;-L'ajout de nouvelles exigences favorisant une sécurité accrue pour le personnel d'entretien du système électrique.La plus récente édition du Code CE, Première partie, peut être achetée en accédant à cet hyperlien.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tWxu1oKCTxt5cUxHKxy3Be0u/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "4 mars 2024"
-        }
-        
-      ]
-    },
-    {
-      "rubric": "Évaluations environnementales",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Délivrance d'une première autorisation dans le cadre du projet de construction de l'usine de batteries de l'entreprise Northvolt",
-          "content": "",
-          "summary": "Le MELCCFP a annoncé, le 8 janvier dernier, la délivrance d'une première autorisation ministérielle à Northvolt afin de permettre la réalisation des travaux préparatoires sur le terrain où seront érigées ses installations de production de matériaux actifs de cathodes et de cellules de batteries pour véhicules électriques. L'analyse du MELCCFP aurait permis d'établir que le projet ne comporte pas d'empiètement significatif dans les milieux jugés plus sensibles du site, soit : L'ensemble des cours d'eau et leurs rives; L'ensemble des zones inondables; Les milieux humides qui constituent un habitat de reproduction potentiel pour certaines espèces comme le petit blongios. Tel qu'il est prévu pour ce type de projet, le ministère a soumis l'entreprise à certaines exigences, notamment le versement d'une compensation financière pour pallier les impacts du projet sur les milieux humides et hydriques. Afin d'atténuer l'impact sur les habitats fauniques, l'entreprise s'est engagée à créer, restaurer ou conserver des milieux naturels sur une superficie à déterminer, qui sera d'égale valeur écologique. Un seul milieu naturel de 30 à 50 hectares a été demandé par le ministère, cet espace de protection à l'extérieur du site (massif ou corridor) s'ajoutant aux 50 hectares laissés à l'état naturel sur le site. La proposition de ce milieu naturel, conformément à l'attestation, devra être soumise et approuvée par le MELCCFP d'ici 36 mois.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/t8yeAlFbUQsrvOql88tgpq1g/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "8 janvier 2024"
-        },
-        {
-          "title": "Octroi d'un mandat d'enquête au BAPE portant sur le projet éolien Des Neiges - Secteur sud dans la MRC de La Côte-de-Beaupré",
-          "content": "",
-          "summary": "Le Bureau d'audiences publiques sur l'environnement (BAPE) a reçu, le 11 janvier dernier, le mandat de tenir une enquête et une audience publique sur le projet éolien Des Neiges - Secteur sud dans la MRC de La Côte-de-Beaupré. Ce mandat débutera le 5 février prochain et aura une durée maximale de 4 mois. La commission d'enquête sera composée de Mme Mireille Paul et de M. de Georges Lanmafankpotin, qui agira à titre de président. Tous les détails entourant les modalités de participation seront annoncés prochainement.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/t8nRLBox8W5eLeXmrsehjPA3/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "11 janvier 2024"
-        },
-        {
-          "title": "Modification à la Loi ontarienne sur les évaluations environnementales",
-          "content": "",
-          "summary": "Le gouvernement de l'Ontario a annoncé, le 22 février dernier, avoir apporté des modifications à la Loi sur les évaluations environnementales.Les modifications apportées ont pour effet de créer une liste de projets assujettis à une « évaluation environnementale exhaustive ».Les projets assujettis à une « évaluation environnementale exhaustive » comprennent les grands projets relatifs aux déchets et au secteur riverain, ainsi que les grandes installations de production d'électricité. Ces projets sont désormais définis dans le règlement sur les projets d'évaluation environnementale exhaustive (Partie II.3 Projets – Désignations et exemptions).Les projets assujettis à un processus d'évaluation environnementale simplifiée sont les suivants :-Certains projets visés par la partie II.3 faisant l'objet d'exemptions conditionnelles dans le règlement sur les projets d'évaluation environnementale exhaustive (déchets, électricité, transport en commun et transport ferroviaire);-D'autres projets qui sont toujours assujettis à un processus d'évaluation environnementale simplifiée dans le cadre d'une d'évaluation environnementale de portée générale approuvée.Certains projets sont par ailleurs passés de l'ancienne procédure d'évaluation environnementale individuelle (aujourd'hui procédure d'évaluation environnementale exhaustive) à des processus d'évaluation environnementale simplifiée :-Toutes les nouvelles routes (autoroutes provinciales et municipales);-Les projets ferroviaires;-Les lignes et stations de transport d'électricité.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/trkA5nVBVFeRbr7xnSUaJK/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "22 février 2024"
-        }
-      ]
-    },
-    {
-      "rubric": "Matières résiduelles, économie circulaire et écologie industrielle",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Lancement d'un processus de consultation portant sur la création du registre fédéral sur les plastiques",
-          "content": "",
-          "summary": "Le gouvernement du Canada a annoncé le lancement d'un processus de consultation portant sur la création d'un registre fédéral qui exigerait que les producteurs transmettent annuellement des renseignements sur la quantité et les types de plastique mis sur le marché, ainsi que sur leur gestion en fin de vie. Ce registre aiderait à tracer les plastiques dans l'économie canadienne et servirait à élaborer de nouvelles mesures pour atteindre l'objectif 'zéro déchet de plastique'.",
-          "urls": [
-            {
-              "url1": "https://www.gazette.gc.ca/rp-pr/p1/2023/2023-12-30/html/notice-avis-fra.html#na3",
-              "url2": ""
-            }
-          ],
-          "date": "30 décembre 2023"
-        },
-        {
-          "title": "Mise à jour de documents concernant la déclaration annuelle 2023 pour la redevance à l'élimination de matières résiduelles",
-          "content": "",
-          "summary": "Le MELCCFP a publié, le 19 janvier, les formulaires pertinents dans le cadre de déclaration annuelle pour les fins de l'application du Règlement sur l'enfouissement et l'incinération de matières résiduelles (article 39 et 52) et du Règlement sur les redevances exigibles pour l'élimination de matières résiduelles (article 9). Le ministère a également publié une version mise à jour du Guide pour remplir la déclaration annuelle à l'intention des exploitants d'installations d'élimination et de centres de transfert.\nCes documents peuvent être consultés en accédant aux hyperliens suivants :\no\tGuide pour remplir la déclaration annuelle à l'intention des exploitants d'installations d'élimination et de centres de transfert ;\no\tFormulaire de déclaration annuelle 2023 ;\no\tFormulaire de déclaration trimestrielle 2024 – LET/LEDCD ;\no\tFormulaire de déclaration trimestrielle 2024 – Centre de transfert ;\no\tFormulaire de déclaration trimestrielle 2024 - Incinérateur.\nPour en connaître davantage sur la redevance pour l'élimination des matières résiduelles, nous vous invitons à consulter cet hyperlien. \n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tpRjsVN1reRSFIAMSjfsYCNS/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": "https://newsletters.yapla.com/stats/tracker/t/tPgyJTBYXEshfPuWKsyJmQB/c/memFnkYymoVCRjX622rMfFAB"
-            }
-          ],
-          "date": "19 janvier 2024"
-        },
-        {
-          "title": "Octroi d'un financement de 2,1 millions de dollars aux établissements universitaires pour accroître la recherche sur les plastiques et leurs effets possibles sur la santé humaine",
-          "content": "",
-          "summary": "Le gouvernement du Canada a annoncé, le 22 janvier dernier, l'octroi d'une somme de 2,1 millions de dollars à l'Université McGill, l'Université Mémorial de Terre-Neuve et l'Université de Toronto pour entreprendre des recherches relatives aux possibles expositions aux microplastiques provenant de diverses sources, notamment alimentaires, emballages alimentaires, eau potable, air extérieur et intérieur, poussière.\nCes initiatives amélioreraient la compréhension des possibles effets des microplastiques sur la santé humaine et aideraient à comprendre les effets de ces matériaux sur notre santé et trouver des solutions pour gérer tout risque connexe.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/taomX5dJTYaQA1HjiAb1nqd/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "22 janvier 2024"
-        },
-        {
-          "title": "Mise à jour des indicateurs environnementaux portant sur le réacheminement et l'élimination des déchets solides",
-          "content": "",
-          "summary": "Le gouvernement du Canada a publié, le 25 janvier dernier, une mise à jour des indicateurs environnementaux portant sur le réacheminement et l'élimination des déchets solides.\nCes indicateurs permettent d'évaluer la quantité totale et de la quantité par personne de déchets solides non dangereux réacheminés ou éliminés par les administrations municipales et les entreprises du secteur de la gestion des déchets. Le taux de réacheminement des déchets selon la source (résidentielle ou non résidentielle) et les types de matières réacheminées sont également présentés.\nVoici quelques faits saillants de la plus récente mise à jour :\n•\tDe 2002 à 2020, \no\tla quantité totale de déchets solides générés au Canada a augmenté de 5,3 millions de tonnes (soit 17 %), atteignant 36,0 millions de tonnes;\no\tla quantité de déchets réacheminés a augmenté de 3,3 millions de tonnes (soit 49 %), atteignant 9,9 millions de tonnes;\no\tla quantité de déchets envoyés dans des sites d'enfouissement ou incinérés a augmenté de 2,0 millions de tonnes (soit 8 %), atteignant 26,1 millions de tonnes.\n•\tEn 2020, 27,5 % des déchets solides générés au Canada ont été réacheminés, tandis que les 72,5 % restants ont été envoyés pour élimination ;\n•\tEntre 2002 et 2020, \no\tle total des déchets solides réacheminés par personne a augmenté de 23 %, passant de 212 à 261 kilogrammes (kg);\no\tl'élimination des déchets solides par personne a diminué de 11 %, passant de 768 à 687 kg.\n•\tEntre 2014 et 2020, l'élimination des déchets solides par personne a diminué de presque 2 %, passant de 699 à 687 kg ;\n•\tEntre 2002 et 2020, la part des déchets solides réacheminés \no\tde toutes les sources a augmenté de 22 % à 28 %;\no\tde sources résidentielles a augmenté de 25 % à 32 %;\no\tde sources non résidentielles a augmenté de 20 % à 22 %.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tXF8LC0HiFn6A5gRPKY07DFT/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "25 janvier 2024"
         }
       ]
     },
@@ -578,100 +210,73 @@
       ]
     },
     {
-      "rubric": "Pêcheries",
+      "rubric": "Carrières et sablières",
+      "definition": "",
+      "examples": []
+    },
+    {
+      "rubric": "Développement durable, RSE et critères ESG",
       "definition": "",
       "examples": [
         {
-          "title": "Conclusion d'une opération visant à punir la capture, la vente et l'achat illégal de certains poissons",
+          "title": "Bilan des activités d'accompagnement d'investisseurs étrangers par Montréal International",
           "content": "",
-          "summary": "Le MELCCFP a publié, le 13 février dernier, les résultats de l'opération « Effiléfin », réalisée en 2020.\nAu total, 90, à la suite de l'opération, 90 individus ont été condamnés à payer des amendes totalisant près de 300 000 dollars, principalement pour des infractions à la Loi sur la conservation et la mise en valeur de la faune et à la Loi sur les pêches. Les infractions ont été commises sur le territoire du Bas-Saint-Laurent.\nLes infractions relevées sont les suivantes :\n•\tLa vente, l'achat, la possession illégale et le dépassement des limites de poissons (principalement l'éperlan arc-en-ciel) et de gibier;\n•\tLa capture illégale de poissons (principalement l'éperlan arc-en-ciel et le bar rayé).\nLa majorité des dossiers se sont réglés par la transmission de plaidoyers de culpabilité au procureur attitré à l'opération.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "summary": "Montréal International a publié, le 28 février dernier, un bilan des investissements étrangers visant, notamment, à favoriser la transition écologique de l'économie dans le Grand Montréal au cours de l'année 2023. Voici quelques faits saillants de ce bilan : En 2023, Montréal International a accompagné un total de 87 projets d'investissements directs étrangers d'une valeur de 2,735 milliards de dollars, menant à la création de 5 983 emplois dont le salaire annuel moyen atteint un sommet à 97 500 dollars; Montréal International compte huit grands projets dans le secteur des technologies propres, totalisant des investissements de 643 millions de dollars et représentant 24 % des investissements ; Parmi les projets majeurs, Montréal International note que l'entreprise allemande DHL, a choisi Montréal pour lancer l'électrification de son parc de véhicules à l'échelle nationale",
           "urls": [
             {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/t5Ws52bFCVTRtv5q4JE6JYDc/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "13 janvier 2024"
-        },
-        {
-          "title": "Annonce d'un financement de plus de 3,5 millions de dollars dans les technologies propres pour les secteurs des pêches et de l'aquaculture",
-          "content": "",
-          "summary": "Le gouvernement du Canada a annoncé, le 28 février dernier, un financement de plus de 3,5 millions de dollars pour 18 initiatives dans le cadre du programme d'adoption des technologies propres pour les pêches et l'aquaculture (PATPPA).\nCe financement appuierait les petites et moyennes entreprises dans leurs efforts pour adopter et intégrer des technologies novatrices et propres dans leurs activités commerciales. Ces fonds permettraient également d'améliorer la performance environnementale et la compétitivité.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tajq7xMc0w2gExtjBWpBS2/c/memFnkYymoVCRjX622rMfFAB",
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/ti6ieDX3Dga2oYKFgVhpBmjn/c/memFnkYymoVCRjX622rMfFAB",
               "url2": ""
             }
           ],
           "date": "28 février 2024"
         },
         {
-          "title": "Accréditation d'un laboratoire canadien selon la norme ISO 17025 portant sur les tests et les analyses de l'ADN environnemental",
+          "title": "Entrée en vigueur de deux nouvelles normes de la GRI",
           "content": "",
-          "summary": "Le gouvernement du Canada a annoncé, le 29 février dernier, avoir octroyé au Centre des pêches du Golfe de Pêches et Océans Canada, situé au Nouveau-Brunswick, une accréditation selon les normes les plus élevées pour ses tests et analyses de l'ADN environnemental (ADNe).Le laboratoire d'analyse de l'ADNe du Centre des pêches est ainsi devenu le premier accrédité selon la norme 17025 de l'Organisation internationale de normalisation (ISO) pour les espèces aquatiques envahissantes. L'accréditation certifie que les résultats produits en laboratoire répondent aux normes internationales d'exactitude et de fiabilité.L'approche de l'exploitation de l'ADNe permettrait aux chercheurs de détecter les organismes, y compris les organismes envahissants, dans les échantillons d'eau prélevés dans les écosystèmes aquatiques.",
+          "summary": "Le 1er janvier 2024 marquait l'entrée en vigueur de deux normes sectorielles de la GRI, soit :\nA.\tLa GRI 12 : Secteur du charbon 2022\nCette norme définit les attentes par rapport aux organisations charbonnières en matière de divulgation de la manière dont elles répondent au besoin pressant de transition vers une économie à faible émission de carbone, permettant ainsi la production de rapports comparables et complets sur des questions telles que :\no\tLa gestion efficace des impacts de l'organisation sur l'environnement, la biodiversité et le changement climatique ;\no\tLa sauvegarde de la sécurité et du bien-être des employés et des communautés dans le plein respect des droits de l'homme ;\no\tLes mesures de lutte contre la corruption, la transparence des paiements et des contrats.\nB.\tLa GRI 13 : Secteurs de l'agriculture, de l'aquaculture et de la pêche 2022.\nCette norme vise à améliorer l'exhaustivité et la comparabilité des informations relatives au développement durable pour les organisations impliquées dans la culture, la production animale, l'aquaculture ou la pêche. La norme aborde les points suivants :\no\tLes principaux sujets matériels et les informations à fournir par les organisations en fonction de leur impact sur les dimensions économiques, environnementales et sociales, notamment sur la biodiversité, la sécurité alimentaire, l'engagement des communautés, le bien-être des animaux, la santé des sols et l'utilisation des pesticides ;\no\tLes liens existants entre les secteurs et les Objectifs de développement durable (ODD) ;\no\tLes implications politiques pour les entreprises responsables basées sur des cadres internationaux, tels que ceux établis par l'Organisation des Nations unies pour l'alimentation et l'agriculture (FAO) et l'Organisation internationale du travail (OIT).\n",
           "urls": [
             {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tTEa1YBv7U1efSnQnDtKLBI/c/memFnkYymoVCRjX622rMfFAB",
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/t8vkduPxJrxI8cEsJMXg1SU8/c/memFnkYymoVCRjX622rMfFAB",
               "url2": ""
             }
           ],
-          "date": "29 février 2024"
+          "date": "1 janvier 2024"
+        },
+        {
+          "title": "Plus de 320 organisations s'engagent à utiliser les recommandations du TNFD",
+          "content": "",
+          "summary": "Le Groupe de travail sur les informations financières relatives à la nature (TNFD) a récemment annoncé que 320 organisations de plus de 46 pays se sont engagées à commencer à publier des informations relatives à la nature sur la base des recommandations TNFD publiées en septembre de l'année dernière.\nCette première cohorte d'organisations ayant choisi d'appliquer le cadre du TNFD comprend :\n•\tDes sociétés cotées en bourse dans différents pays et dont la capitalisation boursière atteint 4 000 milliards de dollars;\n•\tPlus de 100 institutions financières représentant 14 000 milliards de dollars d'actifs sous gestion;\n•\tDes assureurs, des bourses et des cabinets d'audit et de comptabilité.\nCes organisations publieront des informations alignées sur la TNFD dans le cadre de leurs rapports d'entreprise annuels pour les exercices 2023, 2024 ou 2025.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tJkIm2m6vc4cq6MErxRCm7wC/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": ""
+        },
+        {
+          "title": "Lancement d'un appel à projets dans le cadre du Programme de contributions financières pour la transition écologique",
+          "content": "",
+          "summary": "La Ville de Montréal a annoncé, le 19 janvier dernier, le lancement d'un appel à projets dans le cadre du Programme de contributions financières pour la transition écologique (PCFTE). \nL'appel à projets, doté d'une enveloppe de 600 000 dollars, vise à favoriser la réalisation d'initiatives permettant de réduire les émissions de GES et de production de matières résiduelles par les OBNL, les coopératives et les écoles.\nL'appel à projets se divise en deux volets, soit :\nA.\tVolet 1 : réduction des GES et des matières résiduelles, adaptation aux changements climatiques et résilience des communautés \nLes projets inclus dans ce premier volet pourront bénéficier d'une aide financière de 500 000 dollars et devront viser les objectifs suivants : \no\tLa réduction des émissions de GES et des matières résiduelles : projets visant la diminution de l'utilisation des transports motorisés, la mobilité active, la réduction à la source des matières résiduelles, etc. ; \no\tL'adaptation aux changements climatiques : l'adaptation du territoire, des infrastructures, des aménagements, des équipements et des communautés montréalaises aux aléas climatiques ; \no\tLa résilience des communautés : projets qui appuient la capacité d'agir de la population face aux aléas climatiques, l'équité territoriale et le sentiment de sécurité dans les quartiers. \no\tL'aide financière disponible sera partagée entre les organismes et les coopératives à but non lucratif sélectionnés pour l'année 2024. L'aide financière demandée ne devra pas excéder 75 % des coûts totaux du projet soumis et 50 % des revenus moyens de l'organisme. Celle-ci pourra faire l'objet de dépenses prévues sur une durée d'un à trois ans. \nB.\tVolet 2 : jardins pédagogiques \nLes projets soumis dans le cadre de ce second volet s'inscrivent dans la Stratégie d'agriculture urbaine 2021-2026 de la Ville de Montréal, lancée en septembre 2021. Ce volet du programme s'adresse aux écoles et aux OBNL qui souhaitent réaliser des jardins pédagogiques dans les établissements scolaires en lien avec les orientations suivantes :  \no\tL'éducation : soutenir les organismes dans la mise en œuvre de projets d'agriculture urbaine dans les écoles montréalaises ; \no\tLa sensibilisation : encourager et promouvoir le jardinage dans les cours d'école ; \no\tL'encouragement de la pratique de l'agriculture urbaine : contribuer à l'atteinte des cibles du Plan climat et de la Stratégie d'agriculture urbaine, notamment le déploiement de 50 nouveaux projets de jardins pédagogiques dans les écoles d'ici 2026. \n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tA80QwArNrTkPqWETByil60v/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": "https://newsletters.yapla.com/stats/tracker/t/tB5iR8UFaSQXiLyLGwxYuGJo/c/memFnkYymoVCRjX622rMfFAB"
+            }
+          ],
+          "date": "19 janvier 2024"
         }
       ]
     },
     {
-      "rubric": "Ressources naturelles",
+      "rubric": "Développement nordique",
       "definition": "",
-      "examples": [
-        {
-          "title": "Publication du Plan d'action 2023-2025 pour la mise en œuvre du Plan québécois pour la valorisation des minéraux critiques et stratégiques 2020-2025",
-          "content": "",
-          "summary": "Le gouvernement du Québec a publié, le 23 janvier dernier, le Plan d'action 2023-2025 pour la mise en œuvre du Plan québécois pour la valorisation des minéraux critiques et stratégiques 2020-2025 (PQVMCS), lancé en octobre 2020.\nL'objectif du PQVMCS consiste à contribuer au déploiement de la filière verte par le déploiement de mesures permettant, notamment, de :\n•\tDévelopper le recyclage des minéraux critiques et stratégiques (MCS);\n•\tFavoriser l'économie circulaire et la chaîne de valeur de MCS;\n•\tRenforcer la collaboration entre les différents acteurs de la chaîne de valeur;\n•\tAméliorer l'encadrement réglementaire.\nLes nouvelles actions déployées serviront, entre autres, au soutien à la formation de la main-d'œuvre, à l'accompagnement dans la transformation numérique des mines et à l'optimisation de l'encadrement environnemental, toujours dans une perspective de décarbonation de l'économie. Le plan d'action mis à jour prévoit aussi certaines mesures phares visant à soutenir des projets en économie circulaire, notamment dans le recyclage des résidus miniers.\nPlus précisément, le nouveau Plan d'action prévoit 22 actions s'articulant autour de 11 objectifs, soit :\n•\tAméliorer l'efficience et les pratiques de l'exploration minière et la découverte de ressources minérales ;\n•\tAméliorer les connaissances sur les MCS en favorisant les synergies de recherche et développement et en innovation ;\n•\tFavoriser l'exploration et la mise en valeur des MCS de façon plus durable;\n•\tSoutenir la transformation et la création de produits à valeur ajoutée associés aux filières de MCS;\n•\tAméliorer les infrastructures multiusagers et les corridors d'accès aux ressources en MCS;\n•\tAugmenter les investissements étrangers nécessaires au développement de l'industrie minière québécoise incluant les différentes étapes de la chaîne de valeurs des MCS;\n•\tAugmenter l'efficience des activités des entreprises d'exploitation minière au Québec;\n•\tAdapter les formations et actualiser la qualification de la main-d'oeuvre dans le secteur des minéraux critiques et stratégiques;\n•\tFavoriser l'intégration de l'économie circulaire aux chaînes de valeur de MCS;\n•\tStimuler l'implantation d'initiatives ayant pour but de réduire l'empreinte environnementale du secteur minier;\n•\tSensibiliser la population ainsi que les acteurs locaux et autochtones aux enjeux, aux conséquences et aux retombées liés à la valorisation des minéraux, dont les MCS, pour le Québec et ses régions.\nLe gouvernement a également annoncé par le fait même les nouveaux minéraux qui figureront sur la liste des MCS, soit :\n•\tL'aluminium,\n•\tL'apatite;\n•\tLe germanium;\n•\tLe manganèse;\n•\tLe fer de haute pureté;\n•\tLa silice de haute pureté.\nAvec ces ajouts, 28 minéraux sont maintenant reconnus comme étant des MCS.\nLe Plan d'action 2023-2025 pour la mise en œuvre du PQVMCS peut être consulté en accédant à cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/ty5T8111STUuAupSq8BrMMUF/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "23 janvier 2024"
-        },
-        {
-          "title": "Lancement d'une norme GRI portant sur l'industrie minière ",
-          "content": "",
-          "summary": "Le Global Reporting Initiative a publié, le 5 février, la norme « GRI 14 : Secteur minier 2024 ».\nCette norme aborde de manière globale les impacts du secteur minier sur le développement durable, dont, notamment :\no\tLes émissions de GES ;\no\tLes changements climatiques ;\no\tLa biodiversité ;\no\tLa génération de déchets miniers ;\no\tLes droits de l'homme ;\no\tLa lutte à la corruption ;\no\tLes droits fonciers.\nLa norme GRI14 permettrait également de définir les attentes en matière de transparence au niveau des sites qui reflètent les impacts locaux, afin d'aider les parties prenantes à évaluer les impacts et les risques en fonction du lieu et des minéraux spécifiques.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/teG715HyRsGGnDCwMtJki14u/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "5 février 2024"
-        },
-        {
-          "title": "Publication de la version finale du Règlement modifiant le Règlement sur les substances minérales autres que le pétrole, le gaz naturel et la saumure",
-          "content": "",
-          "summary": "Le gouvernement du Québec a publié, dans la Gazette officielle du 7 février 2024, la version finale du Règlement modifiant le Règlement sur les substances minérales autres que le pétrole, le gaz naturel et la saumure.\nLe texte, qui a été publié sous la forme d'un projet de règlement dans la Gazette officielle du Québec du 6 septembre 2023, a été adopté sans modification. Il prévoit, notamment :\no\tCe qui constitue des travaux d'exploration à impacts et fixe les conditions de délivrance et de renouvellement de l'autorisation pour travaux d'exploration à impacts afin de rendre applicable le nouveau régime d'autorisation introduit à la Loi sur les mines par la Loi visant principalement à renforcer l'application des lois en matière d'environ¬nement et de sécurité des barrages, à assurer une gestion responsable des pesticides et à mettre en oeuvre certaines mesures du Plan pour une économie verte 2030 concernant les véhicules zéro émission;\no\tL'obligation, pour les promoteurs miniers, de présenter leurs projets aux milieux d'accueil, de recueillir leurs questions, demandes et commentaires et de leur fournir des réponses. Ils devront par la suite faire rapport de ces échanges lors du dépôt de leur demande d'autorisation de travaux à impacts adressée au ministère des Ressources naturelles et des Forêts;\no\tLa possibilité, pour le ministre, d'imposer, à la suite de la démarche préalable à la délivrance de l'autorisation, des conditions d'exercice pour tenir compte des préoccupations exprimées et ainsi limiter les répercussions sur le milieu. Ces conditions pourraient baliser, par exemple, la période et les heures de réalisation de travaux, la circulation de camions ou l'utilisation de certains chemins.\nLe Règlement modifiant le Règlement sur les substances minérales autres que le pétrole, le gaz naturel et la saumure entrera en vigueur le 6 mai 2024.\nLa version finale du Règlement modifiant le Règlement sur les substances minérales autres que le pétrole, le gaz naturel et la saumure peut être consultée en accédant à cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tuLeraWO3O20I62pFnhswjI/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "7 février 2024"
-        },
-        {
-          "title": "Lancement d'un processus de consultation portant sur l'avenir de la forêt",
-          "content": "",
-          "summary": "Le gouvernement du Québec a officiellement lancé, le 13 février dernier, un processus de consultation sur l'avenir de la forêt, avec la tenue d'une « table régionale » au Bas-Saint-Laurent. Au total, 11 autres « tables régionales » ainsi qu'une rencontre avec les communautés autochtones et une rencontre nationale de réflexion sont prévues.\nL'objectif des tables consiste à permettre l'élaboration d'une vision commune et de déterminer des solutions d'avenir pour optimiser la gestion forestière et l'aménagement forestier, notamment pour nous aider à nous adapter aux changements climatiques et pour assurer la pérennité de notre forêt. Selon les constats qui émergeront de cette démarche, des changements dans la gestion des forêts québécoises pourraient être envisagés.\nEn plus des tables régionales, le gouvernement a ouvert un processus de consultation publique. Nous recueillerons vos commentaires dans le cadre de ce processus de consultation dans le cadre d'une réunion de travail dont la date sera identifiée sous peu.\nPour en connaître davantage sur le processus de consultation et pour accéder aux documents de consultation, nous vous invitons à consulter cet hyperlien.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tK7wyPLN5VTRJX4v3m0rtCoP/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "13 février 2024"
-        }
-      ]
+      "examples": []
+    },
+    {
+      "rubric": "Domaine aérospatial",
+      "definition": "",
+      "examples": []
     },
     {
       "rubric": "Domaine agricole",
@@ -740,7 +345,439 @@
       ]
     },
     {
-      "rubric": "Sols contaminés",
+      "rubric": "Eau et domaine maritime",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Octroi d'une somme de 5,59 millions de dollars afin d'améliorer les infrastructures municipales d'eau de Beauceville",
+          "content": "",
+          "summary": "Le gouvernement du Québec a annoncé, le 27 février dernier, l'octroi d'une somme de 5,59 millions de dollars à la municipalité de Beauceville afin d'améliorer ses infrastructures municipales d'eau.\n Les sommes versées permettraient de renouveler 1 720 mètres de tronçons de conduites d'eau potable, d'eaux usées et d'eaux pluviales sous la 9e, la 17e, la 21e et la 40e Avenues, ainsi que sous la 84e Rue.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tOIr6LtIS22Ee6TdQbSgbyE/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "27 février 2024"
+        },
+        {
+          "title": "Résultats des inspections portant sur la présence de moules zébrées dans différents plans d'eau",
+          "content": "",
+          "summary": "Le gouvernement du Québec a publié, le 9 janvier dernier, les résultats de son inspection d'une vingtaine de plans d'eau à la suite à la suite de la découverte de moules zébrées au lac Témiscouata à la fin de l'été 2022.\nDans la plupart des plans d'eau, l'évaluation comprenait une inspection visuelle en apnée ou en plongée, ainsi qu'une collecte environnementale d'échantillons d'ADN. Pour le moment, aucun spécimen de moule zébrée n'a été trouvé lors de l'inspection visuelle des plans d'eau évalués. Toutefois, de l'ADN de moule zébrée a été détecté dans les lacs suivants :\n•\tLac des Aigles\n•\tLac Jerry\n•\tLac Matapédia\n•\tLac Mitis\n•\tLac Saint-Jean\n•\tPetit lac Saint-Mathieu\n•\tGrand lac Squatec\n•\tPetit lac Touladi\nLe gouvernement rappelle qu'une détection d'ADN n'implique pas nécessairement la présence d'individus vivants, puisque l'ADN peut être transporté de différentes manières.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tTWaPE7Jo4kHh6qVWSXQF6hE/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "9 janvier 2024"
+        },
+        {
+          "title": "Octroi de fonds pour le développement de moteurs électriques pour bateaux",
+          "content": "",
+          "summary": "Le gouvernement du Québec a annoncé, le 10 janvier dernier, l'octroi d'une somme maximale de 3 millions de dollars américains, sous forme d'une souscription à des actions privilégiées de l'entreprise Vision marine Technologies, située à Boisbriand, dans la région des Laurentides.\nLes sommes sont versées par l'entremise d'Investissement Québec et permettraient de favoriser la réalisation d'un projet visant à développer et à commercialiser un système à propulsion électrique pour hors-bord et bateaux.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tx4mhkCNpkrru08PPx5R8q14/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "10 janvier 2024"
+        },
+        {
+          "title": "Mise à jour du Guide pour l'étude des technologies conventionnelles de traitement des eaux usées d'origine domestique",
+          "content": "",
+          "summary": "Le MELCCFP a publié, le 25 janvier dernier, une mise à jour de son Guide pour l'étude des technologies conventionnelles de traitement des eaux usées d'origine domestique, laquelle remplace celle publiée en 2001 ainsi que ses mises à jour ponctuelles. La nouvelle version du guide peut être utilisée dès maintenant dans le cadre des demandes d'autorisation faites en vertu du paragraphe 3, 1er alinéa, de l'article 22 de la Loi sur la qualité de l'environnement portant sur les installations de traitement des eaux usées d'origine domestique.\nLe Guide vise à répondre à ces besoins en présentant, entre autres, les technologies conventionnelles en tant qu'équipements de procédé plutôt que de présenter des filières de traitement complètes, utiles uniquement pour les projets de nouvelles stations.\nIl traite, de façon plus spécifique, des performances des technologies par rapport aux nouvelles exigences de la réglementation (par exemple la nitrification pour assurer l'enlèvement de l'azote ammoniacal qui peut causer de la toxicité aiguë à l'effluent) et aussi de la réduction d'autres contaminants qui pourraient faire l'objet de normes supplémentaires dans les autorisations ou les attestations d'assainissement municipales (par exemple la réduction des micropolluants et de l'azote total).\nLe Guide aborde de manière globale les installations de traitement des eaux en discutant d'éléments comme la gestion des risques associés aux infrastructures (analyse de fiabilité), la santé et la sécurité, la réduction à la source, la réutilisation des eaux et les émissions de gaz à effet de serre.\nLa structure des chapitres du Guide vise à couvrir, pour l'ensemble des technologies abordées, les éléments nécessaires à la conception des systèmes de traitement des eaux, mais également les éléments concernant leur aménagement, leur performances épuratoires, leur installation et leur exploitation.\nLe Guide peut être consulté en accédant à cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tbYPOueT2u1HE4cdB1jKxBIg/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "25 janvier 2024"
+        }
+      ]
+    },
+    {
+      "rubric": "Évaluations environnementales",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Délivrance d'une première autorisation dans le cadre du projet de construction de l'usine de batteries de l'entreprise Northvolt",
+          "content": "",
+          "summary": "Le MELCCFP a annoncé, le 8 janvier dernier, la délivrance d'une première autorisation ministérielle à Northvolt afin de permettre la réalisation des travaux préparatoires sur le terrain où seront érigées ses installations de production de matériaux actifs de cathodes et de cellules de batteries pour véhicules électriques. L'analyse du MELCCFP aurait permis d'établir que le projet ne comporte pas d'empiètement significatif dans les milieux jugés plus sensibles du site, soit : L'ensemble des cours d'eau et leurs rives; L'ensemble des zones inondables; Les milieux humides qui constituent un habitat de reproduction potentiel pour certaines espèces comme le petit blongios. Tel qu'il est prévu pour ce type de projet, le ministère a soumis l'entreprise à certaines exigences, notamment le versement d'une compensation financière pour pallier les impacts du projet sur les milieux humides et hydriques. Afin d'atténuer l'impact sur les habitats fauniques, l'entreprise s'est engagée à créer, restaurer ou conserver des milieux naturels sur une superficie à déterminer, qui sera d'égale valeur écologique. Un seul milieu naturel de 30 à 50 hectares a été demandé par le ministère, cet espace de protection à l'extérieur du site (massif ou corridor) s'ajoutant aux 50 hectares laissés à l'état naturel sur le site. La proposition de ce milieu naturel, conformément à l'attestation, devra être soumise et approuvée par le MELCCFP d'ici 36 mois.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/t8yeAlFbUQsrvOql88tgpq1g/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "8 janvier 2024"
+        },
+        {
+          "title": "Octroi d'un mandat d'enquête au BAPE portant sur le projet éolien Des Neiges - Secteur sud dans la MRC de La Côte-de-Beaupré",
+          "content": "",
+          "summary": "Le Bureau d'audiences publiques sur l'environnement (BAPE) a reçu, le 11 janvier dernier, le mandat de tenir une enquête et une audience publique sur le projet éolien Des Neiges - Secteur sud dans la MRC de La Côte-de-Beaupré. Ce mandat débutera le 5 février prochain et aura une durée maximale de 4 mois. La commission d'enquête sera composée de Mme Mireille Paul et de M. de Georges Lanmafankpotin, qui agira à titre de président. Tous les détails entourant les modalités de participation seront annoncés prochainement.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/t8nRLBox8W5eLeXmrsehjPA3/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "11 janvier 2024"
+        },
+        {
+          "title": "Modification à la Loi ontarienne sur les évaluations environnementales",
+          "content": "",
+          "summary": "Le gouvernement de l'Ontario a annoncé, le 22 février dernier, avoir apporté des modifications à la Loi sur les évaluations environnementales.Les modifications apportées ont pour effet de créer une liste de projets assujettis à une « évaluation environnementale exhaustive ».Les projets assujettis à une « évaluation environnementale exhaustive » comprennent les grands projets relatifs aux déchets et au secteur riverain, ainsi que les grandes installations de production d'électricité. Ces projets sont désormais définis dans le règlement sur les projets d'évaluation environnementale exhaustive (Partie II.3 Projets – Désignations et exemptions).Les projets assujettis à un processus d'évaluation environnementale simplifiée sont les suivants :-Certains projets visés par la partie II.3 faisant l'objet d'exemptions conditionnelles dans le règlement sur les projets d'évaluation environnementale exhaustive (déchets, électricité, transport en commun et transport ferroviaire);-D'autres projets qui sont toujours assujettis à un processus d'évaluation environnementale simplifiée dans le cadre d'une d'évaluation environnementale de portée générale approuvée.Certains projets sont par ailleurs passés de l'ancienne procédure d'évaluation environnementale individuelle (aujourd'hui procédure d'évaluation environnementale exhaustive) à des processus d'évaluation environnementale simplifiée :-Toutes les nouvelles routes (autoroutes provinciales et municipales);-Les projets ferroviaires;-Les lignes et stations de transport d'électricité.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/trkA5nVBVFeRbr7xnSUaJK/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "22 février 2024"
+        }
+      ]
+    },
+    {
+      "rubric": "Matières dangereuses et pesticides",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Publication du Code de pratique pour la gestion écologiquement rationnelle des substances chimiques dans les secteurs des produits chimiques, des plastiques et du caoutchouc",
+          "content": "",
+          "summary": "Le gouvernement du Canada a publié, le 23 février dernier, le Code de pratique pour la gestion écologiquement rationnelle des substances chimiques dans les secteurs des produits chimiques, des plastiques et du caoutchouc.          L'objectif du code de pratique consiste à identifier et à promouvoir les meilleures pratiques en matière de gestion et de manipulation des substances chimiques lors de la production de produits chimiques, de matières plastiques et de produits en caoutchouc, afin de prévenir les rejets de ces substances dans l'environnement.          De plus, le code peut être utilisé pour appuyer les instruments de gestion des risques ciblant des substances chimiques spécifiques utilisées dans les secteurs des produits chimiques, des plastiques et du caoutchouc.          Le code est destiné à s'appliquer aux fabricants, formulateurs et distributeurs des secteurs des produits chimiques, du plastique et du caoutchouc qui relèvent, entre autres, des codes suivants du système de classification des industries de l'Amérique du Nord (SCIAN) :          3251 – Fabrication de produits chimiques de base          3252 – Fabrication de résines, de caoutchouc synthétique et de fibres et de filaments artificiels et synthétiques          325991 – Compoundage sur commande de résines achetées          3261 – Fabrication de produits en plastique          3262 – Fabrication de produits en caoutchouc          Les meilleures pratiques identifiées dans le code devraient être appliquées en fonction des activités entreprises par rapport à toutes les substances chimiques utilisées dans chaque installation. Les activités ou opérations particulières d'une installation détermineront quelles pratiques sont pertinentes et applicables.          Les meilleures pratiques identifiées dans le code ne sont pas prescriptives et l'utilisation d'autres technologies et pratiques permettant d'atteindre un niveau équivalent ou supérieur de protection de l'environnement est encouragée.          Le code n'a pas force de loi et, par conséquent, il ne remplace pas les exigences réglementaires existantes des autorités municipales, provinciales, territoriales ou fédérales. L'engagement des entreprises à se conformer aux recommandations du code n'élimine pas les obligations de se conformer à toutes les exigences légales et réglementaires applicables.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tDusgxnyj4Fjn4aia3JYwhj/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "23 février 2024"
+        },
+        {
+          "title": "Publication du Projet de règlement modifiant le Règlement sur les BPC et le Règlement sur les dispositions réglementaires désignées aux fins de contrôle d'application — Loi canadienne sur la protection de l'environnement (1999)",
+          "content": "",
+          "summary": "Le gouvernement du Canada a publié, dans la Gazette du Canada du 23 décembre 2023, le texte du Projet de règlement modifiant le Règlement sur les BPC et le Règlement sur les dispositions réglementaires désignées aux fins de contrôle d'application — Loi canadienne sur la protection de l'environnement (1999). L'objectif du projet de règlement consiste à assouplir le Règlement pour l'utilisation et la conservation de l'équipement contenant des BPC dans des situations particulières qui n'étaient pas prévues lors de l'entrée en vigueur du Règlement. Plus précisément, les modifications proposées permettraient :\n- De prolonger l'utilisation et la conservation de l'équipement contenant des BPC radioactifs. Les centrales nucléaires seraient obligées de retirer et de détruire leur équipement contenant des BPC, alors qu'elles pourraient le faire en toute sécurité;\n- Aux centrales électriques, dont la mise hors service est prévue d'ici le 31 décembre 2029, de continuer à utiliser certains types d'équipement contenant des BPC jusqu'à ce moment-là, sous réserve de l'approbation du ministre de l'Environnement;\n- De prolonger l'utilisation et la conservation de l'équipement militaire contenant des BPC, dans les cas où il n'existerait aucune solution de rechange aux BPC;\n- Aux musées de conserver dans leurs collections les objets à valeur historique qui contiennent des BPC. Actuellement, l'utilisation de tels objets n'est pas une activité permise par le Règlement et ces objets doivent être mis hors service avant l'échéance;\n- De préciser qu'il n'est pas permis d'ajouter de l'huile sans BPC à de l'huile qui en contient, dans le but de réduire la concentration de BPC, et qu'aucune analyse en laboratoire n'est exigée si la concentration de BPC est déterminée par d'autres moyens. Il est possible de transmettre des commentaires portant sur ce projet de règlement au plus tard le 21 février 2024 en utilisant l'outil de transmission prévu à cet effet.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tDusgxnyj4Fjn4aia3JYwhj/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "23 décembre 2023"
+        }
+      ]
+    },
+    {
+      "rubric": "Matières organiques, matières résiduelles, Écologie industrielle et économie circulaire",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Lancement d'un processus de consultation portant sur la création du registre fédéral sur les plastiques",
+          "content": "",
+          "summary": "Le gouvernement du Canada a annoncé le lancement d'un processus de consultation portant sur la création d'un registre fédéral qui exigerait que les producteurs transmettent annuellement des renseignements sur la quantité et les types de plastique mis sur le marché, ainsi que sur leur gestion en fin de vie. Ce registre aiderait à tracer les plastiques dans l'économie canadienne et servirait à élaborer de nouvelles mesures pour atteindre l'objectif 'zéro déchet de plastique'.",
+          "urls": [
+            {
+              "url1": "https://www.gazette.gc.ca/rp-pr/p1/2023/2023-12-30/html/notice-avis-fra.html#na3",
+              "url2": ""
+            }
+          ],
+          "date": "30 décembre 2023"
+        },
+        {
+          "title": "Mise à jour de documents concernant la déclaration annuelle 2023 pour la redevance à l'élimination de matières résiduelles",
+          "content": "",
+          "summary": "Le MELCCFP a publié, le 19 janvier, les formulaires pertinents dans le cadre de déclaration annuelle pour les fins de l'application du Règlement sur l'enfouissement et l'incinération de matières résiduelles (article 39 et 52) et du Règlement sur les redevances exigibles pour l'élimination de matières résiduelles (article 9). Le ministère a également publié une version mise à jour du Guide pour remplir la déclaration annuelle à l'intention des exploitants d'installations d'élimination et de centres de transfert.\nCes documents peuvent être consultés en accédant aux hyperliens suivants :\no\tGuide pour remplir la déclaration annuelle à l'intention des exploitants d'installations d'élimination et de centres de transfert ;\no\tFormulaire de déclaration annuelle 2023 ;\no\tFormulaire de déclaration trimestrielle 2024 – LET/LEDCD ;\no\tFormulaire de déclaration trimestrielle 2024 – Centre de transfert ;\no\tFormulaire de déclaration trimestrielle 2024 - Incinérateur.\nPour en connaître davantage sur la redevance pour l'élimination des matières résiduelles, nous vous invitons à consulter cet hyperlien. \n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tpRjsVN1reRSFIAMSjfsYCNS/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": "https://newsletters.yapla.com/stats/tracker/t/tPgyJTBYXEshfPuWKsyJmQB/c/memFnkYymoVCRjX622rMfFAB"
+            }
+          ],
+          "date": "19 janvier 2024"
+        },
+        {
+          "title": "Octroi d'un financement de 2,1 millions de dollars aux établissements universitaires pour accroître la recherche sur les plastiques et leurs effets possibles sur la santé humaine",
+          "content": "",
+          "summary": "Le gouvernement du Canada a annoncé, le 22 janvier dernier, l'octroi d'une somme de 2,1 millions de dollars à l'Université McGill, l'Université Mémorial de Terre-Neuve et l'Université de Toronto pour entreprendre des recherches relatives aux possibles expositions aux microplastiques provenant de diverses sources, notamment alimentaires, emballages alimentaires, eau potable, air extérieur et intérieur, poussière.\nCes initiatives amélioreraient la compréhension des possibles effets des microplastiques sur la santé humaine et aideraient à comprendre les effets de ces matériaux sur notre santé et trouver des solutions pour gérer tout risque connexe.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/taomX5dJTYaQA1HjiAb1nqd/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "22 janvier 2024"
+        },
+        {
+          "title": "Mise à jour des indicateurs environnementaux portant sur le réacheminement et l'élimination des déchets solides",
+          "content": "",
+          "summary": "Le gouvernement du Canada a publié, le 25 janvier dernier, une mise à jour des indicateurs environnementaux portant sur le réacheminement et l'élimination des déchets solides.\nCes indicateurs permettent d'évaluer la quantité totale et de la quantité par personne de déchets solides non dangereux réacheminés ou éliminés par les administrations municipales et les entreprises du secteur de la gestion des déchets. Le taux de réacheminement des déchets selon la source (résidentielle ou non résidentielle) et les types de matières réacheminées sont également présentés.\nVoici quelques faits saillants de la plus récente mise à jour :\n•\tDe 2002 à 2020, \no\tla quantité totale de déchets solides générés au Canada a augmenté de 5,3 millions de tonnes (soit 17 %), atteignant 36,0 millions de tonnes;\no\tla quantité de déchets réacheminés a augmenté de 3,3 millions de tonnes (soit 49 %), atteignant 9,9 millions de tonnes;\no\tla quantité de déchets envoyés dans des sites d'enfouissement ou incinérés a augmenté de 2,0 millions de tonnes (soit 8 %), atteignant 26,1 millions de tonnes.\n•\tEn 2020, 27,5 % des déchets solides générés au Canada ont été réacheminés, tandis que les 72,5 % restants ont été envoyés pour élimination ;\n•\tEntre 2002 et 2020, \no\tle total des déchets solides réacheminés par personne a augmenté de 23 %, passant de 212 à 261 kilogrammes (kg);\no\tl'élimination des déchets solides par personne a diminué de 11 %, passant de 768 à 687 kg.\n•\tEntre 2014 et 2020, l'élimination des déchets solides par personne a diminué de presque 2 %, passant de 699 à 687 kg ;\n•\tEntre 2002 et 2020, la part des déchets solides réacheminés \no\tde toutes les sources a augmenté de 22 % à 28 %;\no\tde sources résidentielles a augmenté de 25 % à 32 %;\no\tde sources non résidentielles a augmenté de 20 % à 22 %.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tXF8LC0HiFn6A5gRPKY07DFT/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "25 janvier 2024"
+        }
+      ]
+    },
+    {
+      "rubric": "Nouvelles administratives",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Invitation de connexion au profil LinkedIn de la PDG!",
+          "content": "",
+          "summary": "Suivez notre Présidente-directrice générale sur LinkedIn pour échanger avec elle et découvrir ses interventions au quotidien!\nLe profil LinkedIn de notre Présidente-directrice générale est accessible via cet hyperlien. \n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tQyYnBJiacUB4xiuD6Nd86V0/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": ""
+        },
+        {
+          "title": "Modification à l'organigramme du MRNF",
+          "content": "",
+          "summary": "Le Conseil des ministres a procédé, lors de sa réunion du 14 février dernier 2024, à la nomination de M. Ian Morissette à titre de Sous-ministre associé aux mines au ministère des Ressources naturelles et des Forêts. M. Morissette est présentement Vice-président au développement durable et aux partenariats en territoire nordique de la Société du Plan Nord. Il entrera en fonction le 19 février 2024 et remplacera Mme Nathalie Camden actuellement Sous-ministre associée aux Mines qui prend sa retraite.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tsi6pgaV5pdBynaYdLPQQL5/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "14 février 2024"
+        },
+        {
+          "title": "Modification à l'organigramme du ministère des Ressources naturelles et des Forêts",
+          "content": "",
+          "summary": "Le conseil des ministres a procédé, le 28 février dernier, à la nomination de Mme Valérie Lévesque à titre de sous-ministre associée au ministère des Ressources naturelles et des Forêts.Mme Lévesque entrera en poste le 7 mars 2024. Elle est présentement sous-ministre adjointe au ministère de la Santé et des Services sociaux.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tVSI2Dxue6BN2rF4sCmSEN1M/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "28 février 2024"
+        },
+        {
+          "title": "Nouvel épisode du Balado du CPEQ",
+          "content": "",
+          "summary": "Le CPEQ a mis en ligne, le 29 février dernier, un nouvel épisode de sa série de balados, soit l'épisode 57 avec le ministre de l'Environnement, de la Lutte contre les Changements climatiques, de la Faune et des Parcs, M. Benoit Charette.Pour visionner les balados, nous vous invitons à consulter notre site internet en accédant cet hyperlien.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tqOUdJW6bSuw8nk18qqP3uw/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "29 février 2024"
+        }
+      ]
+    },
+    {
+      "rubric": "Pêcheries",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Conclusion d'une opération visant à punir la capture, la vente et l'achat illégal de certains poissons",
+          "content": "",
+          "summary": "Le MELCCFP a publié, le 13 février dernier, les résultats de l'opération « Effiléfin », réalisée en 2020.\nAu total, 90, à la suite de l'opération, 90 individus ont été condamnés à payer des amendes totalisant près de 300 000 dollars, principalement pour des infractions à la Loi sur la conservation et la mise en valeur de la faune et à la Loi sur les pêches. Les infractions ont été commises sur le territoire du Bas-Saint-Laurent.\nLes infractions relevées sont les suivantes :\n•\tLa vente, l'achat, la possession illégale et le dépassement des limites de poissons (principalement l'éperlan arc-en-ciel) et de gibier;\n•\tLa capture illégale de poissons (principalement l'éperlan arc-en-ciel et le bar rayé).\nLa majorité des dossiers se sont réglés par la transmission de plaidoyers de culpabilité au procureur attitré à l'opération.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/t5Ws52bFCVTRtv5q4JE6JYDc/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "13 janvier 2024"
+        },
+        {
+          "title": "Annonce d'un financement de plus de 3,5 millions de dollars dans les technologies propres pour les secteurs des pêches et de l'aquaculture",
+          "content": "",
+          "summary": "Le gouvernement du Canada a annoncé, le 28 février dernier, un financement de plus de 3,5 millions de dollars pour 18 initiatives dans le cadre du programme d'adoption des technologies propres pour les pêches et l'aquaculture (PATPPA).\nCe financement appuierait les petites et moyennes entreprises dans leurs efforts pour adopter et intégrer des technologies novatrices et propres dans leurs activités commerciales. Ces fonds permettraient également d'améliorer la performance environnementale et la compétitivité.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tajq7xMc0w2gExtjBWpBS2/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "28 février 2024"
+        },
+        {
+          "title": "Accréditation d'un laboratoire canadien selon la norme ISO 17025 portant sur les tests et les analyses de l'ADN environnemental",
+          "content": "",
+          "summary": "Le gouvernement du Canada a annoncé, le 29 février dernier, avoir octroyé au Centre des pêches du Golfe de Pêches et Océans Canada, situé au Nouveau-Brunswick, une accréditation selon les normes les plus élevées pour ses tests et analyses de l'ADN environnemental (ADNe).Le laboratoire d'analyse de l'ADNe du Centre des pêches est ainsi devenu le premier accrédité selon la norme 17025 de l'Organisation internationale de normalisation (ISO) pour les espèces aquatiques envahissantes. L'accréditation certifie que les résultats produits en laboratoire répondent aux normes internationales d'exactitude et de fiabilité.L'approche de l'exploitation de l'ADNe permettrait aux chercheurs de détecter les organismes, y compris les organismes envahissants, dans les échantillons d'eau prélevés dans les écosystèmes aquatiques.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tTEa1YBv7U1efSnQnDtKLBI/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "29 février 2024"
+        }
+      ]
+    },
+    {
+      "rubric": "Politiques publiques et gouvernementales",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Publication de deux projets de règlement visant à modifier le Code de construction",
+          "content": "",
+          "summary": "Le gouvernement du Québec a publié deux projets de règlement visant à modifier le Code de construction pour améliorer l'efficacité énergétique des bâtiments et adapter le code de plomberie aux besoins spécifiques du Québec. Des modifications sont proposées pour reconduire les exigences existantes sans imposer de coûts supplémentaires de construction. Les commentaires peuvent être soumis jusqu'au 23 février 2024.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tBqYKuYKyCnOhJ3cfSyHYDaF/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": "https://newsletters.yapla.com/stats/tracker/t/tVX1IOUkiMXi3LsAwNBfcw7/c/memFnkYymoVCRjX622rMfFAB"
+            }
+          ],
+          "date": "27 décembre 2023"
+        },
+        {
+          "title": "Appel de commentaires – Processus de consultation pré-budgétaires",
+          "content": "",
+          "summary": "Le gouvernement du Québec invite les parties prenantes à soumettre des commentaires dans le cadre des consultations pré-budgétaires provinciales. Les consultations fédérales sont également ouvertes. Les commentaires doivent être envoyés au plus tard le 22 janvier.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/teLMPgmwHXUyrSIeF040fICw/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": "https://newsletters.yapla.com/stats/tracker/t/tSUVyclRdATBwSsLwffbdtgp/c/memFnkYymoVCRjX622rMfFAB"
+            }
+          ],
+          "date": "11 janvier 2024"
+        },
+        {
+          "title": "Publication d'une note portant sur l'évaluation des coûts liés au projet de loi C-358",
+          "content": "",
+          "summary": "Le Directeur Parlementaire du budget (DPB) a publié, le 23 janvier dernier, une note portant sur l'évaluation des coûts liés au projet de loi C-358, lequel propose de modifier la Loi sur la taxe d'accise afin d'éliminer la taxe sur les produits et services (TPS) relativement à la tarification du carbone.\nPlus précisément, la loi abolirait la TPS à payer sur :\no\tLes frais, droits ou taxes imposés en application de la Loi sur la tarification de la pollution causée par les gaz à effet de serre, tels que la redevance sur les combustibles et le système de tarification fondé sur le rendement (STFR);\no\tTout prélèvement provincial imposé relativement au carbone, comme le système de plafonnement et d'échange de droits d'émission au Québec ou la taxe sur le carbone en Colombie-Britannique.\nLe DPB estime que cette mesure réduirait les recettes fédérales provenant de la TPS de 486 millions de dollars en 2023-2024, montant qui passerait à 1,015 milliard de dollars en 2030-2031, tel que le démontre la tableau suivant :\n \nCoût détaillé du projet de loi C-358 (Millions de dollars)\nJuridiction\t2023¬-2024\t2024¬-2025\t2025¬-2026\t2026¬-2027\t2027¬-2028\t2028¬-2029\t2029¬-2030\t2030¬-2031\t \nTerre-Neuve\t6\t10\t12\t13\t15\t17\t18\t19\t \nI-P-É\t1\t2\t2\t2\t4\t4\t4\t4\t \nNouvelle-Écosse\t10\t17\t20\t23\t30\t30\t29\t30\t \nNouveau-Brunswick\t7\t11\t12\t13\t15\t16\t18\t18\t \nQuébec\t77\t93\t108\t121\t133\t143\t152\t160\t \nOntario\t182\t220\t250\t280\t313\t338\t367\t389\t \nManitoba\t18\t21\t24\t27\t30\t31\t34\t36\t \nSaskatchewan\t29\t34\t38\t42\t46\t48\t52\t52\t \nAlberta\t96\t113\t128\t142\t152\t164\t178\t187\t \nColombie-Britannique\t58\t70\t79\t88\t95\t102\t108\t114\t \nYukon\t1\t1\t1\t1\t2\t2\t2\t2\t \nT.N.O\t1\t1\t1\t2\t2\t2\t2\t2\t \nNunavut\t0\t1\t1\t1\t1\t1\t1\t1\t \nTotal\t486\t595\t677\t755\t836\t897\t965\t1 015\t \n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tJh0rMT4jJVTYuNcTvSPOQlS/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "23 janvier 2024"
+        },
+        {
+          "title": "Publication d'une note sur l'évaluation des coûts liés au Projet de loi C-234 visant à élargir l'exemption qui s'applique au combustible agricole admissible pour inclure le gaz naturel commercialisable et le propane",
+          "content": "",
+          "summary": "Le Directeur Parlementaire du Budget (DPB) a publié, le 13 février dernier, une note portant sur l'évaluation des coûts liés au Projet de loi C-234 – Loi modifiant la Loi sur la tarification de la pollution causée par les gaz à effet de serre et dont l'objectif consiste à ajouter le gaz naturel commercialisable et le propane à l'exemption qui s'applique au combustible agricole admissible.\nPlus précisément, le Projet de loi C-234 éliminerait la redevance sur les combustibles sur le gaz naturel ou le propane lorsque ceux-ci sont utilisés pour :\n•\tChauffer ou refroidir un bâtiment ou une structure semblable utilisé pour l'élevage ou le logement d'animaux de ferme ou pour la culture de végétaux;\n•\tFaire fonctionner une machine industrielle ou un moteur stationnaire ou portable utilisé pour sécher le grain.\nSelon le DPB, le Projet de loi C-234 aurait pour effet de réduire les revenus provenant de la redevance sur les combustibles de 19 millions de dollars en 2023-2024, puis de 27 millions de dollars en 2025-2026. Le DPB suppose, dans sa note, que le gouvernement réduira en conséquence le remboursement de cette redevance, de sorte que cette mesure n'aurait pas d'incidence budgétaire au cours de cette période.\nLes estimations du DPB se résument ainsi (les montants sont en millions de dollars) :\nExercice financier\t2023 2024\t2024 2025\t2025 2026\nÎle-du-Prince-Édouard\t0\t0\t0\nNouvelle-Écosse\t0\t0\t0\nNouveau-Brunswick\t0\t0\t0\nOntario\t7\t9\t10\nManitoba\t1\t2\t2\nSaskatchewan\t5\t6\t7\nAlberta\t5\t7\t7\nProduits issus de la redevance sur les combustibles\t19\t23\t27\nProduits remboursés\t-19\t-23\t-27\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/t50MF8SFF5N3jMi4mCY33fV/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "13 février 2024"
+        }
+      ]
+    },
+    {
+      "rubric": "Qualité de l’air",
+      "definition": "",
+      "examples": []
+    },
+    {
+      "rubric": "Ressources naturelles",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Publication du Plan d'action 2023-2025 pour la mise en œuvre du Plan québécois pour la valorisation des minéraux critiques et stratégiques 2020-2025",
+          "content": "",
+          "summary": "Le gouvernement du Québec a publié, le 23 janvier dernier, le Plan d'action 2023-2025 pour la mise en œuvre du Plan québécois pour la valorisation des minéraux critiques et stratégiques 2020-2025 (PQVMCS), lancé en octobre 2020.\nL'objectif du PQVMCS consiste à contribuer au déploiement de la filière verte par le déploiement de mesures permettant, notamment, de :\n•\tDévelopper le recyclage des minéraux critiques et stratégiques (MCS);\n•\tFavoriser l'économie circulaire et la chaîne de valeur de MCS;\n•\tRenforcer la collaboration entre les différents acteurs de la chaîne de valeur;\n•\tAméliorer l'encadrement réglementaire.\nLes nouvelles actions déployées serviront, entre autres, au soutien à la formation de la main-d'œuvre, à l'accompagnement dans la transformation numérique des mines et à l'optimisation de l'encadrement environnemental, toujours dans une perspective de décarbonation de l'économie. Le plan d'action mis à jour prévoit aussi certaines mesures phares visant à soutenir des projets en économie circulaire, notamment dans le recyclage des résidus miniers.\nPlus précisément, le nouveau Plan d'action prévoit 22 actions s'articulant autour de 11 objectifs, soit :\n•\tAméliorer l'efficience et les pratiques de l'exploration minière et la découverte de ressources minérales ;\n•\tAméliorer les connaissances sur les MCS en favorisant les synergies de recherche et développement et en innovation ;\n•\tFavoriser l'exploration et la mise en valeur des MCS de façon plus durable;\n•\tSoutenir la transformation et la création de produits à valeur ajoutée associés aux filières de MCS;\n•\tAméliorer les infrastructures multiusagers et les corridors d'accès aux ressources en MCS;\n•\tAugmenter les investissements étrangers nécessaires au développement de l'industrie minière québécoise incluant les différentes étapes de la chaîne de valeurs des MCS;\n•\tAugmenter l'efficience des activités des entreprises d'exploitation minière au Québec;\n•\tAdapter les formations et actualiser la qualification de la main-d'oeuvre dans le secteur des minéraux critiques et stratégiques;\n•\tFavoriser l'intégration de l'économie circulaire aux chaînes de valeur de MCS;\n•\tStimuler l'implantation d'initiatives ayant pour but de réduire l'empreinte environnementale du secteur minier;\n•\tSensibiliser la population ainsi que les acteurs locaux et autochtones aux enjeux, aux conséquences et aux retombées liés à la valorisation des minéraux, dont les MCS, pour le Québec et ses régions.\nLe gouvernement a également annoncé par le fait même les nouveaux minéraux qui figureront sur la liste des MCS, soit :\n•\tL'aluminium,\n•\tL'apatite;\n•\tLe germanium;\n•\tLe manganèse;\n•\tLe fer de haute pureté;\n•\tLa silice de haute pureté.\nAvec ces ajouts, 28 minéraux sont maintenant reconnus comme étant des MCS.\nLe Plan d'action 2023-2025 pour la mise en œuvre du PQVMCS peut être consulté en accédant à cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/ty5T8111STUuAupSq8BrMMUF/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "23 janvier 2024"
+        },
+        {
+          "title": "Lancement d'une norme GRI portant sur l'industrie minière ",
+          "content": "",
+          "summary": "Le Global Reporting Initiative a publié, le 5 février, la norme « GRI 14 : Secteur minier 2024 ».\nCette norme aborde de manière globale les impacts du secteur minier sur le développement durable, dont, notamment :\no\tLes émissions de GES ;\no\tLes changements climatiques ;\no\tLa biodiversité ;\no\tLa génération de déchets miniers ;\no\tLes droits de l'homme ;\no\tLa lutte à la corruption ;\no\tLes droits fonciers.\nLa norme GRI14 permettrait également de définir les attentes en matière de transparence au niveau des sites qui reflètent les impacts locaux, afin d'aider les parties prenantes à évaluer les impacts et les risques en fonction du lieu et des minéraux spécifiques.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/teG715HyRsGGnDCwMtJki14u/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "5 février 2024"
+        },
+        {
+          "title": "Publication de la version finale du Règlement modifiant le Règlement sur les substances minérales autres que le pétrole, le gaz naturel et la saumure",
+          "content": "",
+          "summary": "Le gouvernement du Québec a publié, dans la Gazette officielle du 7 février 2024, la version finale du Règlement modifiant le Règlement sur les substances minérales autres que le pétrole, le gaz naturel et la saumure.\nLe texte, qui a été publié sous la forme d'un projet de règlement dans la Gazette officielle du Québec du 6 septembre 2023, a été adopté sans modification. Il prévoit, notamment :\no\tCe qui constitue des travaux d'exploration à impacts et fixe les conditions de délivrance et de renouvellement de l'autorisation pour travaux d'exploration à impacts afin de rendre applicable le nouveau régime d'autorisation introduit à la Loi sur les mines par la Loi visant principalement à renforcer l'application des lois en matière d'environ¬nement et de sécurité des barrages, à assurer une gestion responsable des pesticides et à mettre en oeuvre certaines mesures du Plan pour une économie verte 2030 concernant les véhicules zéro émission;\no\tL'obligation, pour les promoteurs miniers, de présenter leurs projets aux milieux d'accueil, de recueillir leurs questions, demandes et commentaires et de leur fournir des réponses. Ils devront par la suite faire rapport de ces échanges lors du dépôt de leur demande d'autorisation de travaux à impacts adressée au ministère des Ressources naturelles et des Forêts;\no\tLa possibilité, pour le ministre, d'imposer, à la suite de la démarche préalable à la délivrance de l'autorisation, des conditions d'exercice pour tenir compte des préoccupations exprimées et ainsi limiter les répercussions sur le milieu. Ces conditions pourraient baliser, par exemple, la période et les heures de réalisation de travaux, la circulation de camions ou l'utilisation de certains chemins.\nLe Règlement modifiant le Règlement sur les substances minérales autres que le pétrole, le gaz naturel et la saumure entrera en vigueur le 6 mai 2024.\nLa version finale du Règlement modifiant le Règlement sur les substances minérales autres que le pétrole, le gaz naturel et la saumure peut être consultée en accédant à cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tuLeraWO3O20I62pFnhswjI/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "7 février 2024"
+        },
+        {
+          "title": "Lancement d'un processus de consultation portant sur l'avenir de la forêt",
+          "content": "",
+          "summary": "Le gouvernement du Québec a officiellement lancé, le 13 février dernier, un processus de consultation sur l'avenir de la forêt, avec la tenue d'une « table régionale » au Bas-Saint-Laurent. Au total, 11 autres « tables régionales » ainsi qu'une rencontre avec les communautés autochtones et une rencontre nationale de réflexion sont prévues.\nL'objectif des tables consiste à permettre l'élaboration d'une vision commune et de déterminer des solutions d'avenir pour optimiser la gestion forestière et l'aménagement forestier, notamment pour nous aider à nous adapter aux changements climatiques et pour assurer la pérennité de notre forêt. Selon les constats qui émergeront de cette démarche, des changements dans la gestion des forêts québécoises pourraient être envisagés.\nEn plus des tables régionales, le gouvernement a ouvert un processus de consultation publique. Nous recueillerons vos commentaires dans le cadre de ce processus de consultation dans le cadre d'une réunion de travail dont la date sera identifiée sous peu.\nPour en connaître davantage sur le processus de consultation et pour accéder aux documents de consultation, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tK7wyPLN5VTRJX4v3m0rtCoP/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "13 février 2024"
+        }
+      ]
+    },
+    {
+      "rubric": "Secteur manufacturier et PME",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Octroi d'une somme de près de 170 000 dollars afin de favoriser l'intégration en emploi de plus de femmes dans les secteurs de la métallurgie et de l'aluminium",
+          "content": "",
+          "summary": "Le gouvernement du Québec a annoncé, le 9 février dernier, l'octroi d'une somme de 169 348 dollars afin de favoriser la réalisation d'un projet pilote visant à intégrer en emploi de plus de femmes dans les secteurs de la métallurgie et de l'aluminium au Saguenay-Lac-Saint-Jean.\nL'objectif du projet pilote consisterait à intégrer jusqu'à 20 femmes dans ces emplois d'opératrices dans le traitement des métaux et de manœuvres en métallurgie.\nLes entreprises suivantes participeront au projet pilote :\no\tFonderie Saguenay;\no\tFjordtech;\no\tPrysmian Group and General Cable;\no\tRio Tinto.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tA0OyFmixkggbc6icalAAFYX/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "9 février 2024"
+        },
+        {
+          "title": "Lancement d'un Programme de recherche destiné à la zone d'innovation Québec de la Vallée de la transition énergétique",
+          "content": "",
+          "summary": "Le Fonds de recherche du Québec – Nature et technologies (FRQNT) a annoncé, le 28 février dernier, le lancement du  Programme de recherche en partenariat – Zone d'innovation, lequel s'inscrit dans le déploiement de la troisième Zone d'innovation Québec (ZI) – la Vallée de la transition énergétique (VTE).Ce programme vise principalement à soutenir des approches de recherche collaboratives, interordres et intersectorielles répondant aux besoins d'innovation technologique et sociale inhérents au déploiement de la ZI-VTE. Il vise également à soutenir le partenariat durable entre des organisations du secteur privé et les établissements postsecondaires, ainsi que la formation d'une nouvelle génération de personnes hautement qualifiées, afin de générer des retombées économiques significatives pour le Québec.Les équipes participantes devront être de nature interordre et intersectorielle.Pour en connaître davantage, nous vous invitons à consulter cet hyperlien.          ",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tbF8L0tUgv0apWHjNg427sG/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "28 février 2024"
+        },
+        {
+          "title": "Mise à jour du « Code canadien de l'électricité, Première partie »",
+          "content": "",
+          "summary": "Le Groupe CSA a publié, le 4 mars dernier, le Code canadien de l'électricité 2024, Première partie (Code CE, Première partie).Le Code CE, Première partie, établit des lignes directrices et des exigences nécessaires pour réduire les risques de choc électrique, d'incendie et d'autres dangers électriques. Le Code est mis à jour à tous les trois ans. L'édition 2024 comprend des modifications aux exigences d'installation nécessaires pour que les professionnels de l'électricité puissent utiliser efficacement les nouvelles technologies tout en assurant la sécurité.Les changements et mises à jour comprennent, notamment:-Des précisions et des clarifications quant aux exigences pour les systèmes de stockage d'énergie et d'énergie renouvelables ;-La clarification des exigences du système de gestion de l'énergie des véhicules électriques, pour aider à préparer les bâtiments à une augmentation du nombre de véhicules électriques ;-Des révisions visant à accroître la sécurité électrique des occupants et du personnel des établissements de santé ;-L'ajout de nouvelles règles augmentant la sécurité des utilisateurs et du personnel d'entretien autour des piscines et des spas ;-L'ajout de nouvelles exigences favorisant une sécurité accrue pour le personnel d'entretien du système électrique.La plus récente édition du Code CE, Première partie, peut être achetée en accédant à cet hyperlien.",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tWxu1oKCTxt5cUxHKxy3Be0u/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "4 mars 2024"
+        }
+        
+      ]
+    },
+    {
+      "rubric": "Sols et terrains contaminés",
       "definition": "",
       "examples": [
         {
@@ -790,48 +827,6 @@
             }
           ],
           "date": "29 février 2024"
-        }
-      ]
-    },
-    {
-      "rubric": "Technologies propres",
-      "definition": "",
-      "examples": [
-        {
-          "title": "Octroi d'une somme de 1,25 million de dollars pour la production de ciment à faible émission de carbone",
-          "content": "",
-          "summary": "L'Université de Sherbrooke et Pyrowave ont annoncé, le 9 janvier dernier, avoir reçu un financement de 1,25 million de dollars de PRIMA Québec, de Mitacs et du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG) pour appliquer la technologie micro-ondes à la production de ciment à faible empreinte carbone.\nLe professeur William Wilson, membre du Centre de recherche sur les matériaux, les infrastructures et les bâtiments durables de la Faculté de génie, dirigera un groupe de recherche qui travaillera à la production de ciment à faibles émissions de carbone en collaboration avec l'entreprise Pyrowave, dont l'électrification des processus chimiques est au cœur des technologies.\nLe combustible utilisé pour produire la chaleur nécessaire à la transformation du calcaire en ciment sera remplacé par une technologie qui utilise des micro-ondes, donc une technologie alimentée par électricité. Ce procédé permettra de réduire d'environ 35 % les émissions de gaz à effet de serre liées à la production du ciment. Le processus pourra également produire un flux très concentré de CO2 provenant de la décarbonatation du calcaire, ce qui pourrait permettre de faciliter la capture et de réduire ainsi les coûts associés.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tGK4N0Toh0nOOEkgOrsXHld/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "9 janvier 2024"
-        },
-        {
-          "title": "Bilan de 2023 : Plus de 12 milliards de dollars versés pour les technologies propres",
-          "content": "",
-          "summary": "Exportation et développement Canada (EDC) a annoncé, le 11 janvier dernier, avoir déjà accordé, en 2023, plus de 12 milliards de dollars aux entreprises de technologies propres.\nPlus de 440 entreprises ont bénéficié d'une aide financière d'EDC au cours de l'année 2023 afin de favoriser leur expansion et leur accès au marché international. Ces entreprises œuvrent, notamment, dans les domaines suivants :\no\tLa production d'énergie renouvelable;\no\tLes biocarburants;\no\tL'efficacité énergétique;\no\tLes bâtiments écologiques.\n",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tY0hFxH1RmEKAnSgPxbGIn7/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "11 janvier 2024"
-        },
-        {
-          "title": "Octroi d'une somme de 13,5 millions de dollars afin de favoriser la réalisation de 8 projets de production d'énergie propre et d'optimisation de l'industrie forestière",
-          "content": "",
-          "summary": "Le gouvernement du Canada a annoncé, le 18 janvier dernier, l'octroi d'une somme de 13,5 millions de dollars afin de favoriser la réalisation de deux projets de transformation de l'industrie forestière et six projets d'énergie propre, tous en Colombie-Britannique. Les sommes versées proviennent des programmes Investissements dans la transformation de l'industrie forestière (ITIF) et Énergie propre pour les collectivités rurales et éloignées (EPCRE).          Plus précisément, les sommes suivantes ont été octroyées dans le cadre du programme EPCRE :-1,9 million de dollars pour le projet de microréseau électrique du gouvernement des Premières Nations des Xeni Gwet'in, à Nemiah Valley, lequel vise à intégrer un système d'énergie solaire et de stockage d'énergie sur batterie au microréseau électrique diesel afin d'utiliser des ressources locales pour produire de l'énergie;          -2,5 millions de dollars pour l'étude d'ingénierie de base du petit projet hydroélectrique (ruisseau Klokon/lac Augers) du gouvernement des Premières Nations des Xeni Gwet'in, laquelle permettait ensuite de réaliser un projet de production d'hydroélectricité;          -1,1 million de dollars pour le projet de démonstration d'énergie houlomotrice de la Première Nation des Mowachaht/Muchalaht, à Yuquot, lequel vise à concevoir une centrale d'énergie houlomotrice de 100 kW qui se combinera à un microréseau électrique afin de réduire l'utilisation du diesel;          -1,3 million de dollars pour la phase 1 d'un projet de démonstration d'énergie marémotrice, à Kamdis, lequel vise à réaliser une étude de conception d'une centrale de production d'énergie marémotrice de 500 kW qui sera combinée à un système d'accumulation par pompage pour remplacer le diesel par une source d'énergie;          -166 700 dollars à la Skeena Watershed Conservation Coalition afin de favoriser la réalisation d'un projet visant à renforcer la capacité des communautés à déployer des solutions d'énergie propre et de remplacement à long terme des combustibles fossiles pour le chauffage et la production d'électricité;          -1,5 million pour le projet d'académie de la cogénération de FPInnovations, lequel vise à élaborer un programme de formation pratique dans les domaines de l'exploitation et de l'entretien des centrales de cogénération à la biomasse et des chaînes d'approvisionnement en biomasse.          Les projets qui feront l'objet d'un financement dans le cadre du programme ITIF se décrivent ainsi :          -500 000 dollars pour la démonstration d'un nouveau procédé exclusif de stabilisation du bois convenant aux matériaux comme les essences d'arbres sous-utilisées qui sont souvent difficiles à faire sécher et à transformer ;          -4,5 millions de dollars pour la réalisation d'optimisation d'une chaîne de transformation des produits du bois.Pour en connaître davantage, nous vous invitons à consulter cet hyperlien.",
-          "urls": [
-            {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tQCc7DIP7xqc5ud57nymeyYf/c/memFnkYymoVCRjX622rMfFAB",
-              "url2": ""
-            }
-          ],
-          "date": "18 janvier 2024"
         }
       ]
     },
@@ -890,56 +885,98 @@
       ]
     },
     {
-      "rubric": "Nouvelles administratives",
+      "rubric": "Technologies propres",
       "definition": "",
       "examples": [
         {
-          "title": "Invitation de connexion au profil LinkedIn de la PDG!",
+          "title": "Octroi d'une somme de 1,25 million de dollars pour la production de ciment à faible émission de carbone",
           "content": "",
-          "summary": "Suivez notre Présidente-directrice générale sur LinkedIn pour échanger avec elle et découvrir ses interventions au quotidien!\nLe profil LinkedIn de notre Présidente-directrice générale est accessible via cet hyperlien. \n",
+          "summary": "L'Université de Sherbrooke et Pyrowave ont annoncé, le 9 janvier dernier, avoir reçu un financement de 1,25 million de dollars de PRIMA Québec, de Mitacs et du Conseil de recherches en sciences naturelles et en génie du Canada (CRSNG) pour appliquer la technologie micro-ondes à la production de ciment à faible empreinte carbone.\nLe professeur William Wilson, membre du Centre de recherche sur les matériaux, les infrastructures et les bâtiments durables de la Faculté de génie, dirigera un groupe de recherche qui travaillera à la production de ciment à faibles émissions de carbone en collaboration avec l'entreprise Pyrowave, dont l'électrification des processus chimiques est au cœur des technologies.\nLe combustible utilisé pour produire la chaleur nécessaire à la transformation du calcaire en ciment sera remplacé par une technologie qui utilise des micro-ondes, donc une technologie alimentée par électricité. Ce procédé permettra de réduire d'environ 35 % les émissions de gaz à effet de serre liées à la production du ciment. Le processus pourra également produire un flux très concentré de CO2 provenant de la décarbonatation du calcaire, ce qui pourrait permettre de faciliter la capture et de réduire ainsi les coûts associés.\n",
           "urls": [
             {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tQyYnBJiacUB4xiuD6Nd86V0/c/memFnkYymoVCRjX622rMfFAB",
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tGK4N0Toh0nOOEkgOrsXHld/c/memFnkYymoVCRjX622rMfFAB",
               "url2": ""
             }
           ],
-          "date": ""
+          "date": "9 janvier 2024"
         },
         {
-          "title": "Modification à l'organigramme du MRNF",
+          "title": "Bilan de 2023 : Plus de 12 milliards de dollars versés pour les technologies propres",
           "content": "",
-          "summary": "Le Conseil des ministres a procédé, lors de sa réunion du 14 février dernier 2024, à la nomination de M. Ian Morissette à titre de Sous-ministre associé aux mines au ministère des Ressources naturelles et des Forêts. M. Morissette est présentement Vice-président au développement durable et aux partenariats en territoire nordique de la Société du Plan Nord. Il entrera en fonction le 19 février 2024 et remplacera Mme Nathalie Camden actuellement Sous-ministre associée aux Mines qui prend sa retraite.",
+          "summary": "Exportation et développement Canada (EDC) a annoncé, le 11 janvier dernier, avoir déjà accordé, en 2023, plus de 12 milliards de dollars aux entreprises de technologies propres.\nPlus de 440 entreprises ont bénéficié d'une aide financière d'EDC au cours de l'année 2023 afin de favoriser leur expansion et leur accès au marché international. Ces entreprises œuvrent, notamment, dans les domaines suivants :\no\tLa production d'énergie renouvelable;\no\tLes biocarburants;\no\tL'efficacité énergétique;\no\tLes bâtiments écologiques.\n",
           "urls": [
             {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tsi6pgaV5pdBynaYdLPQQL5/c/memFnkYymoVCRjX622rMfFAB",
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tY0hFxH1RmEKAnSgPxbGIn7/c/memFnkYymoVCRjX622rMfFAB",
               "url2": ""
             }
           ],
-          "date": "14 février 2024"
+          "date": "11 janvier 2024"
         },
         {
-          "title": "Modification à l'organigramme du ministère des Ressources naturelles et des Forêts",
+          "title": "Octroi d'une somme de 13,5 millions de dollars afin de favoriser la réalisation de 8 projets de production d'énergie propre et d'optimisation de l'industrie forestière",
           "content": "",
-          "summary": "Le conseil des ministres a procédé, le 28 février dernier, à la nomination de Mme Valérie Lévesque à titre de sous-ministre associée au ministère des Ressources naturelles et des Forêts.Mme Lévesque entrera en poste le 7 mars 2024. Elle est présentement sous-ministre adjointe au ministère de la Santé et des Services sociaux.",
+          "summary": "Le gouvernement du Canada a annoncé, le 18 janvier dernier, l'octroi d'une somme de 13,5 millions de dollars afin de favoriser la réalisation de deux projets de transformation de l'industrie forestière et six projets d'énergie propre, tous en Colombie-Britannique. Les sommes versées proviennent des programmes Investissements dans la transformation de l'industrie forestière (ITIF) et Énergie propre pour les collectivités rurales et éloignées (EPCRE).          Plus précisément, les sommes suivantes ont été octroyées dans le cadre du programme EPCRE :-1,9 million de dollars pour le projet de microréseau électrique du gouvernement des Premières Nations des Xeni Gwet'in, à Nemiah Valley, lequel vise à intégrer un système d'énergie solaire et de stockage d'énergie sur batterie au microréseau électrique diesel afin d'utiliser des ressources locales pour produire de l'énergie;          -2,5 millions de dollars pour l'étude d'ingénierie de base du petit projet hydroélectrique (ruisseau Klokon/lac Augers) du gouvernement des Premières Nations des Xeni Gwet'in, laquelle permettait ensuite de réaliser un projet de production d'hydroélectricité;          -1,1 million de dollars pour le projet de démonstration d'énergie houlomotrice de la Première Nation des Mowachaht/Muchalaht, à Yuquot, lequel vise à concevoir une centrale d'énergie houlomotrice de 100 kW qui se combinera à un microréseau électrique afin de réduire l'utilisation du diesel;          -1,3 million de dollars pour la phase 1 d'un projet de démonstration d'énergie marémotrice, à Kamdis, lequel vise à réaliser une étude de conception d'une centrale de production d'énergie marémotrice de 500 kW qui sera combinée à un système d'accumulation par pompage pour remplacer le diesel par une source d'énergie;          -166 700 dollars à la Skeena Watershed Conservation Coalition afin de favoriser la réalisation d'un projet visant à renforcer la capacité des communautés à déployer des solutions d'énergie propre et de remplacement à long terme des combustibles fossiles pour le chauffage et la production d'électricité;          -1,5 million pour le projet d'académie de la cogénération de FPInnovations, lequel vise à élaborer un programme de formation pratique dans les domaines de l'exploitation et de l'entretien des centrales de cogénération à la biomasse et des chaînes d'approvisionnement en biomasse.          Les projets qui feront l'objet d'un financement dans le cadre du programme ITIF se décrivent ainsi :          -500 000 dollars pour la démonstration d'un nouveau procédé exclusif de stabilisation du bois convenant aux matériaux comme les essences d'arbres sous-utilisées qui sont souvent difficiles à faire sécher et à transformer ;          -4,5 millions de dollars pour la réalisation d'optimisation d'une chaîne de transformation des produits du bois.Pour en connaître davantage, nous vous invitons à consulter cet hyperlien.",
           "urls": [
             {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tVSI2Dxue6BN2rF4sCmSEN1M/c/memFnkYymoVCRjX622rMfFAB",
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tQCc7DIP7xqc5ud57nymeyYf/c/memFnkYymoVCRjX622rMfFAB",
               "url2": ""
             }
           ],
-          "date": "28 février 2024"
+          "date": "18 janvier 2024"
+        }
+      ]
+    },
+    {
+      "rubric": "Transport et mobilité durable",
+      "definition": "",
+      "examples": [
+        {
+          "title": "Lancement d'un appel à projet dans le cadre du Programme d'aide financière aux activités de sensibilisation à la mobilité durable",
+          "content": "",
+          "summary": "Le gouvernement du Québec a annoncé, le 3 janvier dernier, le lancement d'un appel à projet dans le cadre du « Programme d'aide financière aux activités de sensibilisation à la mobilité durable (MobilisActions) ».\nL'objectif du programme MobilisActions consiste à accroître, chez les citoyens et les entreprises, les connaissances portant sur les thèmes suivants :\no\tLes solutions en mobilité des personnes et des marchandises, afin que les habitudes des citoyens et des entreprises deviennent plus durables;\no\tLes nouvelles mobilités, qui sont basées sur le partage, la mutualisation, l'autonomie des véhicules et les avancées technologiques, ainsi que les avantages que ces solutions peuvent apporter aux citoyens et aux entreprises;\no\tLe rôle des déplacements en transport actif et collectif comme mesures de prévention en santé.\nLes organismes suivants sont admissibles à ce programme :\no\tUne municipalité locale, une municipalité régionale de comté (MRC) ou une communauté métropolitaine, de même qu'un organisme municipal ou intermunicipal relevant de celles-ci;\no\tUn organisme à but non lucratif (OBNL) régi par la partie 3 de la Loi sur les compagnies ou par la Loi canadienne sur les organisations à but non lucratif, à condition que son siège soit situé au Québec et qu'il soit légalement constitué depuis un minimum de deux ans;\no\tUne coopérative régie par la Loi sur les coopératives ou par la Loi canadienne sur les coopératives;\no\tUne communauté autochtone représentée par son conseil de bande au sens de la Loi sur les Indiens ou de la Loi sur les Naskapis et la Commission crie-naskapie, de même qu'un organisme relevant de celle-ci;\no\tUn regroupement d'organismes mentionnés ci-dessus.\nPour être admissibles au programme, les projets présentés doivent comporter l'élaboration, la réalisation et la diffusion d'activités parmi les suivantes :\no\tCapsules vidéo;\no\tAnimations;\no\tCampagnes de publicité dans les journaux, à la radio, à la télévision ou dans les médias sociaux;\no\tPlateformes d'apprentissage en ligne;\no\tAteliers;\no\tTrousses pédagogiques;\no\tPrésentations;\no\tPromotion ou mise en place de programmes de certification et d'émulation de la mobilité durable;\no\tMise en place des programmes employeurs visant à favoriser la mobilité durable de leurs employés;\no\tToute autre activité de communication.\nLa date limite pour soumettre un projet a été fixée au 30 avril 2024.\nPour en connaître davantage et pour soumettre un projet, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/t3jnvg7aTOTmwNGJ08yHlGRo/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "3 janvier 2024"
         },
         {
-          "title": "Nouvel épisode du Balado du CPEQ",
+          "title": "Octroi d'une somme de 2 millions de dollars afin de favoriser le développement de la chaîne d'approvisionnement de la production automobile",
           "content": "",
-          "summary": "Le CPEQ a mis en ligne, le 29 février dernier, un nouvel épisode de sa série de balados, soit l'épisode 57 avec le ministre de l'Environnement, de la Lutte contre les Changements climatiques, de la Faune et des Parcs, M. Benoit Charette.Pour visionner les balados, nous vous invitons à consulter notre site internet en accédant cet hyperlien.",
+          "summary": "Le gouvernement du Canada a annoncé, le 11 janvier dernier, l'octroi d'une somme de 2 millions de dollars à une entreprise de l'Ontario afin de favoriser la production canadienne de pièces automobiles. Les sommes versées permettraient à l'entreprise d'ajouter une nouvelle chaîne de fabrication de pièces pour véhicules automobiles utilisant des procédés de pointe. Cette chaîne devrait aider l'entreprise pendant qu'elle procède à la diversification de ses produits automobiles fabriqués au Canada, notamment ses compartiments de batterie pour le marché des véhicules électriques.",
           "urls": [
             {
-              "url1": "https://newsletters.yapla.com/stats/tracker/t/tqOUdJW6bSuw8nk18qqP3uw/c/memFnkYymoVCRjX622rMfFAB",
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/txAs1dIkAC66r1PLu8CrYW0B/c/memFnkYymoVCRjX622rMfFAB",
               "url2": ""
             }
           ],
-          "date": "29 février 2024"
+          "date": "11 janvier 2024"
+        },
+        {
+          "title": "Renouvellement du financement de la Chaire de recherche du Canada en optimisation stochastique des systèmes de transport et de logistique de l'UQAM",
+          "content": "",
+          "summary": "La Chaire de recherche du Canada en optimisation stochastique des systèmes de transport et de logistique de l'Université du Québec à Montréal (UAQM) a annoncé, le 24 janvier dernier, le renouvellement du financement du Conseil de recherche en sciences naturelles et en génie (CRSNG) et ce, pour une période de cinq ans.\nL'objectif de la Chaire consiste à concevoir de nouvelles méthodologies efficaces pour la résolution de problèmes de planification et de gestion des systèmes de transport et de logistique.\nPour en connaître davantage, nous vous invitons à consulter cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tu8Kgaj72No1gHKwXt2AIAH/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "24 janvier 2024"
+        },
+        {
+          "title": "Mise à jour de la liste des véhicules automobiles neufs ou remis en état admissibles à des crédits",
+          "content": "",
+          "summary": "Dans le cadre de l'application de Loi visant l'augmentation du nombre de véhicules automobiles zéro émission au Québec afin de réduire les émissions de gaz à effet de serre et autres polluant, le MELCCFP a publié, le 22 janvier dernier, une mise à jour de la liste des véhicules automobiles neufs ou remis en état dont la vente ou la location permet d'accumuler des crédits.\nLa liste des véhicules automobiles permettant d'accumuler des crédits dans le cadre de la norme VZE, peut être consultée en accédant à cet hyperlien.\n",
+          "urls": [
+            {
+              "url1": "https://newsletters.yapla.com/stats/tracker/t/tQYTeYkbfPWbRHdggEJdrekp/c/memFnkYymoVCRjX622rMfFAB",
+              "url2": ""
+            }
+          ],
+          "date": "22 janvier 2024"
         }
       ]
     },
