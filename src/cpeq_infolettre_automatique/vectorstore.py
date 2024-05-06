@@ -1,4 +1,6 @@
-"""Client module for openAI API interaction."""
+"""Client module for openAI API interaction."""  # noqa: CPY001
+
+# Importations
 
 import json
 
@@ -6,53 +8,84 @@ import numpy as np
 import openai
 import tiktoken
 from decouple import config
+from openai import OpenAI
+
+
+# Open AI client
+client = OpenAI(
+    api_key=config("OPENAI_API_KEY"),
+)
 
 
 class VectorStore:
-    def __init__(self, client):
-        """Initializes the VectorStore with an OpenAI client using an API key from the environment."""
-        self.client = client
-        self.model = "text-embedding-3-large"
-        # avoir un paramètre openAI client déjà instancié (On créer le client à l'extérieur et on l'injecte (injection de dépendances))
+    def __init__(self, filepath):
+        """Initialize the VectorStore with data loaded from a specified JSON file.
 
-    def load_json_data(self, filepath):
-        """Loads JSON data from a specified file path.
+        Args:
+            filepath (str): The path to the JSON file containing embedded data.
+        """
+        self.data = self.load_embedded_data(filepath)
+        if self.data:
+            self.global_mean_embedding = self.calculate_global_mean_embedding()
+
+    def load_embedded_data(self, filepath):
+        """Load embedded data from a JSON file.
 
         Args:
             filepath (str): The path to the JSON file.
 
         Returns:
-            dict: A dictionary loaded from the JSON file, or None if an error occurs.
+            dict or None: The data loaded from the JSON file, or None if an error occurs.
         """
         try:
-            with open(filepath, "r", encoding="utf-8") as file:
+            with open(filepath, "r") as file:
                 return json.load(file)
-        except FileNotFoundError:
-            print(f"Error: The file at {filepath} was not found.")
-            return None
-        except json.JSONDecodeError:
-            print(f"Error: The file at {filepath} could not be decoded.")
-            return None
         except Exception as e:
-            print(f"An unexpected error occurred: {e}")
+            print(f"Error loading embedded data from {filepath}: {e}")
             return None
 
-    def save_json_data(self, data, filepath):
-        """Save a given dictionary to a JSON file at a specified path. This function writes a Python dictionary to a JSON file, using UTF-8 encoding and formatting the output with indents for readability.
-
-        Args:
-            data (dict): The data to save.
-            filepath (str): The file path where the JSON file will be saved.
+    def calculate_global_mean_embedding(self):
+        """Calculate the global mean embedding from all embeddings in the dataset.
 
         Returns:
-            None
+            np.array: A numpy array representing the global mean embedding.
         """
-        try:
-            with open(filepath, "w", encoding="utf-8") as file:
-                json.dump(data, file, indent=4, ensure_ascii=False)
-            print(f"Data successfully saved to {filepath}")
-        except Exception as e:
-            print(f"Failed to save data to {filepath}: {e}")
+        embeddings = [np.array(ex['embedding']) for section in self.data for ex in section['examples']]
+        return np.mean(embeddings, axis=0) if embeddings else np.zeros_like(embeddings[0])
+
+    def get_category_embeddings(self, exclude_rubric=None, exclude_title=None):
+        """Retrieve embeddings for each category, optionally excluding a specific example, and adjust by the global mean embedding.
+
+        Args:
+            exclude_rubric (str, optional): The rubric of the example to exclude.
+            exclude_title (str, optional): The title of the example to exclude.
+
+        Returns:
+            dict: A dictionary of category names to their mean adjusted embeddings.
+        """
+        category_embeddings = {}
+        for section in self.data:
+            embeddings = [
+                np.array(ex['embedding']) - self.global_mean_embedding
+                for ex in section['examples']
+                if not (section['rubric'] == exclude_rubric and ex['title'] == exclude_title)
+            ]
+            if embeddings:
+                category_embeddings[section['rubric']] = np.mean(embeddings, axis=0)
+        return category_embeddings
+
+    @staticmethod
+    def cosine_similarity(vec1, vec2):
+        """Calculates the cosine similarity between two vectors.
+
+        Args:
+            vec1 (np.array): The first vector.
+            vec2 (np.array): The second vector.
+
+        Returns:
+            float: The cosine similarity score, between -1 (opposite) and 1 (identical).
+        """
+        return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
     def get_average_embeddings(self, model, rubrics_data):
         """Calculates average embeddings for each rubric using provided examples.
@@ -132,15 +165,4 @@ class VectorStore:
         highest_similarity_score = similarity_scores[most_similar_category]
         return most_similar_category, highest_similarity_score
 
-    @staticmethod
-    def cosine_similarity(vec1, vec2):
-        """Calculates the cosine similarity between two vectors.
 
-        Args:
-            vec1 (array): First vector.
-            vec2 (array): Second vector.
-
-        Returns:
-            float: The cosine similarity score, between -1 (opposite) and 1 (identical).
-        """
-        return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
