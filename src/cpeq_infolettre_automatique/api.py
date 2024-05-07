@@ -19,7 +19,7 @@ app = FastAPI()
 
 @app.on_event("startup")
 def startup_event() -> None:
-    """Run API startup events."""
+    """Run API startup events with configured logging."""
     # Remove all handlers associated with the root logger object.
     for handler in logging.root.handlers:
         logging.root.removeHandler(handler)
@@ -29,13 +29,21 @@ def startup_event() -> None:
 
 @app.get("/")
 def read_root() -> str:
-    """Read root."""
+    """Read the API root endpoint.
+
+    Returns:
+        str: A simple "API is alive!" message.
+    """
     return "API is alive!"
 
 
 @app.get("/initiate_scraping")
-def initiate_scraping():
-    """Initiates web scraping jobs and processes their data."""
+def initiate_scraping() -> list[str]:
+    """Initiate web scraping jobs and process their data.
+
+    Returns:
+        list[str]: A list of success messages or error messages for each job.
+    """
     client = WebScraperIoClient(api_token=webscraper_io_api_token)
     sitemap_ids = [sitemap['sitemap_id'] for sitemap in sitemaps]
     job_ids = client.create_scraping_jobs(sitemap_ids)
@@ -52,8 +60,12 @@ def initiate_scraping():
 
 
 @app.get("/get-articles")
-def get_articles_from_scraper() -> str:
-    """Read root."""
+def get_articles_from_scraper() -> JSONResponse:
+    """Retrieve and return articles.
+
+    Returns:
+        JSONResponse: An empty articles list response.
+    """
     # Appeler l'API de webscraper.io, appeler SharePoint, enlever les doublons, et retourner les articles en json
     return JSONResponse(content={"articles": []})
 

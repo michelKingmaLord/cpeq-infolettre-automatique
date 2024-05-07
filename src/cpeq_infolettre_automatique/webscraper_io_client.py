@@ -1,4 +1,5 @@
 """Client module for WebScraper.io API interaction."""
+
 import httpx
 from decouple import config
 
@@ -7,14 +8,33 @@ from cpeq_infolettre_automatique.utils import process_raw_response
 
 
 class WebscraperIoClientTest:
-    """A client example for interacting with the WebScraper.io API."""
+    """A test client example for interacting with the WebScraper.io API."""
 
-    def get_endpoint(self, url: str) -> dict:
+    def get_endpoint(self, url: str) -> dict[str, str]:
+        """Fetches a response from the specified URL.
+
+        Args:
+            url (str): The target URL to fetch data from.
+
+        Returns:
+            dict[str, str]: The response as a dictionary.
+        """
         response = httpx.get(url)
         return self._handle_response(response)
 
-    def _handle_response(self, response):
-        pass
+    def _handle_response(self, response: httpx.Response) -> dict[str, str] | None:
+        """Process and parse the response from an HTTP request.
+
+        Args:
+            response (httpx.Response): The HTTP response to handle.
+
+        Returns:
+            dict[str, str] | None: The parsed response or None if an error occurs.
+        """
+        try:
+            return response.json()
+        except Exception:
+            return None
 
 
 class WebScraperIoClient:
@@ -25,16 +45,27 @@ class WebScraperIoClient:
     """
 
     def __init__(self, api_token: str):
-        """Initialize the WebScraperIOClient with the provided API token."""
+        """Initialize the WebScraperIoClient with the provided API token.
+
+        Args:
+            api_token (str): The API token used for authentication.
+        """
         self.api_token = config("WEBSCRAPER_IO_API_KEY")
         self.base_url: str = "https://api.webscraper.io/api/v1"
         self.headers: dict[str, str] = {"Content-Type": "application/json"}
 
-    def create_scraping_jobs(self, sitemaps):
-        """Starts scraping jobs for multiple sitemap IDs and returns their job IDs."""
+    def create_scraping_jobs(self, sitemaps: list[dict[str, str]]) -> list[str]:
+        """Starts scraping jobs for multiple sitemap IDs and returns their job IDs.
+
+        Args:
+            sitemaps (list[dict[str, str]]): List of sitemaps to start jobs.
+
+        Returns:
+            list[str]: List of job IDs created.
+        """
         job_ids = []
         for sitemap in sitemaps:
-            sitemap_id = sitemap['sitemap_id']
+            sitemap_id = sitemap["sitemap_id"]
             url = f"{self.base_url}/scraping-job"
             data = {
                 "sitemap_id": sitemap_id,
@@ -57,10 +88,21 @@ class WebScraperIoClient:
                 print(f"No job ID received for sitemap {sitemap_id}")
         return job_ids
 
-    def get_scraping_jobs(self) -> NotImplemented: return NotImplemented
+    def get_scraping_jobs(self) -> NotImplemented:
+        """Unimplemented method to get scraping jobs."""
+        return NotImplemented
 
-    def get_scraping_job_details(self, scraping_job_id):
-        """Retrieves details of a specific scraping job."""
+    def get_scraping_job_details(
+        self, scraping_job_id: str
+    ) -> dict[str, str] | dict[str, int] | None:
+        """Retrieves details of a specific scraping job.
+
+        Args:
+            scraping_job_id (str): The job ID to fetch details.
+
+        Returns:
+            dict[str, str] | dict[str, int] | None: The details of the scraping job, or an error response.
+        """
         url = f"{self.base_url}/scraping-job/{scraping_job_id}?api_token={self.api_token}"
         try:
             response = httpx.get(url)
@@ -75,8 +117,17 @@ class WebScraperIoClient:
         except httpx.RequestError as error:
             return {"error": "Request error", "details": str(error)}
 
-    def download_scraping_job_data(self, scraping_job_id):
-        """Fetches raw JSON data for a scraping job and processes it into a structured format."""
+    def download_scraping_job_data(
+        self, scraping_job_id: str
+    ) -> list[dict[str, str]] | dict[str, str]:
+        """Fetches raw JSON data for a scraping job and processes it into a structured format.
+
+        Args:
+            scraping_job_id (str): The job ID whose data is to be fetched.
+
+        Returns:
+            list[dict[str, str]] | dict[str, str]: The processed job data or an error message.
+        """
         url = f"{self.base_url}/scraping-job/{scraping_job_id}/json?api_token={self.api_token}"
         try:
             response = httpx.get(url)

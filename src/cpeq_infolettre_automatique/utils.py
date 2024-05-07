@@ -1,16 +1,17 @@
 """Utility functions for processing and saving data."""
+
 import json
 from typing import Any
 
 
-def process_raw_response(raw_response: str) -> list[dict[str, Any]] | dict[str, str]:
-    """Convert raw JSON lines into a list of dictionaries (valid JSON array) or return an error message.
+def process_raw_response(raw_response: str) -> list[dict[str, str]]:
+    """Converts raw JSON lines into a list of dictionaries (valid JSON array).
 
     Args:
-        raw_response (str): Raw response data in JSON lines format.
+        raw_response (str): The raw JSON lines to be processed.
 
     Returns:
-        list[dict[str, Any]] | dict[str, str]: List of dictionaries if successful, else an error message.
+        list[dict[str, str]]: A list of dictionaries or a list with an error message.
     """
     try:
         data = [json.loads(line) for line in raw_response.strip().split("\n") if line.strip()]
@@ -20,11 +21,11 @@ def process_raw_response(raw_response: str) -> list[dict[str, Any]] | dict[str, 
         return data
 
 
-def save_data_to_json(data: list, file_path: str = "output.json") -> str:
+def save_data_to_json(data: list[dict[str, str]], file_path: str = "output.json") -> str:
     """Saves processed data to a JSON file.
 
     Args:
-        data (list): Processed data to be saved.
+        data (list[dict[str, str]]): Processed data to be saved.
         file_path (str): Path where the JSON data will be saved.
 
     Returns:
