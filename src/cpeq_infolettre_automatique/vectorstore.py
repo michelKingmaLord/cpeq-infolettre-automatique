@@ -8,23 +8,20 @@ from typing import Union
 import numpy as np
 import openai
 import tiktoken
+from api.py import client
 from decouple import config
 from openai import OpenAI
 
 
-# Open AI client
-client = OpenAI(
-    api_key=config("OPENAI_API_KEY"),
-)
-
-
 class VectorStore:
-    def __init__(self, filepath: str):
-        """Initialize the VectorStore with data loaded from a specified JSON file.
+    def __init__(self, client: OpenAI, filepath: str):
+        """Initialize the VectorStore with the provided OpenAI client and embedded data.
 
         Args:
+            client (OpenAI): An instance of the OpenAI client to handle API calls.
             filepath (str): The path to the JSON file containing embedded data.
         """
+        self.client = client
         self.data = self.load_embedded_data(filepath)
         if self.data:
             self.global_mean_embedding = self.calculate_global_mean_embedding()
