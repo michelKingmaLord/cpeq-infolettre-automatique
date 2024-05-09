@@ -8,7 +8,7 @@ import numpy as np
 import openai
 import tiktoken
 from api.py import client
-from config import EMBEDDING_MODEL, TOKEN_ENCODING, MAX_TOKENS
+from config import EMBEDDING_MODEL, MAX_TOKENS, TOKEN_ENCODING
 from decouple import config
 from openai import OpenAI
 
@@ -94,7 +94,7 @@ class VectorStore:
         return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
     def get_average_embeddings(
-        self, model: str, rubrics_data: list[dict[str, str | list[dict[str, str]]]]
+        self, rubrics_data: list[dict[str, str | list[dict[str, str]]]], model: str = EMBEDDING_MODEL,
     ) -> dict[str, list[float]]:
         """Calculates average embeddings for each rubric using provided examples.
 
@@ -115,7 +115,7 @@ class VectorStore:
             for article in articles:
                 input_text = f"{article["title"]} {article["summary"]}"  # Combine title and summary for embedding
                 try:
-                    response = openai.embeddings.create(input=input_text, model=EMBEDDING_MODEL)
+                    response = openai.embeddings.create(input=input_text, model=model)
                     embedding_vector = response.data[0].embedding
                     all_embeddings.append(embedding_vector)
                     logger.info(f"Embedding retrieved for: {article['title']} (Vector length: {len(embedding_vector)})")
