@@ -1,10 +1,16 @@
 """Client module for WebScraper.io API interaction."""
 
+import logging
+
 import httpx
 from decouple import config
 
 # from cpeq_infolettre_automatique.config import sitemaps
 from cpeq_infolettre_automatique.utils import process_raw_response
+
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
 
 class WebscraperIoClientTest:
@@ -83,9 +89,9 @@ class WebScraperIoClient:
             job_id = response.json().get("data", {}).get("id")
             if job_id:
                 job_ids.append(str(job_id))  # Convert job ID to string
-                print(f"Job {job_id} started for sitemap {sitemap_id}")
+                logger.info(f"Job {job_id} started for sitemap {sitemap_id}")
             else:
-                print(f"No job ID received for sitemap {sitemap_id}")
+                logger.warning(f"No job ID received for sitemap {sitemap_id}")
         return job_ids
 
     def get_scraping_jobs(self) -> NotImplemented:
@@ -109,12 +115,14 @@ class WebScraperIoClient:
             response.raise_for_status()
             return response.json()
         except httpx.HTTPStatusError as error:
+            logger.exception(f"HTTP error while fetching details for job {scraping_job_id}: {error}")
             return {
                 "error": "HTTP error",
                 "status_code": error.response.status_code,
                 "details": str(error),
             }
         except httpx.RequestError as error:
+            logger.exception(f"Request error while fetching details for job {scraping_job_id}: {error}")
             return {"error": "Request error", "details": str(error)}
 
     def download_scraping_job_data(
@@ -134,6 +142,7 @@ class WebScraperIoClient:
             response.raise_for_status()
             return process_raw_response(response.text)
         except Exception as error:
+            logger.exception(f"Failed to process data for job {scraping_job_id}: {error}")
             return {"error": "Failed to process data", "details": str(error)}
 
     def download_and_process_multiple_jobs(self, job_ids):
@@ -141,12 +150,12 @@ class WebScraperIoClient:
         combined_data = []  # This will store all processed data
 
         for job_id in job_ids:
-            print(f"Starting download for Job ID: {job_id}")
+            logger.info(f"Starting download for Job ID: {job_id}")
             data = self.download_scraping_job_data(job_id)
             if isinstance(data, list):  # Check if data retrieval was successful
                 combined_data.extend(data)  # Add processed data to the combined list
-                print(f"Processed data for job {job_id}:", data[:2] if len(data) > 2 else data)
+                logger.info(f"Processed data for job {job_id}:", data[:2] if len(data) > 2 else data)
             else:
-                print(f"Error processing data for Job ID {job_id}: {data}")
+                logger.warning(f"Error processing data for Job ID {job_id}: {data}")
 
         return combined_data
