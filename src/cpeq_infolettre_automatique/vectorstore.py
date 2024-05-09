@@ -16,7 +16,8 @@ logging.basicConfig(level=logging.INFO)
 
 
 class VectorStore:
-    def __init__(self, client: OpenAI, filepath: str):
+    """Handles vector storage and retrieval using embeddings."""
+    def __init__(self, client: OpenAI, filepath: str) -> None:
         """Initialize the VectorStore with the provided OpenAI client and embedded data.
 
         Args:
@@ -38,10 +39,10 @@ class VectorStore:
             Union[dict, None]: The data loaded from the JSON file, or None if an error occurs.
         """
         try:
-            with open(filepath) as file:
+            with Path.open(filepath) as file:
                 return json.load(file)
-        except Exception as e:
-            logger.exception(f"Error loading embedded data from {filepath}: {e}")
+        except Exception:
+            logger.exception("Error loading embedded data from %s", filepath)
             return None
 
     def _calculate_global_mean_embedding(self) -> np.ndarray:
@@ -116,7 +117,11 @@ class VectorStore:
                     response = openai.embeddings.create(input=input_text, model=model)
                     embedding_vector = response.data[0].embedding
                     all_embeddings.append(embedding_vector)
-                    logger.info(f"Embedding retrieved for: {article['title']} (Vector length: {len(embedding_vector)})")
+                    logger.info(
+                        "Embedding retrieved for: %s (Vector length: %d)",
+                        article["title"],
+                        len(embedding_vector)
+                    )
                 except Exception as e:
                     logger.warning(f"Failed to retrieve embeddings for {article['title']}: {e!s}")
 

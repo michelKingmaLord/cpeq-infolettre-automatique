@@ -51,7 +51,7 @@ class WebScraperIoClient:
     retrieve job details, and download job data.
     """
 
-    def __init__(self, api_token: str):
+    def __init__(self, api_token: str) -> None:
         """Initialize the WebScraperIoClient with the provided API token.
 
         Args:
@@ -90,7 +90,7 @@ class WebScraperIoClient:
             job_id = response.json().get("data", {}).get("id")
             if job_id:
                 job_ids.append(str(job_id))  # Convert job ID to string
-                logger.info(f"Job {job_id} started for sitemap {sitemap_id}")
+                logger.info("Job %s started for sitemap %s", job_id, sitemap_id)
             else:
                 logger.warning(f"No job ID received for sitemap {sitemap_id}")
         return job_ids
@@ -119,7 +119,7 @@ class WebScraperIoClient:
             response.raise_for_status()
             return response.json()
         except httpx.HTTPStatusError as error:
-            logger.exception(f"HTTP error while fetching details for job {scraping_job_id}: {error}")
+            logger.exception("HTTP error while fetching details for job %s", scraping_job_id)
             return {
                 "error": "HTTP error",
                 "status_code": error.response.status_code,
@@ -146,7 +146,7 @@ class WebScraperIoClient:
             response.raise_for_status()
             return process_raw_response(response.text)
         except Exception as error:
-            logger.exception(f"Failed to process data for job {scraping_job_id}: {error}")
+            logger.exception("Failed to process data for job %s", scraping_job_id)
             return {"error": "Failed to process data", "details": str(error)}
 
     def download_and_process_multiple_jobs(self, job_ids: list[str]) -> list[dict[str, str]]:
@@ -161,12 +161,17 @@ class WebScraperIoClient:
         combined_data = []  # This will store all processed data
 
         for job_id in job_ids:
-            logger.info(f"Starting download for Job ID: {job_id}")
+            logger.info("Starting download for Job ID: %s", job_id)
             data = self.download_scraping_job_data(job_id)
             if isinstance(data, list):  # Check if data retrieval was successful
                 combined_data.extend(data)  # Add processed data to the combined list
-                logger.info(f"Processed data for job {job_id}:", data[:2] if len(data) > 2 else data)
+                preview_limit = 2
+                logger.info(
+                    "Processed data for job %s: %s",
+                    job_id,
+                    data[:2] if len(data) > preview_limit else data
+                )
             else:
-                logger.warning(f"Error processing data for Job ID {job_id}: {data}")
+                logger.warning("Error processing data for Job ID %s: %s", job_id, data)
 
         return combined_data
