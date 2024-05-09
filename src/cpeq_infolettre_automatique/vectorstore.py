@@ -29,7 +29,8 @@ class VectorStore:
         if self.data:
             self.global_mean_embedding = self.calculate_global_mean_embedding()
 
-    def _load_embedded_data(self, filepath: str) -> dict | None:
+    @staticmethod
+    def _load_embedded_data(filepath: str) -> dict | None:
         """Load embedded data from a JSON file.
 
         Args:
@@ -57,7 +58,7 @@ class VectorStore:
         return np.mean(embeddings, axis=0) if embeddings else np.zeros_like(embeddings[0])
 
     def get_category_embeddings(
-        self, exclude_rubric: str = None, exclude_title: str = None
+        self, exclude_rubric: str | None = None, exclude_title: str | None = None
     ) -> dict[str, np.ndarray]:
         """Retrieve embeddings for each category, optionally excluding a specific example, and adjust by the global mean embedding.
 
@@ -92,9 +93,8 @@ class VectorStore:
         """
         return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
-    def get_average_embeddings(
-        self, rubrics_data: list[dict[str, str | list[dict[str, str]]]], model: str = EMBEDDING_MODEL,
-    ) -> dict[str, list[float]]:
+    @staticmethod
+    def get_average_embeddings(rubrics_data: list[dict[str, str | list[dict[str, str]]]], model: str = EMBEDDING_MODEL) -> dict[str, list[float]]:
         """Calculates average embeddings for each rubric using provided examples.
 
         Args:
@@ -122,8 +122,8 @@ class VectorStore:
                         article["title"],
                         len(embedding_vector)
                     )
-                except Exception as e:
-                    logger.warning(f"Failed to retrieve embeddings for {article['title']}: {e!s}")
+                except json.JSONDecodeError as e:
+                    logger.warning("Failed to retrieve embeddings for %s: %s", article["title"], e)
 
             # Calculate the average embedding if any embeddings were successfully retrieved
             if all_embeddings:
@@ -131,7 +131,7 @@ class VectorStore:
                 rubric_embeddings[rubric_name] = (
                     average_embedding.tolist()
                 )  # Convert numpy array to list for JSON compatibility
-                logger.info(f"Average embedding calculated for rubric: {rubric_name}")
+                logger.info("Average embedding calculated for rubric: %s", rubric_name)
 
         return rubric_embeddings
 
@@ -165,13 +165,13 @@ class VectorStore:
              Union[list[float], None]: The embedding vector obtained from the OpenAI API, or None if unavailable.
         """
         truncated_text, token_count = self.encode_with_truncation(text, max_tokens)
-        logger.info(f"Processing text with {token_count} tokens.")
+        logger.info("Processing text with %d tokens.", token_count)
         response = openai.embeddings.create(input=truncated_text, model=model)
         return response.data[0].embedding
 
-    def get_and_save_embeddings(
-        data, model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS, output_file: json = "embedded_rubrics.json"
-    ):
+    def get_and_save_embeddings(self, data: any,
+        model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS, output_file: json = "embedded_rubrics.json"
+    ) -> None:
         """Retrieve and save embeddings for each article in the data."""
         for rubric_section in data:
             for article in rubric_section["examples"]:

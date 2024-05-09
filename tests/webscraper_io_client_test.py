@@ -71,7 +71,7 @@ class TestWebscraperIoClient:
         """
         job_ids = client.create_scraping_jobs(sitemaps)
         assert isinstance(job_ids, list), "Expected job_ids to be a list"
-        assert all(isinstance(id, str) for id in job_ids), "All job IDs should be strings"
+        assert all(isinstance(job_id, str) for job_id in job_ids), "All job IDs should be strings"
         print("test_create_scraping_jobs passed")
 
     @pytest.skip("Not mocked yet")
@@ -149,11 +149,12 @@ class TestWebscraperIoClient:
 # Tests créer par Chat GPT avec MonkeyPatch (Src: https://docs.pytest.org/en/latest/how-to/monkeypatch.html)
     @pytest.skip("Not mocked yet")
     @staticmethod
-    def test_create_scraping_jobs_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
+    def test_create_scraping_jobs_failure_gpt(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Test failure in creating scraping jobs due to API errors."""
 
         def mock_post(*args, **kwargs) -> None:
-            raise HTTPStatusError("Error", request=None, response=None)
+            error_message = "Error"
+            raise HTTPStatusError(error_message, request=None, response=None)
 
         monkeypatch.setattr("httpx.post", mock_post)
 
@@ -162,11 +163,12 @@ class TestWebscraperIoClient:
 
     @pytest.skip("Not mocked yet")
     @staticmethod
-    def test_get_scraping_job_details_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
+    def test_get_scraping_job_details_failure_gpt(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Test failure in retrieving scraping job details due to network issues."""
 
         def mock_get(*args, **kwargs) -> None:
-            raise RequestError("Network error", request=None)
+            error_message = "Network error"
+            raise RequestError(error_message, request=None)
 
         monkeypatch.setattr("httpx.get", mock_get)
 
@@ -175,11 +177,12 @@ class TestWebscraperIoClient:
 
     @pytest.skip("Not mocked yet")
     @staticmethod
-    def test_download_scraping_job_data_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
+    def test_download_scraping_job_data_failure_gpt(self, monkeypatch: pytest.MonkeyPatch) -> None:
         """Test failure in downloading scraping job data due to server issues."""
 
         def mock_get(*args, **kwargs) -> None:
-            raise HTTPStatusError("Server error", request=None, response=None)
+            error_message = "Server error"
+            raise HTTPStatusError(error_message, request=None, response=None)
 
         monkeypatch.setattr("httpx.get", mock_get)
 

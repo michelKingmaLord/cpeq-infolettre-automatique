@@ -5,7 +5,6 @@ import logging
 import httpx
 from decouple import config
 
-# from cpeq_infolettre_automatique.config import sitemaps
 from cpeq_infolettre_automatique.utils import process_raw_response
 
 
@@ -40,7 +39,8 @@ class WebscraperIoClientTest:
         """
         try:
             return response.json()
-        except Exception:
+        except httpx.JSONDecodeError:
+            logger.exception("Failed to parse JSON from the response")
             return None
 
 
@@ -92,7 +92,7 @@ class WebScraperIoClient:
                 job_ids.append(str(job_id))  # Convert job ID to string
                 logger.info("Job %s started for sitemap %s", job_id, sitemap_id)
             else:
-                logger.warning(f"No job ID received for sitemap {sitemap_id}")
+                logger.warning("No job ID received for sitemap %s", sitemap_id)
         return job_ids
 
     @staticmethod
@@ -126,7 +126,7 @@ class WebScraperIoClient:
                 "details": str(error),
             }
         except httpx.RequestError as error:
-            logger.exception(f"Request error while fetching details for job {scraping_job_id}: {error}")
+            logger.exception("Request error while fetching details for job %s", scraping_job_id)
             return {"error": "Request error", "details": str(error)}
 
     def download_scraping_job_data(
