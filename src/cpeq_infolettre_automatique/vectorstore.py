@@ -2,13 +2,13 @@
 
 import json
 import logging
-from typing import Union
+from typing import Tuple, Union
 
 import numpy as np
 import openai
 import tiktoken
 from api.py import client
-from config import EMBEDDING_MODEL, TOKEN_ENCODING
+from config import EMBEDDING_MODEL, TOKEN_ENCODING, MAX_TOKENS
 from decouple import config
 from openai import OpenAI
 
@@ -133,35 +133,16 @@ class VectorStore:
 
         return rubric_embeddings
 
-    # def get_embedding(self, text: str, max_tokens: int = 8000) -> Union[list[float], None]:
-    #     """Retrieve the embedding vector for a given text, truncating to a maximum token count.
-
-    #     Args:
-    #         text (str): The text to be embedded.
-    #         max_tokens (int): Maximum number of tokens to consider.
-
-    #     Returns:
-    #         Union[list[float], None]: The embedding vector obtained from the OpenAI API, or None if unavailable.
-    #     """
-    #     encoding = tiktoken.get_encoding(TOKEN_ENCODING)
-    #     tokens = encoding.encode(text)
-    #     if len(tokens) > max_tokens:
-    #         tokens = tokens[:max_tokens]
-    #     truncated_text = encoding.decode(tokens)
-    #     response = self.client.embeddings.create(input=truncated_text, model=EMBEDDING_MODEL)
-    #     return response.data[0].embedding if response else None
-
     # Function to get trunkated embedding
-    def encode_with_truncation(self, text: str, max_tokens: int = 8000, model=EMBEDDING_MODEL):
-        """Encode text into tokens using a specified model's tokenizer, truncating to a maximum number of tokens if necessary. This function is useful when processing long texts that may exceed the token limit of the model.
+    def encode_with_truncation(self, text: str, max_tokens: int = MAX_TOKENS) -> tuple[str, int]:
+        """Encode text into tokens using a specified model's tokenizer, truncating to a maximum number of tokens if necessary.
 
         Args:
             text (str): The text to be tokenized and truncated.
             max_tokens (int): The maximum number of tokens allowed.
-            model (str): The model identifier, used to specify the tokenizer configuration.
 
         Returns:
-            tuple: A tuple containing the truncated text and the count of tokens used.
+            Tuple[str, int]: A tuple containing the truncated text and the count of tokens used.
         """
         encoding = tiktoken.get_encoding(TOKEN_ENCODING)
         tokens = encoding.encode(text)
@@ -169,8 +150,7 @@ class VectorStore:
             tokens = tokens[:max_tokens]
         return encoding.decode(tokens), len(tokens)
 
-
-    def get_embedding(text, model=EMBEDDING_MODEL, max_tokens=8000):
+    def get_embedding(self, text: str, model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS) -> Union[list[float], None]:
         """Retrieve the embedding vector for a given text, optionally truncating the text to a maximum token count. This function integrates token truncation and embedding generation, providing a single method to handle text inputs for embeddings, especially useful for long texts.
 
         Args:
@@ -179,12 +159,25 @@ class VectorStore:
             max_tokens (int): The maximum number of tokens that the text can be truncated to.
 
         Returns:
-            array: The embedding vector obtained from the OpenAI API.
+             Union[list[float], None]: The embedding vector obtained from the OpenAI API, or None if unavailable.
         """
-        truncated_text, token_count = encode_with_truncation(text, max_tokens)
-        print(f"Processing text with {token_count} tokens.")
+        truncated_text, token_count = self.encode_with_truncation(text, max_tokens)
+        logger.info(f"Processing text with {token_count} tokens.")
         response = openai.embeddings.create(input=truncated_text, model=model)
         return response.data[0].embedding
+
+    def get_and_save_embeddings(
+        data, model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS, output_file: json = "embedded_rubrics.json"
+    ):
+        """Retrieve and save embeddings for each article in the data."""
+        for rubric_section in data:
+            for article in rubric_section["examples"]:
+                text = article["summary"]
+                truncated_text = self.encode_with_truncation(text, max_tokens)
+                response = openai.embeddings.create(input=truncated_text, model=model)
+                article["embedding"] = response.data[0].embedding
+        with open(output_file, "w") as file:
+            json.dump(data, file, indent=4)
 
 
     def find_most_similar_category(
