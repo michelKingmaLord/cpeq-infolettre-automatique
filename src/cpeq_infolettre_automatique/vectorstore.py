@@ -2,14 +2,11 @@
 
 import json
 import logging
-from typing import Tuple, Union
 
 import numpy as np
 import openai
 import tiktoken
-from api.py import client
 from config import EMBEDDING_MODEL, MAX_TOKENS, TOKEN_ENCODING
-from decouple import config
 from openai import OpenAI
 
 
@@ -40,7 +37,7 @@ class VectorStore:
             Union[dict, None]: The data loaded from the JSON file, or None if an error occurs.
         """
         try:
-            with open(filepath, "r") as file:
+            with open(filepath) as file:
                 return json.load(file)
         except Exception as e:
             logger.exception(f"Error loading embedded data from {filepath}: {e}")
@@ -120,8 +117,7 @@ class VectorStore:
                     all_embeddings.append(embedding_vector)
                     logger.info(f"Embedding retrieved for: {article['title']} (Vector length: {len(embedding_vector)})")
                 except Exception as e:
-                    logger.warning(f"Failed to retrieve embeddings for {article['title']}: {str(e)}")
-
+                    logger.warning(f"Failed to retrieve embeddings for {article['title']}: {e!s}")
 
             # Calculate the average embedding if any embeddings were successfully retrieved
             if all_embeddings:
@@ -150,7 +146,7 @@ class VectorStore:
             tokens = tokens[:max_tokens]
         return encoding.decode(tokens), len(tokens)
 
-    def get_embedding(self, text: str, model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS) -> Union[list[float], None]:
+    def get_embedding(self, text: str, model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS) -> list[float] | None:
         """Retrieve the embedding vector for a given text, optionally truncating the text to a maximum token count. This function integrates token truncation and embedding generation, providing a single method to handle text inputs for embeddings, especially useful for long texts.
 
         Args:
@@ -179,10 +175,9 @@ class VectorStore:
         with open(output_file, "w") as file:
             json.dump(data, file, indent=4)
 
-
     def find_most_similar_category(
         self, text: str, embeddings_dict: dict[str, list[float]]
-    ) -> tuple[str | None, Union[float, None]]:
+    ) -> tuple[str | None, float | None]:
         """Determine the most similar category for a given text by comparing its embedding to precomputed average embeddings.
 
         Args:

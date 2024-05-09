@@ -45,7 +45,7 @@ def initiate_scraping() -> list[str]:
         list[str]: A list of success messages or error messages for each job.
     """
     client = WebScraperIoClient(api_token=webscraper_io_api_token)
-    sitemap_ids = [sitemap['sitemap_id'] for sitemap in sitemaps]
+    sitemap_ids = [sitemap["sitemap_id"] for sitemap in sitemaps]
     job_ids = client.create_scraping_jobs(sitemap_ids)
     results = []
     for job_id in job_ids:
