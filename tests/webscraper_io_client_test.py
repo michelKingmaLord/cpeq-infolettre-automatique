@@ -147,35 +147,41 @@ class TestWebscraperIoClient:
         print(f"Error processing detected correctly for {invalid_id}: ", results)
 
 
-# Tests créer par Chat GPT avec Mocker (Demander explications plus tard sur fonctionnement)
-# def test_create_scraping_jobs_failure(self, client, mocker):
-#     """Test failure in creating scraping jobs due to API errors."""
-#     mocker.patch('httpx.post', side_effect=HTTPStatusError(message="Error", request=None, response=None))
-#     with pytest.raises(HTTPStatusError):
-#         client.create_scraping_jobs(sitemaps)
+# Tests créer par Chat GPT avec MonkeyPatch (Src: https://docs.pytest.org/en/latest/how-to/monkeypatch.html)
+    @pytest.fixture
+    def client() -> WebScraperIoClient:
+        """Fixture to initialize WebScraperIoClient with API key."""
+        return WebScraperIoClient(api_token=config("WEBSCRAPER_IO_API_KEY"))
 
-# def test_get_scraping_job_details_success(self, client, mocker):
-#     """Test successful retrieval of scraping job details."""
-#     expected_response = {'data': 'Details'}
-#     mocker.patch('httpx.get', return_value=expected_response)
-#     response = client.get_scraping_job_details('12345')
-#     assert response == expected_response, "Response should match the expected details"
+    def test_create_scraping_jobs_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
+        """Test failure in creating scraping jobs due to API errors."""
 
-# def test_get_scraping_job_details_failure(self, client, mocker):
-#     """Test failure in retrieving scraping job details due to network issues."""
-#     mocker.patch('httpx.get', side_effect=RequestError(message="Network error", request=None))
-#     with pytest.raises(RequestError):
-#         client.get_scraping_job_details('12345')
+        def mock_post(*args, **kwargs) -> None:
+            raise HTTPStatusError("Error", request=None, response=None)
 
-# def test_download_scraping_job_data_success(self, client, mocker):
-#     """Test successful download of scraping job data."""
-#     mocker.patch('httpx.get', return_value={'text': '{"key": "value"}'})
-#     mocker.patch('cpeq_infolettre_automatique.utils.process_raw_response', return_value=[{'key': 'value'}])
-#     data = client.download_scraping_job_data('12345')
-#     assert data == [{'key': 'value'}], "Processed data should be returned correctly"
+        monkeypatch.setattr("httpx.post", mock_post)
 
-# def test_download_scraping_job_data_failure(self, client, mocker):
-#     """Test failure in downloading scraping job data due to server issues."""
-#     mocker.patch('httpx.get', side_effect=HTTPStatusError(message="Server error", request=None, response=None))
-#     with pytest.raises(HTTPStatusError):
-#         client.download_scraping_job_data('12345')
+        with pytest.raises(HTTPStatusError):
+            self.create_scraping_jobs(sitemaps)
+
+    def test_get_scraping_job_details_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
+        """Test failure in retrieving scraping job details due to network issues."""
+
+        def mock_get(*args, **kwargs) -> None:
+            raise RequestError("Network error", request=None)
+
+        monkeypatch.setattr("httpx.get", mock_get)
+
+        with pytest.raises(RequestError):
+            self.get_scraping_job_details(new_scraping_job)
+
+    def test_download_scraping_job_data_failure(self, monkeypatch: pytest.MonkeyPatch) -> None:
+        """Test failure in downloading scraping job data due to server issues."""
+
+        def mock_get(*args, **kwargs) -> None:
+            raise HTTPStatusError("Server error", request=None, response=None)
+
+        monkeypatch.setattr("httpx.get", mock_get)
+
+        with pytest.raises(HTTPStatusError):
+            self.download_scraping_job_data(scraping_job_id)
