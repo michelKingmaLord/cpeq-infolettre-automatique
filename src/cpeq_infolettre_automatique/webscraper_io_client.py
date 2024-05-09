@@ -98,9 +98,7 @@ class WebScraperIoClient:
         """Unimplemented method to get scraping jobs."""
         return NotImplemented
 
-    def get_scraping_job_details(
-        self, scraping_job_id: str
-    ) -> dict[str, str] | dict[str, int] | None:
+    def get_scraping_job_details(self, scraping_job_id: str) -> dict[str, str] | dict[str, int] | None:
         """Retrieves details of a specific scraping job.
 
         Args:
@@ -111,7 +109,11 @@ class WebScraperIoClient:
         """
         url = f"{self.base_url}/scraping-job/{scraping_job_id}?api_token={self.api_token}"
         try:
-            response = httpx.get(url)
+            response = httpx.get(
+                url,
+                headers=self.headers,
+                params={"api_token": self.api_token},
+            )
             response.raise_for_status()
             return response.json()
         except httpx.HTTPStatusError as error:
@@ -145,8 +147,15 @@ class WebScraperIoClient:
             logger.exception(f"Failed to process data for job {scraping_job_id}: {error}")
             return {"error": "Failed to process data", "details": str(error)}
 
-    def download_and_process_multiple_jobs(self, job_ids):
-        """Converts raw JSON lines into a list of dictionaries (valid JSON array) and saves it into a dictionnary."""
+    def download_and_process_multiple_jobs(self, job_ids: list[str]) -> list[dict[str, str]]:
+        """Converts raw JSON lines into a list of dictionaries (valid JSON array) and saves it into a dictionary.
+
+        Args:
+            job_ids (list[str]): List of job IDs to process.
+
+        Returns:
+            list[dict[str, str]]: Processed job data from all job IDs combined.
+        """
         combined_data = []  # This will store all processed data
 
         for job_id in job_ids:
