@@ -1,8 +1,7 @@
 """Client module for openAI API interaction."""  # noqa: CPY001
 
-# Importations
-
 import json
+import logging
 from typing import Union
 
 import numpy as np
@@ -11,6 +10,10 @@ import tiktoken
 from api.py import client
 from decouple import config
 from openai import OpenAI
+
+
+logger = logging.getLogger(__name__)
+logging.basicConfig(level=logging.INFO)
 
 
 class VectorStore:
@@ -26,7 +29,7 @@ class VectorStore:
         if self.data:
             self.global_mean_embedding = self.calculate_global_mean_embedding()
 
-    def load_embedded_data(self, filepath: str) -> Union[dict, None]:
+    def _load_embedded_data(self, filepath: str) -> dict | None:
         """Load embedded data from a JSON file.
 
         Args:
@@ -39,10 +42,10 @@ class VectorStore:
             with open(filepath, "r") as file:
                 return json.load(file)
         except Exception as e:
-            print(f"Error loading embedded data from {filepath}: {e}")
+            logger.exception(f"Error loading embedded data from {filepath}: {e}")
             return None
 
-    def calculate_global_mean_embedding(self) -> np.ndarray:
+    def _calculate_global_mean_embedding(self) -> np.ndarray:
         """Calculate the global mean embedding from all embeddings in the dataset.
 
         Returns:
@@ -89,53 +92,6 @@ class VectorStore:
         """
         return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
-    def dynamic_split_accuracy(
-        self, numb_categories: int
-    ) -> tuple[dict[str, list[dict[str, str | bool | list[tuple[str, float]]]]], float]:
-        """Evaluate dynamic split accuracy for a given number of categories to consider as correct.
-
-        Args:
-            numb_categories (int): Number of categories to consider for top K accuracy.
-
-        Returns:
-            tuple[dict[str, list[dict[str, Union[str, bool, list[tuple[str, float]]]]]], float]: Results and global accuracy.
-        """
-        results = {}
-        total_examples = 0
-        correct_predictions = 0
-
-        for section in self.data:
-            rubric = section["rubric"]
-            examples = section["examples"]
-            results[rubric] = []
-
-            for example in examples:
-                total_examples += 1
-                test_embedding = np.array(example["embedding"]) - self.global_mean_embedding
-                adjusted_category_embeddings = self.get_adjusted_category_embeddings(
-                    exclude_rubric=rubric, exclude_title=example["title"]
-                )
-                top_results = sorted(
-                    [
-                        (cat, self.cosine_similarity(test_embedding, emb))
-                        for cat, emb in adjusted_category_embeddings.items()
-                    ],
-                    key=lambda item: item[1],
-                    reverse=True,
-                )[:numb_categories]
-
-                is_correct = any(cat[0] == rubric for cat in top_results)
-                correct_predictions += is_correct
-
-                results[rubric].append({
-                    "title": example["title"],
-                    "similar_categories": top_results,
-                    "is_correct": is_correct,
-                })
-
-        global_accuracy = correct_predictions / total_examples if total_examples > 0 else 0
-        return results, global_accuracy
-
     def get_average_embeddings(
         self, model: str, rubrics_data: list[dict[str, str | list[dict[str, str]]]]
     ) -> dict[str, list[float]]:
@@ -161,11 +117,10 @@ class VectorStore:
                     response = openai.embeddings.create(input=input_text, model=model)
                     embedding_vector = response.data[0].embedding
                     all_embeddings.append(embedding_vector)
-                    print(
-                        f"Embedding retrieved for: {article["title"]} (Vector length: {len(embedding_vector)})"
-                    )
+                    logger.info(f"Embedding retrieved for: {article['title']} (Vector length: {len(embedding_vector)})")
                 except Exception as e:
-                    print(f"Failed to retrieve embeddings for {article["title"]}: {str(e)}")
+                    logger.warning(f"Failed to retrieve embeddings for {article['title']}: {str(e)}")
+
 
             # Calculate the average embedding if any embeddings were successfully retrieved
             if all_embeddings:
@@ -173,7 +128,7 @@ class VectorStore:
                 rubric_embeddings[rubric_name] = (
                     average_embedding.tolist()
                 )  # Convert numpy array to list for JSON compatibility
-                print(f"Average embedding calculated for rubric: {rubric_name}")
+                logger.info(f"Average embedding calculated for rubric: {rubric_name}")
 
         return rubric_embeddings
 
