@@ -1,6 +1,7 @@
 """Utility functions for processing and saving data."""
 
 import json
+from pathlib import Path
 
 
 def process_raw_response(raw_response: str) -> list[dict[str, str]]:
@@ -31,7 +32,7 @@ def save_data_to_json(data: list[dict[str, str]], file_path: str = "output.json"
         str: A success message or an error message.
     """
     try:
-        with open(file_path, "w", encoding="utf-8") as file:
+        with Path.open(file_path, "w", encoding="utf-8") as file:
             json.dump(data, file, ensure_ascii=False, indent=4)
         return f"Data successfully saved to {file_path}"
     except OSError as error:

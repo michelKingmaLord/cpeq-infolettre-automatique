@@ -57,7 +57,8 @@ class TestWebscraperIoClient:
     """Test Webscraper.io client."""
 
     @pytest.fixture()
-    def client(self):
+    @staticmethod
+    def client():
         """Fixture to initialize WebScraperIoClient with API key from environment."""
         return WebScraperIoClient(api_token=config("WEBSCRAPER_IO_API_KEY"))
 

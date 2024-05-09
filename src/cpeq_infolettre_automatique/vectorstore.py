@@ -1,7 +1,8 @@
-"""Client module for openAI API interaction."""  # noqa: CPY001
+"""Client module for openAI API interaction."""
 
 import json
 import logging
+from pathlib import Path
 
 import numpy as np
 import openai
@@ -130,7 +131,8 @@ class VectorStore:
         return rubric_embeddings
 
     # Function to get trunkated embedding
-    def encode_with_truncation(self, text: str, max_tokens: int = MAX_TOKENS) -> tuple[str, int]:
+    @staticmethod
+    def encode_with_truncation(text: str, max_tokens: int = MAX_TOKENS) -> tuple[str, int]:
         """Encode text into tokens using a specified model's tokenizer, truncating to a maximum number of tokens if necessary.
 
         Args:
@@ -172,7 +174,7 @@ class VectorStore:
                 truncated_text = self.encode_with_truncation(text, max_tokens)
                 response = openai.embeddings.create(input=truncated_text, model=model)
                 article["embedding"] = response.data[0].embedding
-        with open(output_file, "w") as file:
+        with Path.open(output_file, "w", encoding="utf-8") as file:
             json.dump(data, file, indent=4)
 
     def find_most_similar_category(

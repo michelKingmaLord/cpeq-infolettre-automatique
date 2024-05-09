@@ -28,7 +28,8 @@ class WebscraperIoClientTest:
         response = httpx.get(url)
         return self._handle_response(response)
 
-    def _handle_response(self, response: httpx.Response) -> dict[str, str] | None:
+    @staticmethod
+    def _handle_response(response: httpx.Response) -> dict[str, str] | None:
         """Process and parse the response from an HTTP request.
 
         Args:
@@ -94,7 +95,8 @@ class WebScraperIoClient:
                 logger.warning(f"No job ID received for sitemap {sitemap_id}")
         return job_ids
 
-    def get_scraping_jobs(self) -> NotImplemented:
+    @staticmethod
+    def get_scraping_jobs() -> None:
         """Unimplemented method to get scraping jobs."""
         return NotImplemented
 
