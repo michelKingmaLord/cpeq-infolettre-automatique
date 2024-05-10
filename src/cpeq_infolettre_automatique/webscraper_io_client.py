@@ -100,7 +100,9 @@ class WebScraperIoClient:
         """Unimplemented method to get scraping jobs."""
         return NotImplemented
 
-    def get_scraping_job_details(self, scraping_job_id: str) -> dict[str, str] | dict[str, int] | None:
+    def get_scraping_job_details(
+        self, scraping_job_id: str
+    ) -> dict[str, str] | dict[str, int] | None:
         """Retrieves details of a specific scraping job.
 
         Args:
@@ -169,7 +171,7 @@ class WebScraperIoClient:
                 logger.info(
                     "Processed data for job %s: %s",
                     job_id,
-                    data[:2] if len(data) > preview_limit else data
+                    data[:2] if len(data) > preview_limit else data,
                 )
             else:
                 logger.warning("Error processing data for Job ID %s: %s", job_id, data)

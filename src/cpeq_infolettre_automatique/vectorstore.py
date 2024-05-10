@@ -17,6 +17,7 @@ logging.basicConfig(level=logging.INFO)
 
 class VectorStore:
     """Handles vector storage and retrieval using embeddings."""
+
     def __init__(self, client: OpenAI, filepath: str) -> None:
         """Initialize the VectorStore with the provided OpenAI client and embedded data.
 
@@ -94,7 +95,9 @@ class VectorStore:
         return np.dot(vec1, vec2) / (np.linalg.norm(vec1) * np.linalg.norm(vec2))
 
     @staticmethod
-    def get_average_embeddings(rubrics_data: list[dict[str, str | list[dict[str, str]]]], model: str = EMBEDDING_MODEL) -> dict[str, list[float]]:
+    def get_average_embeddings(
+        rubrics_data: list[dict[str, str | list[dict[str, str]]]], model: str = EMBEDDING_MODEL
+    ) -> dict[str, list[float]]:
         """Calculates average embeddings for each rubric using provided examples.
 
         Args:
@@ -120,7 +123,7 @@ class VectorStore:
                     logger.info(
                         "Embedding retrieved for: %s (Vector length: %d)",
                         article["title"],
-                        len(embedding_vector)
+                        len(embedding_vector),
                     )
                 except json.JSONDecodeError as e:
                     logger.warning("Failed to retrieve embeddings for %s: %s", article["title"], e)
@@ -153,7 +156,9 @@ class VectorStore:
             tokens = tokens[:max_tokens]
         return encoding.decode(tokens), len(tokens)
 
-    def get_embedding(self, text: str, model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS) -> list[float] | None:
+    def get_embedding(
+        self, text: str, model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS
+    ) -> list[float] | None:
         """Retrieve the embedding vector for a given text, optionally truncating the text to a maximum token count. This function integrates token truncation and embedding generation, providing a single method to handle text inputs for embeddings, especially useful for long texts.
 
         Args:
@@ -169,8 +174,12 @@ class VectorStore:
         response = openai.embeddings.create(input=truncated_text, model=model)
         return response.data[0].embedding
 
-    def get_and_save_embeddings(self, data: any,
-        model: str = EMBEDDING_MODEL, max_tokens: int = MAX_TOKENS, output_file: json = "embedded_rubrics.json"
+    def get_and_save_embeddings(
+        self,
+        data: any,
+        model: str = EMBEDDING_MODEL,
+        max_tokens: int = MAX_TOKENS,
+        output_file: json = "embedded_rubrics.json",
     ) -> None:
         """Retrieve and save embeddings for each article in the data."""
         for rubric_section in data:
